@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Week 16, 2026 — Opus 4.7 release weekend | Build Log</title><meta name="description" content="What actually happened when Opus 4.7 shipped and I pointed it at a half-autonomous 13-factory platform for a weekend."><link rel="canonical" href="https://maxineplatform.com/build-log/week-16-2026/"><meta property="og:title" content="Week 16, 2026 — Opus 4.7 release weekend | Build Log"><meta property="og:description" content="What actually happened when Opus 4.7 shipped and I pointed it at a half-autonomous 13-factory platform for a weekend."><meta property="og:type" content="website"><meta property="og:url" content="https://maxineplatform.com/build-log/week-16-2026/"><meta property="og:image" content="https://maxineplatform.com/images/maxine/maxine-plus-overview.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://maxineplatform.com/images/maxine/maxine-plus-overview.jpg"><meta name="robots" content="index,follow"><script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebSite","name":"Maxine Platform","url":"https://maxineplatform.com/","description":"What actually happened when Opus 4.7 shipped and I pointed it at a half-autonomous 13-factory platform for a weekend."}]</script><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_assets/about.DjiX0CO6.css"></head> <body class="flex min-h-screen flex-col"> <div class="sticky top-0 z-50 px-4 pt-4"> <header class="container-wide rounded-3xl border border-ink-800 bg-white/75 px-4 py-2.5 shadow-card backdrop-blur-md md:rounded-full"> <nav class="flex items-center justify-between gap-4"> <a href="/" class="group flex items-center gap-2 no-underline"> <span class="font-display text-[17px] font-bold tracking-tight text-ink-50"><span class="text-accent">M</span>axine<span class="text-accent">P</span>latform</span> </a> <div class="hidden items-center gap-1 md:flex"> <a href="/products/" class="rounded-full px-3.5 py-1.5 text-sm no-underline transition-colors duration-200 text-ink-300 hover:text-ink-50"> Products </a><a href="/shop/" class="rounded-full px-3.5 py-1.5 text-sm no-underline transition-colors duration-200 text-ink-300 hover:text-ink-50"> Shop </a><a href="/build-log/" class="rounded-full px-3.5 py-1.5 text-sm no-underline transition-colors duration-200 bg-ink-800 text-ink-50"> Build Log </a><a href="/about/" class="rounded-full px-3.5 py-1.5 text-sm no-underline transition-colors duration-200 text-ink-300 hover:text-ink-50"> About </a> </div> <div class="flex items-center gap-2"> <a href="/products/medremind/" class="btn-primary px-4 py-2 text-sm no-underline">
+Get started
+</a> <button id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" class="inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border border-ink-800 text-ink-200 hover:text-ink-50 md:hidden"> <svg class="menu-icon-open h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"></path></svg> <svg class="menu-icon-close hidden h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"></path></svg> </button> </div> </nav> <div id="mobile-menu" hidden class="mt-2 flex flex-col gap-1 border-t border-ink-800 pt-2 md:hidden"> <a href="/products/" class="rounded-xl px-3.5 py-2.5 text-sm no-underline transition-colors duration-200 text-ink-300 hover:bg-ink-900 hover:text-ink-50"> Products </a><a href="/shop/" class="rounded-xl px-3.5 py-2.5 text-sm no-underline transition-colors duration-200 text-ink-300 hover:bg-ink-900 hover:text-ink-50"> Shop </a><a href="/build-log/" class="rounded-xl px-3.5 py-2.5 text-sm no-underline transition-colors duration-200 bg-ink-800 text-ink-50"> Build Log </a><a href="/about/" class="rounded-xl px-3.5 py-2.5 text-sm no-underline transition-colors duration-200 text-ink-300 hover:bg-ink-900 hover:text-ink-50"> About </a> </div> </header> </div> <script type="module">const e=document.getElementById("menu-toggle"),n=document.getElementById("mobile-menu"),i=e?.querySelector(".menu-icon-open"),o=e?.querySelector(".menu-icon-close");e&&n&&e.addEventListener("click",()=>{const t=!n.hasAttribute("hidden");t?n.setAttribute("hidden",""):n.removeAttribute("hidden"),e.setAttribute("aria-expanded",String(!t)),e.setAttribute("aria-label",t?"Open menu":"Close menu"),i?.classList.toggle("hidden",!t),o?.classList.toggle("hidden",t)});</script> <main class="flex-1">  <section class="container-tight pt-16 md:pt-24"> <div class="text-xs font-mono uppercase tracking-widest text-ink-400 mb-3">
+Build Log · Week 16, 2026 · April 13–19
+</div> <h1 class="text-4xl md:text-5xl font-semibold mb-4">
+Opus 4.7 release weekend — what happened
+</h1> <p class="prose-muted max-w-content text-lg">
+Opus 4.7 dropped on a Friday. By Monday the platform had shipped more
+      than in the previous two weeks combined. Here's the honest log — what
+      worked, what didn't, and what's running now that wasn't before.
+</p> </section> <section class="container-tight py-12 prose prose-invert max-w-content"> <h2>What shipped</h2> <p>
+The platform is 13 factories, 12 agents, and a lot of wiring. Going
+      into the weekend the biggest gap was autonomy: every day I still had
+      to open a terminal and nudge something. Seven days later:
+</p> <ul> <li> <strong>Shorts factory runs itself end-to-end.</strong>
+News monitor polls RSS → Ollama classifies → Vivi scripts → mood
+        library → WAN 2.2 segments → assembly + QA → YouTube metadata. Three
+        AI-news shorts rendered unattended on 2026-04-17, each with
+        thumbnails, hashtags, and pinned comments.
+</li> <li> <strong>Platform survives reboot.</strong> <code>platform_startup.bat</code> boots the whole stack at logon
+        (Ollama → Docker → MASTER_START → Hermes gateway nudge → Telegram
+        ping). <code>platform_healthcheck.bat</code> runs every 15 minutes
+        and pings me if dashboard, mothership, Ollama, the scheduler, or disk
+        drops below threshold.
+</li> <li> <strong>Variety fix in the segment library.</strong>
+Old rotation was Vivi-first, which meant every short looked like
+        "a girl, again." New picker takes the neediest mood every
+        iteration (lowest existing/target ratio), soft-caps Vivi at 12, and
+        bans any segment already used in a published short.
+</li> <li> <strong>Book factory got a cover artist.</strong>
+Every produced book now generates a genre-aware cover via
+        z-image-turbo and packages EPUB, PDF, and MOBI through Calibre —
+        same pipeline Amazon KDP accepts.
+</li> <li> <strong>Trend hub went cross-channel.</strong>
+Book, SEO, blogger, YouTube, and POD briefs all emit from the same
+        firehose. Factory9 now picks topics from live 72h signal scores,
+        not a static list.
+</li> <li> <strong>ParkMap rotates 16 cities.</strong>
+The nightly parking-zones self-improve run used to only hit the pilot city Luleå. Now it
+        round-robins all 16 — every city gets deep-scan data within
+        2.3 weeks, and persistent scraper failures auto-escalate to R&amp;D
+        after three strikes.
+</li> <li> <strong>Personal-info lint on the site build.</strong>
+My name, email, and city used to leak through the Astro source.
+<code>npm run build</code> now fails if any banned string shows up
+        in source or dist — no way for a future rebuild to regress.
+</li> </ul> <h2>What I learned</h2> <p> <strong>Docs ≠ implementation.</strong> I wrote six plan documents
+      during the week and got called out mid-session for exactly that: "you
+      wrote docs but never implemented the plans." Fair. The rule going
+      forward — any <code>*_PLAN.md</code> file I commit has to ship with at
+      least one execution artifact in the same turn (a cron row, a code
+      edit, a SOUL patch), or the doc doesn't go in.
+</p> <p> <strong>Neediest-first beats round-robin.</strong> The segment
+      library was 60% Vivi and 0% scenic because a static
+<code>$ViviMoods + $RegularMoods + ...</code> rotation chewed through
+      GPU hours on Vivi before the scenic moods ever hit their first
+      render. Picking the mood with the lowest existing/target ratio
+<em>every iteration</em> self-balances without needing a scheduler.
+      Same pattern reappeared in ParkMap city rotation.
+</p> <p> <strong>Permanent bans beat cooldowns.</strong> I had a
+<code>COOLDOWN = 5</code> on segment reuse, which meant the same
+      anime clip was allowed back after 5 shorts. Viewers would notice. Now
+      every segment that appears in an uploaded short is permanently
+      banned — joined against <code>uploads.jsonl</code> and
+<code>shorts_segment_usage.jsonl</code>. Build the library deep
+      instead of cycling a shallow one.
+</p> <p> <strong>Tokens drift.</strong> Two OAuth tokens in two places was a
+      recipe for pain — the uploader was reading an expired copy from
+      2026-03-22 while the working copy sat in
+<code>secrets/youtube_token.json</code> untouched. Fixed with a
+      single-source-of-truth path plus a legacy fallback.
+</p> <h2>Numbers</h2> <ul> <li>Shorts segment library: scenic moods went from 0 → target-range in five days</li> <li>Task Scheduler cleanup: 82 disabled legacy jobs identified; 9 removed this session, script staged for admin removal of the rest</li> <li>MASTER_START.bat: 644 → 604 lines after dropping the dead OpenClaw scaffolding</li> <li>Platform healthcheck snapshots: writing to <code>E:\MaxineLogs\platform_healthcheck.jsonl</code> every 15 min</li> <li>Shorts QA gate: deterministic + LLM both required before upload (was: either)</li> </ul> <h2>What broke</h2> <ul> <li>
+GPU self-deadlock on 2026-04-17 — zombie renderer processes held
+        the Redis lock after a crash, and the watchdog kept spawning new
+        renders that couldn't acquire it. Manual recovery: kill zombies,
+        clear the lock. Follow-up: the lock now carries a PID so stale
+        holders can be auto-released.
+</li> <li>
+Vision-LLM on image QA: only 1 in 15 images produced parseable
+        JSON even with <code>think:false</code> set. Deterministic ImageQA
+        already gates reliably, so LLM is a nice-to-have layer, not a
+        critical path. Prompt rewrite is the next cheap win.
+</li> <li>
+YouTube first real upload still requires my approval. The v2
+        uploader is dry-run-verified on three videos; flipping
+<code>vivi-youtube-upload.enabled → true</code> is a one-line
+        change I'll make after the first manual unlisted test passes.
+</li> </ul> <h2>Testing next week</h2> <ul> <li>First real YouTube upload (unlisted, then public)</li> <li>Run the admin Task Scheduler cleanup — drop the remaining ~70 disabled tasks</li> <li>Wire Analytics → factory priority loop (what's getting views decides what runs tomorrow)</li> <li>QA → Sales pipeline: PASS books auto-queue to Gumroad draft state</li> <li>Ship the Maxine Platform product page with Free and Plus screenshots</li> </ul> <p class="text-sm text-ink-400 pt-8 border-t border-ink-800 mt-12">
+The platform is a 24/7 local-first setup — Ollama + SwarmUI + Hermes
+      agents + 13 factories — running on a single workstation. Everything
+      above is code in repos you can see or artifacts on disks I own. No
+      investor deck, no hype. Just the log.
+</p> </section> <section class="container-tight py-8 border-t border-ink-800"> <a href="/build-log/" class="text-ink-100 no-underline text-sm">&larr; Back to build log</a> </section>  </main> <footer class="mt-28 border-t border-ink-800"> <div class="container-wide py-14"> <div class="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]"> <div> <div class="flex items-center gap-2.5"> <span class="font-display text-[15px] font-bold tracking-tight text-ink-50"><span class="text-accent">M</span>axine<span class="text-accent">P</span>latform</span> </div> <p class="prose-muted mt-4 max-w-xs text-sm">
+A one-person studio building a local-first autonomous AI platform,
+          built and run from a single workstation in Sweden.
+</p> </div> <div> <h3 class="font-display text-xs font-semibold uppercase tracking-widest text-ink-400">Workspace</h3> <ul class="mt-4 space-y-2.5 text-sm"> <li><a href="/products/medremind/" class="no-underline text-ink-300 hover:text-ink-50">MedRemind</a></li> <li><a href="/shop/" class="no-underline text-ink-300 hover:text-ink-50">Shop</a></li> <li><a href="/products/medremind/#plans" class="no-underline text-ink-300 hover:text-ink-50">Free &amp; Plus plans</a></li> <li><a href="/products/#parkmap" class="no-underline text-ink-300 hover:text-ink-50">ParkMap Sverige</a></li> </ul> </div> <div> <h3 class="font-display text-xs font-semibold uppercase tracking-widest text-ink-400">Channels</h3> <ul class="mt-4 space-y-2.5 text-sm"> <li> <a href="/channels/silent-earth/" class="inline-flex items-center gap-2 no-underline text-ink-300 hover:text-ink-50"> <svg viewBox="0 0 24 24" class="h-4 w-4 fill-current" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"></path></svg>
+Silent Earth
+</a> </li> <li><a href="/channels/rain-embers/" class="no-underline text-ink-300 hover:text-ink-50">Rain &amp; Embers</a></li> <li><a href="/channels/vivi/" class="no-underline text-ink-300 hover:text-ink-50">Vivi · AI shorts</a></li> <li><a href="/channels/why-it-happens/" class="no-underline text-ink-300 hover:text-ink-50">Why It Happens</a></li> </ul> </div> <div> <h3 class="font-display text-xs font-semibold uppercase tracking-widest text-ink-400">Company</h3> <ul class="mt-4 space-y-2.5 text-sm"> <li><a href="/about/" class="no-underline text-ink-300 hover:text-ink-50">About</a></li> <li><a href="/build-log/" class="no-underline text-ink-300 hover:text-ink-50">Build Log</a></li> <li><a href="/legal/privacy/" class="no-underline text-ink-300 hover:text-ink-50">Privacy</a></li> <li><a href="/legal/terms/" class="no-underline text-ink-300 hover:text-ink-50">Terms</a></li> <li><a href="mailto:contact@maxineplatform.com" class="no-underline text-ink-300 hover:text-ink-50">Contact</a></li> </ul> </div> </div> <div class="mt-12 flex flex-col gap-3 border-t border-ink-800 pt-6 text-xs text-ink-500 md:flex-row md:items-center md:justify-between"> <span>Solo indie · Sweden · Local-first AI</span> <span>© 2026 Maxine Platform</span> </div> </div> </footer> <script type="module">const o=window.matchMedia("(prefers-reduced-motion: reduce)").matches,i=document.querySelectorAll(".reveal");if(o||!("IntersectionObserver"in window))i.forEach(e=>e.classList.add("is-visible"));else{const e=new IntersectionObserver(s=>{s.forEach(r=>{r.isIntersecting&&(r.target.classList.add("is-visible"),e.unobserve(r.target))})},{rootMargin:"0px 0px -10% 0px",threshold:.05});i.forEach(s=>e.observe(s))}</script> </body> </html>

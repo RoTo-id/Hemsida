@@ -1,0 +1,27 @@
+1
+00:00:00,150 --> 00:00:05,800
+Abre los ajustes de MedRemind y elige si quieres conectar un correo familiar.
+
+2
+00:00:06,150 --> 00:00:11,800
+Si se añade una dirección, se puede enviar una confirmación después de pulsar el botón.
+
+3
+00:00:12,150 --> 00:00:17,800
+Elige el idioma de la app con el icono del globo.
+
+4
+00:00:18,150 --> 00:00:23,800
+Cuando aparezca el recordatorio diario, pulsa el botón grande de check-in.
+
+5
+00:00:24,150 --> 00:00:29,800
+Después del toque, MedRemind muestra la siguiente cuenta de 24 horas.
+
+6
+00:00:30,150 --> 00:00:35,800
+Este es un ejemplo del correo que puede recibir el contacto familiar elegido.
+
+7
+00:00:36,150 --> 00:00:41,800
+Tranquilidad en un botón. Un recordatorio en su teléfono. Un temporizador visible. Una confirmación opcional para ti.

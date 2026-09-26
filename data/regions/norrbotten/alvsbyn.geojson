@@ -1,0 +1,2031 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "2.0.0",
+    "generated": "2026-07-20T04:27:08.366358+00:00",
+    "source": "ParkMap Sverige — OSM Bootstrap",
+    "region": "Norrbotten",
+    "city": "alvsbyn",
+    "municipality": "Älvsbyns kommun",
+    "scrape_type": "osm_bootstrap",
+    "agent_run_id": "alvsbyn-osm-bootstrap",
+    "zone_count": 29,
+    "bootstrap": {
+      "osm_source": "output\\osm_parking_alvsbyn.geojson",
+      "zones_imported": 29,
+      "bootstrap_date": "2026-06-29"
+    },
+    "osm_reclassification": {
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
+      "needs_identification": 0,
+      "osm_operator_mapped": 0,
+      "lulebo_district": 0,
+      "near_aimo": 0,
+      "rural_free": 0,
+      "note_matched": 0,
+      "access_yes_free": 0,
+      "fee_confirmed_unknown": 0,
+      "genuinely_unknown": 18,
+      "before": 18,
+      "after": 18,
+      "total": 29,
+      "coverage_pct": 37.9,
+      "run_date": "2026-07-20"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 0,
+      "markers_matched": 0,
+      "markers_unmatched": 0,
+      "features_matched": 0,
+      "updated_at": "2026-07-20T04:27:08.366346+00:00",
+      "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "alvsbyn_epark_nearby_20260713.json",
+      "zones": 0,
+      "matched": 0,
+      "added_review_points": 0,
+      "unresolved": 0
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-138203855",
+        "name": "OSM-138203855",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "50",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 138203855,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "33.7 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.3959757,
+              65.8525649
+            ],
+            [
+              20.3962224,
+              65.8527097
+            ],
+            [
+              20.3968554,
+              65.8528545
+            ],
+            [
+              20.3975957,
+              65.8528984
+            ],
+            [
+              20.3981,
+              65.8528107
+            ],
+            [
+              20.3985291,
+              65.8525868
+            ],
+            [
+              20.3989797,
+              65.8523454
+            ],
+            [
+              20.3992909,
+              65.8520865
+            ],
+            [
+              20.3995054,
+              65.8518846
+            ],
+            [
+              20.3995805,
+              65.8517529
+            ],
+            [
+              20.3993874,
+              65.8516519
+            ],
+            [
+              20.3990548,
+              65.8515905
+            ],
+            [
+              20.3984218,
+              65.8516914
+            ],
+            [
+              20.3975206,
+              65.8520294
+            ],
+            [
+              20.3969198,
+              65.852183
+            ],
+            [
+              20.3960776,
+              65.852431
+            ],
+            [
+              20.3959757,
+              65.8525649
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-253267759",
+        "name": "OSM-253267759",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 253267759,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0203523,
+              65.6703382
+            ],
+            [
+              21.0198194,
+              65.6704329
+            ],
+            [
+              21.0200351,
+              65.6706388
+            ],
+            [
+              21.0205681,
+              65.670544
+            ],
+            [
+              21.0203523,
+              65.6703382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-253374186",
+        "name": "OSM-253374186",
+        "operator": "private_property",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 253374186,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.423224,
+              65.8574812
+            ],
+            [
+              20.4231321,
+              65.8574389
+            ],
+            [
+              20.4227577,
+              65.8572774
+            ],
+            [
+              20.422841,
+              65.8572469
+            ],
+            [
+              20.4229078,
+              65.8572224
+            ],
+            [
+              20.423073,
+              65.8571629
+            ],
+            [
+              20.4231237,
+              65.8571442
+            ],
+            [
+              20.4231858,
+              65.8571221
+            ],
+            [
+              20.4233581,
+              65.8570602
+            ],
+            [
+              20.4233969,
+              65.8570464
+            ],
+            [
+              20.4234473,
+              65.8570286
+            ],
+            [
+              20.4236175,
+              65.8569672
+            ],
+            [
+              20.4236628,
+              65.8569512
+            ],
+            [
+              20.4237341,
+              65.8569382
+            ],
+            [
+              20.4239024,
+              65.8568797
+            ],
+            [
+              20.4239753,
+              65.8569148
+            ],
+            [
+              20.4246743,
+              65.8566468
+            ],
+            [
+              20.4247025,
+              65.8565321
+            ],
+            [
+              20.4249264,
+              65.8565425
+            ],
+            [
+              20.4250096,
+              65.856486
+            ],
+            [
+              20.4255031,
+              65.8565052
+            ],
+            [
+              20.4256171,
+              65.8565892
+            ],
+            [
+              20.4256654,
+              65.8566517
+            ],
+            [
+              20.423293,
+              65.8575162
+            ],
+            [
+              20.423224,
+              65.8574812
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-253383993",
+        "name": "OSM-253383993",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 253383993,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "15.3 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.7682817,
+              65.7765655
+            ],
+            [
+              20.768326,
+              65.7766453
+            ],
+            [
+              20.7684999,
+              65.7766865
+            ],
+            [
+              20.7686916,
+              65.7766768
+            ],
+            [
+              20.7687624,
+              65.7765546
+            ],
+            [
+              20.7682817,
+              65.7765655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-254038426",
+        "name": "OSM-254038426",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 254038426,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.8566623,
+              65.6698389
+            ],
+            [
+              20.8575541,
+              65.669672
+            ],
+            [
+              20.8570492,
+              65.6695816
+            ],
+            [
+              20.8566406,
+              65.6696892
+            ],
+            [
+              20.856575,
+              65.6697112
+            ],
+            [
+              20.8566623,
+              65.6698389
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-268877732",
+        "name": "OSM-268877732",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 268877732,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "33.8 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.3922896,
+              65.848482
+            ],
+            [
+              20.3939069,
+              65.8490904
+            ],
+            [
+              20.391996,
+              65.849673
+            ],
+            [
+              20.3911614,
+              65.8497935
+            ],
+            [
+              20.3899035,
+              65.8502226
+            ],
+            [
+              20.3896108,
+              65.8503112
+            ],
+            [
+              20.3883354,
+              65.8496989
+            ],
+            [
+              20.3922896,
+              65.848482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-433010824",
+        "name": "OSM-433010824",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.55,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "access_yes_free"
+        ],
+        "last_verified": null,
+        "osm_id": 433010824,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0039688,
+              65.6745063
+            ],
+            [
+              21.004988,
+              65.6747406
+            ],
+            [
+              21.0053153,
+              65.6746036
+            ],
+            [
+              21.0052884,
+              65.6745528
+            ],
+            [
+              21.0045589,
+              65.6742831
+            ],
+            [
+              21.0039688,
+              65.6745063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-438300194",
+        "name": "OSM-438300194",
+        "operator": "private_property",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 438300194,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": "Polar Hotel",
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0028225,
+              65.6753148
+            ],
+            [
+              21.0022598,
+              65.6755087
+            ],
+            [
+              21.0028124,
+              65.6757871
+            ],
+            [
+              21.0033996,
+              65.6755951
+            ],
+            [
+              21.0031342,
+              65.6754669
+            ],
+            [
+              21.0028225,
+              65.6753148
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-438300195",
+        "name": "OSM-438300195",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 438300195,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0058754,
+              65.6739663
+            ],
+            [
+              21.0060471,
+              65.6734271
+            ],
+            [
+              21.0066292,
+              65.6734418
+            ],
+            [
+              21.0067659,
+              65.6734448
+            ],
+            [
+              21.0066479,
+              65.6737984
+            ],
+            [
+              21.0061061,
+              65.6739862
+            ],
+            [
+              21.0060186,
+              65.6739787
+            ],
+            [
+              21.0058754,
+              65.6739663
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-440360687",
+        "name": "OSM-440360687",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 440360687,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9822957,
+              65.676721
+            ],
+            [
+              20.9827088,
+              65.6764802
+            ],
+            [
+              20.9813945,
+              65.676109
+            ],
+            [
+              20.9810083,
+              65.6763697
+            ],
+            [
+              20.9819632,
+              65.6766459
+            ],
+            [
+              20.9822957,
+              65.676721
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-658294228",
+        "name": "OSM-658294228",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 658294228,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "27.7 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.5227967,
+              65.8304478
+            ],
+            [
+              20.5228827,
+              65.8304965
+            ],
+            [
+              20.5235924,
+              65.8302868
+            ],
+            [
+              20.5235065,
+              65.830238
+            ],
+            [
+              20.5227967,
+              65.8304478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1076782529",
+        "name": "OSM-1076782529",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1076782529,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.2587468,
+              65.6832968
+            ],
+            [
+              20.2589782,
+              65.6833053
+            ],
+            [
+              20.2591217,
+              65.6833528
+            ],
+            [
+              20.259196,
+              65.6833542
+            ],
+            [
+              20.2592142,
+              65.6833219
+            ],
+            [
+              20.2591773,
+              65.683289
+            ],
+            [
+              20.2590466,
+              65.6832313
+            ],
+            [
+              20.2590043,
+              65.6831333
+            ],
+            [
+              20.2587468,
+              65.6832968
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1076782534",
+        "name": "Dödlarsberget parking",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1076782534,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.6879259,
+              65.7933085
+            ],
+            [
+              20.6890364,
+              65.7933536
+            ],
+            [
+              20.688623,
+              65.7931517
+            ],
+            [
+              20.6884758,
+              65.7930798
+            ],
+            [
+              20.6879259,
+              65.7933085
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816907",
+        "name": "OSM-1160816907",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816907,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0115761,
+              65.6763046
+            ],
+            [
+              21.0112568,
+              65.6762553
+            ],
+            [
+              21.0110943,
+              65.6761942
+            ],
+            [
+              21.0112426,
+              65.6760768
+            ],
+            [
+              21.0117329,
+              65.6761531
+            ],
+            [
+              21.0115761,
+              65.6763046
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816909",
+        "name": "OSM-1160816909",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816909,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0119068,
+              65.6764314
+            ],
+            [
+              21.0115676,
+              65.676375
+            ],
+            [
+              21.0117871,
+              65.6761519
+            ],
+            [
+              21.0121264,
+              65.6762165
+            ],
+            [
+              21.0119068,
+              65.6764314
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816910",
+        "name": "OSM-1160816910",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816910,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0122114,
+              65.6764756
+            ],
+            [
+              21.0119667,
+              65.6764349
+            ],
+            [
+              21.0121834,
+              65.6762224
+            ],
+            [
+              21.01244,
+              65.6762658
+            ],
+            [
+              21.0124244,
+              65.6762751
+            ],
+            [
+              21.0122114,
+              65.6764756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816916",
+        "name": "OSM-1160816916",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816916,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0137123,
+              65.6762242
+            ],
+            [
+              21.0128284,
+              65.6760712
+            ],
+            [
+              21.0129458,
+              65.6759568
+            ],
+            [
+              21.0138139,
+              65.6761243
+            ],
+            [
+              21.0137123,
+              65.6762242
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816918",
+        "name": "OSM-1160816918",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816918,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0135842,
+              65.6750239
+            ],
+            [
+              21.0137053,
+              65.6749114
+            ],
+            [
+              21.013348,
+              65.6748397
+            ],
+            [
+              21.0132198,
+              65.6749604
+            ],
+            [
+              21.0132574,
+              65.6749636
+            ],
+            [
+              21.0135842,
+              65.6750239
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816919",
+        "name": "OSM-1160816919",
+        "operator": "kommun",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.65,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "street_side_match"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816919,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "street_side",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0116583,
+              65.6756709
+            ],
+            [
+              21.0117633,
+              65.6756679
+            ],
+            [
+              21.0127801,
+              65.6747189
+            ],
+            [
+              21.0126611,
+              65.674727
+            ],
+            [
+              21.0116583,
+              65.6756709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1160816920",
+        "name": "OSM-1160816920",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1160816920,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0125915,
+              65.6755681
+            ],
+            [
+              21.0125007,
+              65.6756585
+            ],
+            [
+              21.0128442,
+              65.6757188
+            ],
+            [
+              21.0129207,
+              65.6756292
+            ],
+            [
+              21.0125915,
+              65.6755681
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1161683212",
+        "name": "OSM-1161683212",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1161683212,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0016472,
+              65.6786774
+            ],
+            [
+              21.0015062,
+              65.678781
+            ],
+            [
+              21.00239,
+              65.6790182
+            ],
+            [
+              21.0026152,
+              65.6788667
+            ],
+            [
+              21.0024645,
+              65.678831
+            ],
+            [
+              21.0023892,
+              65.6788782
+            ],
+            [
+              21.0016472,
+              65.6786774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1161683213",
+        "name": "OSM-1161683213",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1161683213,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0042385,
+              65.677613
+            ],
+            [
+              21.00438,
+              65.6776526
+            ],
+            [
+              21.0046052,
+              65.6775117
+            ],
+            [
+              21.0037642,
+              65.6772886
+            ],
+            [
+              21.0036224,
+              65.677392
+            ],
+            [
+              21.0043007,
+              65.6775736
+            ],
+            [
+              21.0042385,
+              65.677613
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1225543766",
+        "name": "OSM-1225543766",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1225543766,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0092242,
+              65.6710966
+            ],
+            [
+              21.0096976,
+              65.6711896
+            ],
+            [
+              21.0095608,
+              65.6716294
+            ],
+            [
+              21.0097413,
+              65.6716396
+            ],
+            [
+              21.0106473,
+              65.6707757
+            ],
+            [
+              21.0095638,
+              65.6706141
+            ],
+            [
+              21.0091949,
+              65.6709643
+            ],
+            [
+              21.0092242,
+              65.6710966
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1263408075",
+        "name": "OSM-1263408075",
+        "operator": "free_parking",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1263408075,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.5156453,
+              65.8317574
+            ],
+            [
+              20.5159251,
+              65.8317279
+            ],
+            [
+              20.5160034,
+              65.8318524
+            ],
+            [
+              20.516377,
+              65.831813
+            ],
+            [
+              20.516268,
+              65.8316398
+            ],
+            [
+              20.5156146,
+              65.8317086
+            ],
+            [
+              20.5156453,
+              65.8317574
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1490220006",
+        "name": "OSM-1490220006",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1490220006,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0022425,
+              65.6760027
+            ],
+            [
+              21.0026528,
+              65.6758791
+            ],
+            [
+              21.0021447,
+              65.6755928
+            ],
+            [
+              21.0017344,
+              65.6757164
+            ],
+            [
+              21.0022425,
+              65.6760027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1490220008",
+        "name": "OSM-1490220008",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1490220008,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.998846,
+              65.6721235
+            ],
+            [
+              20.9994235,
+              65.6723391
+            ],
+            [
+              20.9984116,
+              65.6728129
+            ],
+            [
+              20.9979427,
+              65.6726502
+            ],
+            [
+              20.998846,
+              65.6721235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1490220009",
+        "name": "OSM-1490220009",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1490220009,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9972861,
+              65.6733639
+            ],
+            [
+              20.9969949,
+              65.6732114
+            ],
+            [
+              20.9978834,
+              65.6728088
+            ],
+            [
+              20.9983079,
+              65.6729308
+            ],
+            [
+              20.9972861,
+              65.6733639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1490220010",
+        "name": "OSM-1490220010",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1490220010,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9975489,
+              65.6734086
+            ],
+            [
+              20.9978092,
+              65.673519
+            ],
+            [
+              20.9982419,
+              65.6733458
+            ],
+            [
+              20.9979815,
+              65.6732354
+            ],
+            [
+              20.9975489,
+              65.6734086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alvsbyn-osm-1494110553",
+        "name": "OSM-1494110553",
+        "operator": "unknown",
+        "municipality": "Älvsbyn",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1494110553,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0579801,
+              65.6471415
+            ],
+            [
+              21.0586131,
+              65.646709
+            ],
+            [
+              21.0586721,
+              65.6464535
+            ],
+            [
+              21.0590181,
+              65.6465564
+            ],
+            [
+              21.0589644,
+              65.6471691
+            ],
+            [
+              21.0579801,
+              65.6471415
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:05,300
+MedRemind Plus behåller samma enkla incheckning i en separat betald Android-version.
+
+2
+00:00:05,650 --> 00:00:10,800
+Plus har inga annonser.
+
+3
+00:00:11,150 --> 00:00:16,300
+Plus lägger till tre påminnelseplatser: morgon, lunch och kväll.
+
+4
+00:00:16,650 --> 00:00:21,800
+När en plats visas trycker du på incheckningsknappen för den tiden på dagen.
+
+5
+00:00:22,150 --> 00:00:27,300
+När platsen är bekräftad visar Plus nästa nedräkning för den platsen.
+
+6
+00:00:27,650 --> 00:00:32,800
+En vald familjekontakt kan få ett valfritt mejl efter varje bekräftad plats.
+
+7
+00:00:33,150 --> 00:00:38,300
+Om du inte lägger till familje-e-post skickas inget mejl.
+
+8
+00:00:38,650 --> 00:00:43,800
+Plus stöder engelska, svenska, spanska, tyska, franska, italienska och portugisiska.
+
+9
+00:00:44,150 --> 00:00:49,300
+Plus kostar 36 SEK en gång. Ingen prenumeration.
+
+10
+00:00:49,650 --> 00:00:54,800
+En påminnelse i telefonen. En synlig timer. En valfri bekräftelse till dig.

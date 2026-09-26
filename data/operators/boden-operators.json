@@ -1,0 +1,81 @@
+{
+  "kommun": {
+    "name": "Bodens kommun",
+    "color": "#3b82f6",
+    "type": "municipality",
+    "web": "https://www.boden.se/bo-bygga-och-miljo/gator-och-trafik/parkering",
+    "contact": "0921-620 00",
+    "enforcement": null,
+    "payment_apps": [
+      "EasyPark",
+      "Parkster"
+    ],
+    "scraper_class": "GenericScraper",
+    "scrape_endpoints": [
+      "https://www.boden.se/bo-bygga-och-miljo/gator-och-trafik/parkering"
+    ],
+    "scrape_notes": "Liten stad, troligen 1-2 zoner i centrum. Garnisonsstad — vänta begränsade ytor.",
+    "zone_mapping": {}
+  },
+  "aimopark": {
+    "name": "Aimo Park",
+    "color": "#f97316",
+    "type": "private",
+    "web": "https://www.aimopark.se/en/cities/boden/",
+    "contact": "010-498 54 00",
+    "enforcement": "Egen",
+    "payment_apps": [
+      "Aimo"
+    ],
+    "scraper_class": "AimoParkScraper",
+    "scrape_endpoints": [
+      "https://www.aimopark.se/en/cities/boden/"
+    ],
+    "scrape_notes": "Verifiera om Aimo finns i Boden — kan ge 404."
+  },
+  "private_property": {
+    "name": "Privatparkering (fastighet)",
+    "color": "#78716c",
+    "type": "private",
+    "web": null,
+    "contact": null,
+    "enforcement": null,
+    "payment_apps": [],
+    "scraper_class": null,
+    "scrape_notes": "Reclassified from OSM access=private or access=customers tags."
+  },
+  "free_parking": {
+    "name": "Gratis parkering",
+    "color": "#a3e635",
+    "type": "public",
+    "web": null,
+    "contact": null,
+    "enforcement": null,
+    "payment_apps": [],
+    "scraper_class": null,
+    "scrape_notes": "Reclassified from OSM fee=no or access=permissive tags."
+  },
+  "bodenbo": {
+    "name": "Bodenbo",
+    "color": "#8b5cf6",
+    "type": "housing_company",
+    "web": "https://www.bodenbo.se",
+    "contact": "0921-578 80",
+    "enforcement": null,
+    "payment_apps": [
+      "parkster"
+    ],
+    "scraper_class": null,
+    "scrape_notes": "Kommunalt bostadsbolag. Bostadsparkering i Centrum, Erikslund, Lundagård, Prästholmen, Sanden, Sävast, Svartbjörnsbyn, Sveafältet.",
+    "known_areas": [
+      "Centrum",
+      "Erikslund",
+      "Lundagård",
+      "Prästholmen",
+      "Sanden",
+      "Sävast",
+      "Svartbjörnsbyn",
+      "Sveafältet"
+    ]
+  }
+}

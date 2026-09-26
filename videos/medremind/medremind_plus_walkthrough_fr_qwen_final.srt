@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:05,300
+MedRemind Plus garde la même idée simple de check-in dans une édition Android payante séparée.
+
+2
+00:00:05,650 --> 00:00:10,800
+Plus n'a pas de publicités.
+
+3
+00:00:11,150 --> 00:00:16,300
+Plus ajoute trois créneaux de rappel : matin, midi et soir.
+
+4
+00:00:16,650 --> 00:00:21,800
+Quand un créneau apparaît, appuyez sur le bouton de check-in pour ce moment de la journée.
+
+5
+00:00:22,150 --> 00:00:27,300
+Après confirmation, Plus affiche le prochain compte à rebours pour ce créneau.
+
+6
+00:00:27,650 --> 00:00:32,800
+Un contact familial choisi peut recevoir un e-mail optionnel après chaque créneau confirmé.
+
+7
+00:00:33,150 --> 00:00:38,300
+Si vous n'ajoutez pas d'e-mail familial, aucun e-mail n'est envoyé.
+
+8
+00:00:38,650 --> 00:00:43,800
+Plus prend en charge l'anglais, le suédois, l'espagnol, l'allemand, le français, l'italien et le portugais.
+
+9
+00:00:44,150 --> 00:00:49,300
+Plus coûte 36 SEK une seule fois. Sans abonnement.
+
+10
+00:00:49,650 --> 00:00:54,800
+Un rappel sur son téléphone. Un minuteur visible. Une confirmation optionnelle pour vous.

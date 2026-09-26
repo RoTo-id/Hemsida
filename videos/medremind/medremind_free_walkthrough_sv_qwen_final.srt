@@ -1,0 +1,27 @@
+1
+00:00:00,150 --> 00:00:05,800
+Öppna MedReminds inställningar och välj om du vill koppla en familje-e-post.
+
+2
+00:00:06,150 --> 00:00:11,800
+Om en e-postadress är tillagd kan en bekräftelse skickas efter att knappen trycks.
+
+3
+00:00:12,150 --> 00:00:17,800
+Välj appens språk med globikonen.
+
+4
+00:00:18,150 --> 00:00:23,800
+När den dagliga påminnelsen visas trycker du på den stora incheckningsknappen.
+
+5
+00:00:24,150 --> 00:00:29,800
+Efter trycket visar MedRemind nästa 24-timmars nedräkning.
+
+6
+00:00:30,150 --> 00:00:35,800
+Så här kan mejlet se ut för den familjekontakt du valt.
+
+7
+00:00:36,150 --> 00:00:41,800
+Lugn i en knapp. En påminnelse i telefonen. En synlig timer. En valfri bekräftelse till dig.

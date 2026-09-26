@@ -1,0 +1,4095 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "2.0.0",
+    "generated": "2026-07-20T04:27:08.353934+00:00",
+    "source": "ParkMap Sverige — OSM Bootstrap",
+    "region": "Norrbotten",
+    "city": "haparanda",
+    "municipality": "Haparanda kommun",
+    "scrape_type": "osm_bootstrap",
+    "agent_run_id": "haparanda-osm-bootstrap",
+    "zone_count": 56,
+    "bootstrap": {
+      "osm_source": "output\\osm_parking_haparanda.geojson",
+      "zones_imported": 56,
+      "bootstrap_date": "2026-07-09"
+    },
+    "osm_reclassification": {
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
+      "needs_identification": 1,
+      "osm_operator_mapped": 0,
+      "lulebo_district": 0,
+      "near_aimo": 0,
+      "rural_free": 0,
+      "note_matched": 0,
+      "access_yes_free": 0,
+      "fee_confirmed_unknown": 0,
+      "genuinely_unknown": 34,
+      "before": 35,
+      "after": 35,
+      "total": 56,
+      "coverage_pct": 37.5,
+      "run_date": "2026-07-20"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 0,
+      "markers_matched": 0,
+      "markers_unmatched": 0,
+      "features_matched": 0,
+      "updated_at": "2026-07-20T04:27:08.353921+00:00",
+      "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "haparanda_epark_nearby_20260713.json",
+      "zones": 0,
+      "matched": 0,
+      "added_review_points": 0,
+      "unresolved": 0
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-42311782",
+        "name": "OSM-42311782",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 42311782,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1233828,
+              65.8433075
+            ],
+            [
+              24.1240443,
+              65.8434128
+            ],
+            [
+              24.1241527,
+              65.8432988
+            ],
+            [
+              24.1245431,
+              65.8433609
+            ],
+            [
+              24.1246909,
+              65.8432055
+            ],
+            [
+              24.123639,
+              65.843038
+            ],
+            [
+              24.1233828,
+              65.8433075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-42344662",
+        "name": "OSM-42344662",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "underground",
+        "zone_code": null,
+        "spots": "500",
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "needs_identification",
+          "multi_storey_parking"
+        ],
+        "last_verified": null,
+        "osm_id": 42344662,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": "yes",
+        "osm_parking": "underground",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1418142,
+              65.8440883
+            ],
+            [
+              24.1421045,
+              65.8439954
+            ],
+            [
+              24.1421649,
+              65.8439766
+            ],
+            [
+              24.1465032,
+              65.842627
+            ],
+            [
+              24.1455664,
+              65.8421486
+            ],
+            [
+              24.1409499,
+              65.8436404
+            ],
+            [
+              24.1418142,
+              65.8440883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-42349119",
+        "name": "OSM-42349119",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 42349119,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1146402,
+              65.8416956
+            ],
+            [
+              24.1207193,
+              65.8420069
+            ],
+            [
+              24.1208404,
+              65.8420131
+            ],
+            [
+              24.1209717,
+              65.8416087
+            ],
+            [
+              24.1209914,
+              65.841548
+            ],
+            [
+              24.1210081,
+              65.8414966
+            ],
+            [
+              24.119608,
+              65.8413204
+            ],
+            [
+              24.1194025,
+              65.8412946
+            ],
+            [
+              24.1177515,
+              65.8410522
+            ],
+            [
+              24.1175103,
+              65.8410167
+            ],
+            [
+              24.1162254,
+              65.840865
+            ],
+            [
+              24.1160396,
+              65.8408431
+            ],
+            [
+              24.1159663,
+              65.8408542
+            ],
+            [
+              24.1157782,
+              65.8408827
+            ],
+            [
+              24.1156796,
+              65.8412062
+            ],
+            [
+              24.1156474,
+              65.8412501
+            ],
+            [
+              24.1155401,
+              65.8412776
+            ],
+            [
+              24.1154898,
+              65.8412332
+            ],
+            [
+              24.1148025,
+              65.8413753
+            ],
+            [
+              24.1148508,
+              65.8414175
+            ],
+            [
+              24.114832,
+              65.8414719
+            ],
+            [
+              24.1147211,
+              65.8414613
+            ],
+            [
+              24.1146402,
+              65.8416956
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-43114097",
+        "name": "OSM-43114097",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 43114097,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1213866,
+              65.8336272
+            ],
+            [
+              24.121643,
+              65.8336179
+            ],
+            [
+              24.1215797,
+              65.8333244
+            ],
+            [
+              24.1213233,
+              65.8333336
+            ],
+            [
+              24.1213866,
+              65.8336272
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-46886211",
+        "name": "OSM-46886211",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 46886211,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1340654,
+              65.8405377
+            ],
+            [
+              24.1339795,
+              65.8406883
+            ],
+            [
+              24.1339072,
+              65.8406842
+            ],
+            [
+              24.133702,
+              65.8410407
+            ],
+            [
+              24.1339049,
+              65.8410596
+            ],
+            [
+              24.1338089,
+              65.84122
+            ],
+            [
+              24.1322328,
+              65.8411538
+            ],
+            [
+              24.1321782,
+              65.8412962
+            ],
+            [
+              24.1329765,
+              65.8413547
+            ],
+            [
+              24.1329309,
+              65.8415049
+            ],
+            [
+              24.1330698,
+              65.8415474
+            ],
+            [
+              24.1338873,
+              65.8415875
+            ],
+            [
+              24.1340766,
+              65.841529
+            ],
+            [
+              24.134183,
+              65.8413962
+            ],
+            [
+              24.1343885,
+              65.8413778
+            ],
+            [
+              24.1344768,
+              65.8412909
+            ],
+            [
+              24.1347163,
+              65.8410512
+            ],
+            [
+              24.1351364,
+              65.840842
+            ],
+            [
+              24.135491,
+              65.8406939
+            ],
+            [
+              24.1354679,
+              65.8406475
+            ],
+            [
+              24.1355253,
+              65.8405605
+            ],
+            [
+              24.134184,
+              65.8404372
+            ],
+            [
+              24.1341229,
+              65.8405442
+            ],
+            [
+              24.1340654,
+              65.8405377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-56683771",
+        "name": "OSM-56683771",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 56683771,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1276613,
+              65.8181696
+            ],
+            [
+              24.1278425,
+              65.8187034
+            ],
+            [
+              24.1274156,
+              65.8187278
+            ],
+            [
+              24.1272344,
+              65.8181939
+            ],
+            [
+              24.1276613,
+              65.8181696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-66945769",
+        "name": "OSM-66945769",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 66945769,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.033886,
+              65.8959908
+            ],
+            [
+              24.0343015,
+              65.8958334
+            ],
+            [
+              24.0337015,
+              65.8956334
+            ],
+            [
+              24.0333715,
+              65.8957233
+            ],
+            [
+              24.033886,
+              65.8959908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-68883030",
+        "name": "OSM-68883030",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 68883030,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1289079,
+              65.8422708
+            ],
+            [
+              24.1291939,
+              65.8422595
+            ],
+            [
+              24.1291815,
+              65.8422072
+            ],
+            [
+              24.1292912,
+              65.842203
+            ],
+            [
+              24.1292845,
+              65.8421747
+            ],
+            [
+              24.1295438,
+              65.8421647
+            ],
+            [
+              24.1295393,
+              65.8421456
+            ],
+            [
+              24.1296488,
+              65.8421413
+            ],
+            [
+              24.1296429,
+              65.8421163
+            ],
+            [
+              24.1303866,
+              65.8420933
+            ],
+            [
+              24.1303929,
+              65.8421157
+            ],
+            [
+              24.1308693,
+              65.8420999
+            ],
+            [
+              24.1308761,
+              65.8421293
+            ],
+            [
+              24.1317056,
+              65.8420965
+            ],
+            [
+              24.1317095,
+              65.8421129
+            ],
+            [
+              24.1320749,
+              65.8420985
+            ],
+            [
+              24.1320789,
+              65.8421157
+            ],
+            [
+              24.1324532,
+              65.8421009
+            ],
+            [
+              24.1324572,
+              65.8421182
+            ],
+            [
+              24.1331923,
+              65.8420891
+            ],
+            [
+              24.1332041,
+              65.842139
+            ],
+            [
+              24.133468,
+              65.8421286
+            ],
+            [
+              24.1335189,
+              65.8421486
+            ],
+            [
+              24.1335797,
+              65.8421471
+            ],
+            [
+              24.133617,
+              65.842305
+            ],
+            [
+              24.134252,
+              65.8422799
+            ],
+            [
+              24.1343047,
+              65.8425028
+            ],
+            [
+              24.1339278,
+              65.8425177
+            ],
+            [
+              24.1339532,
+              65.8426254
+            ],
+            [
+              24.1336931,
+              65.8426371
+            ],
+            [
+              24.1337042,
+              65.8426843
+            ],
+            [
+              24.1327474,
+              65.8427189
+            ],
+            [
+              24.1327428,
+              65.8426996
+            ],
+            [
+              24.1323675,
+              65.8427144
+            ],
+            [
+              24.1323634,
+              65.8426967
+            ],
+            [
+              24.1319982,
+              65.8427112
+            ],
+            [
+              24.1319782,
+              65.8426264
+            ],
+            [
+              24.1317179,
+              65.8426367
+            ],
+            [
+              24.1317115,
+              65.8426097
+            ],
+            [
+              24.1310011,
+              65.8426379
+            ],
+            [
+              24.1309989,
+              65.8426283
+            ],
+            [
+              24.1292922,
+              65.842695
+            ],
+            [
+              24.1292947,
+              65.8427057
+            ],
+            [
+              24.1290071,
+              65.8427175
+            ],
+            [
+              24.1290178,
+              65.8427625
+            ],
+            [
+              24.1289063,
+              65.842767
+            ],
+            [
+              24.1288846,
+              65.8426753
+            ],
+            [
+              24.1286288,
+              65.8426854
+            ],
+            [
+              24.1286237,
+              65.8426637
+            ],
+            [
+              24.1285132,
+              65.8426681
+            ],
+            [
+              24.1285155,
+              65.8426778
+            ],
+            [
+              24.1282544,
+              65.8426881
+            ],
+            [
+              24.128223,
+              65.8425552
+            ],
+            [
+              24.1284867,
+              65.8425447
+            ],
+            [
+              24.1284634,
+              65.8424461
+            ],
+            [
+              24.1285712,
+              65.8424418
+            ],
+            [
+              24.1285611,
+              65.8423992
+            ],
+            [
+              24.1288277,
+              65.8423887
+            ],
+            [
+              24.1288119,
+              65.8423218
+            ],
+            [
+              24.1289189,
+              65.8423175
+            ],
+            [
+              24.1289079,
+              65.8422708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-68883044",
+        "name": "OSM-68883044",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 68883044,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1287692,
+              65.8429409
+            ],
+            [
+              24.1266519,
+              65.844767
+            ],
+            [
+              24.1260129,
+              65.8446427
+            ],
+            [
+              24.1261009,
+              65.8443687
+            ],
+            [
+              24.12632,
+              65.8440711
+            ],
+            [
+              24.1277159,
+              65.8428142
+            ],
+            [
+              24.1278961,
+              65.8428503
+            ],
+            [
+              24.1279679,
+              65.8427875
+            ],
+            [
+              24.1287692,
+              65.8429409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-69304404",
+        "name": "OSM-69304404",
+        "operator": "private_property",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 69304404,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1345168,
+              65.8439184
+            ],
+            [
+              24.1342485,
+              65.8439283
+            ],
+            [
+              24.134236,
+              65.8438826
+            ],
+            [
+              24.1321255,
+              65.843962
+            ],
+            [
+              24.1321617,
+              65.844109
+            ],
+            [
+              24.1352094,
+              65.843999
+            ],
+            [
+              24.1349512,
+              65.8428616
+            ],
+            [
+              24.1347546,
+              65.8428675
+            ],
+            [
+              24.1347598,
+              65.8428911
+            ],
+            [
+              24.1344158,
+              65.8428999
+            ],
+            [
+              24.1343827,
+              65.8427883
+            ],
+            [
+              24.134273,
+              65.8427895
+            ],
+            [
+              24.1345168,
+              65.8439184
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-69304406",
+        "name": "OSM-69304406",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 69304406,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1354811,
+              65.8431842
+            ],
+            [
+              24.1356187,
+              65.8438847
+            ],
+            [
+              24.1359776,
+              65.8438728
+            ],
+            [
+              24.1360427,
+              65.8442042
+            ],
+            [
+              24.1372006,
+              65.8441661
+            ],
+            [
+              24.136987,
+              65.8430789
+            ],
+            [
+              24.136874,
+              65.8430826
+            ],
+            [
+              24.1368588,
+              65.8430052
+            ],
+            [
+              24.1367381,
+              65.8430092
+            ],
+            [
+              24.1359205,
+              65.8430361
+            ],
+            [
+              24.1359465,
+              65.8431689
+            ],
+            [
+              24.1354811,
+              65.8431842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-118626754",
+        "name": "OSM-118626754",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 118626754,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "21.7 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7612703,
+              65.7145297
+            ],
+            [
+              23.7607295,
+              65.7141252
+            ],
+            [
+              23.7608793,
+              65.714094
+            ],
+            [
+              23.7610269,
+              65.7140633
+            ],
+            [
+              23.7615689,
+              65.7144607
+            ],
+            [
+              23.7614145,
+              65.7144964
+            ],
+            [
+              23.7612703,
+              65.7145297
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-298134588",
+        "name": "OSM-298134588",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 298134588,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "12.8 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.9029543,
+              65.7711602
+            ],
+            [
+              23.9030972,
+              65.7715749
+            ],
+            [
+              23.9040912,
+              65.7714676
+            ],
+            [
+              23.9029543,
+              65.7711602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-300096767",
+        "name": "OSM-300096767",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 300096767,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.0381869,
+              65.9619015
+            ],
+            [
+              24.0389682,
+              65.9620865
+            ],
+            [
+              24.0388877,
+              65.9621461
+            ],
+            [
+              24.038782,
+              65.962216
+            ],
+            [
+              24.0379871,
+              65.9620402
+            ],
+            [
+              24.0381869,
+              65.9619015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-444468430",
+        "name": "OSM-444468430",
+        "operator": "kommun",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.65,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "street_side_match"
+        ],
+        "last_verified": null,
+        "osm_id": 444468430,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "street_side",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1355148,
+              65.8357212
+            ],
+            [
+              24.1355916,
+              65.8354573
+            ],
+            [
+              24.1357188,
+              65.8354635
+            ],
+            [
+              24.1356419,
+              65.8357274
+            ],
+            [
+              24.1355148,
+              65.8357212
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-444468431",
+        "name": "OSM-444468431",
+        "operator": "kommun",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.65,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "street_side_match"
+        ],
+        "last_verified": null,
+        "osm_id": 444468431,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "street_side",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1355075,
+              65.8353325
+            ],
+            [
+              24.1355964,
+              65.8350167
+            ],
+            [
+              24.135977,
+              65.8350347
+            ],
+            [
+              24.1358881,
+              65.8353505
+            ],
+            [
+              24.1355075,
+              65.8353325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-544605477",
+        "name": "OSM-544605477",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 544605477,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1237657,
+              65.8344688
+            ],
+            [
+              24.1240148,
+              65.8344793
+            ],
+            [
+              24.1243767,
+              65.8345159
+            ],
+            [
+              24.1244512,
+              65.8344087
+            ],
+            [
+              24.1231292,
+              65.8342527
+            ],
+            [
+              24.1230461,
+              65.8343076
+            ],
+            [
+              24.1237657,
+              65.8344688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654903643",
+        "name": "OSM-654903643",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654903643,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1262054,
+              65.8409276
+            ],
+            [
+              24.1263712,
+              65.840628
+            ],
+            [
+              24.1265015,
+              65.8406348
+            ],
+            [
+              24.1263229,
+              65.8409386
+            ],
+            [
+              24.1262054,
+              65.8409276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654903644",
+        "name": "OSM-654903644",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654903644,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1261107,
+              65.8410866
+            ],
+            [
+              24.1261865,
+              65.8409663
+            ],
+            [
+              24.1263167,
+              65.8409751
+            ],
+            [
+              24.1262386,
+              65.8411001
+            ],
+            [
+              24.1261107,
+              65.8410866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654903645",
+        "name": "OSM-654903645",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654903645,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1261225,
+              65.8406619
+            ],
+            [
+              24.1262196,
+              65.8406707
+            ],
+            [
+              24.1262907,
+              65.8405417
+            ],
+            [
+              24.1261817,
+              65.840534
+            ],
+            [
+              24.1261646,
+              65.8405615
+            ],
+            [
+              24.1261225,
+              65.8406619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654904991",
+        "name": "OSM-654904991",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654904991,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1263831,
+              65.8411137
+            ],
+            [
+              24.1265086,
+              65.8411215
+            ],
+            [
+              24.1265726,
+              65.8409974
+            ],
+            [
+              24.1264565,
+              65.8409857
+            ],
+            [
+              24.1263831,
+              65.8411137
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654904992",
+        "name": "OSM-654904992",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654904992,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1264684,
+              65.8409596
+            ],
+            [
+              24.1265749,
+              65.8409693
+            ],
+            [
+              24.1266839,
+              65.8407792
+            ],
+            [
+              24.1265726,
+              65.8407686
+            ],
+            [
+              24.1264684,
+              65.8409596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654904993",
+        "name": "OSM-654904993",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654904993,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1267834,
+              65.8406222
+            ],
+            [
+              24.1274372,
+              65.8406833
+            ],
+            [
+              24.1273661,
+              65.8407501
+            ],
+            [
+              24.1267526,
+              65.8406939
+            ],
+            [
+              24.1267834,
+              65.8406222
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654905270",
+        "name": "OSM-654905270",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654905270,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1235358,
+              65.840817
+            ],
+            [
+              24.122927,
+              65.8407414
+            ],
+            [
+              24.1229673,
+              65.8406891
+            ],
+            [
+              24.1235761,
+              65.8407618
+            ],
+            [
+              24.1235358,
+              65.840817
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654905271",
+        "name": "OSM-654905271",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654905271,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1231686,
+              65.8406425
+            ],
+            [
+              24.1232373,
+              65.8405582
+            ],
+            [
+              24.1235003,
+              65.8405902
+            ],
+            [
+              24.1234434,
+              65.8406755
+            ],
+            [
+              24.1231686,
+              65.8406425
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654905819",
+        "name": "OSM-654905819",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654905819,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1298399,
+              65.8428866
+            ],
+            [
+              24.1298331,
+              65.8428576
+            ],
+            [
+              24.1308048,
+              65.8428195
+            ],
+            [
+              24.1308115,
+              65.8428485
+            ],
+            [
+              24.1298399,
+              65.8428866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-654905820",
+        "name": "OSM-654905820",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 654905820,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1307425,
+              65.842773
+            ],
+            [
+              24.1307425,
+              65.8427465
+            ],
+            [
+              24.1300513,
+              65.8427739
+            ],
+            [
+              24.130058,
+              65.8427967
+            ],
+            [
+              24.1307425,
+              65.842773
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-655152175",
+        "name": "OSM-655152175",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 655152175,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1189265,
+              65.8427806
+            ],
+            [
+              24.1189623,
+              65.8427376
+            ],
+            [
+              24.1197104,
+              65.8427785
+            ],
+            [
+              24.1198809,
+              65.8427878
+            ],
+            [
+              24.1198224,
+              65.8428296
+            ],
+            [
+              24.1189265,
+              65.8427806
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-655152209",
+        "name": "OSM-655152209",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 655152209,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1196741,
+              65.8426515
+            ],
+            [
+              24.1197126,
+              65.842597
+            ],
+            [
+              24.1199616,
+              65.8426156
+            ],
+            [
+              24.119916,
+              65.8426673
+            ],
+            [
+              24.1196741,
+              65.8426515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-655152210",
+        "name": "OSM-655152210",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 655152210,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1197792,
+              65.8425396
+            ],
+            [
+              24.1200071,
+              65.8425511
+            ],
+            [
+              24.120034,
+              65.8424702
+            ],
+            [
+              24.1200667,
+              65.8423717
+            ],
+            [
+              24.1198318,
+              65.8423573
+            ],
+            [
+              24.1197792,
+              65.8425396
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-655152211",
+        "name": "OSM-655152211",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 655152211,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1197669,
+              65.8422824
+            ],
+            [
+              24.1201158,
+              65.8423057
+            ],
+            [
+              24.1201439,
+              65.8422425
+            ],
+            [
+              24.1197869,
+              65.8422235
+            ],
+            [
+              24.1197669,
+              65.8422824
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-655152212",
+        "name": "OSM-655152212",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 655152212,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1201193,
+              65.8425955
+            ],
+            [
+              24.1201842,
+              65.8426002
+            ],
+            [
+              24.1202596,
+              65.8426056
+            ],
+            [
+              24.1203262,
+              65.8423846
+            ],
+            [
+              24.120193,
+              65.8423789
+            ],
+            [
+              24.1201193,
+              65.8425955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-909346638",
+        "name": "OSM-909346638",
+        "operator": "private_property",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 909346638,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1312075,
+              65.828407
+            ],
+            [
+              24.131248,
+              65.8285013
+            ],
+            [
+              24.1312524,
+              65.828523
+            ],
+            [
+              24.1312395,
+              65.8285385
+            ],
+            [
+              24.1312008,
+              65.8285517
+            ],
+            [
+              24.1311225,
+              65.8285666
+            ],
+            [
+              24.1310619,
+              65.8285716
+            ],
+            [
+              24.1309293,
+              65.8285853
+            ],
+            [
+              24.1305122,
+              65.8286238
+            ],
+            [
+              24.1302779,
+              65.8286434
+            ],
+            [
+              24.1302701,
+              65.8286292
+            ],
+            [
+              24.1302457,
+              65.8285849
+            ],
+            [
+              24.1302231,
+              65.8285439
+            ],
+            [
+              24.1302007,
+              65.8285032
+            ],
+            [
+              24.1312075,
+              65.828407
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1038281987",
+        "name": "OSM-1038281987",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.55,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "access_yes_free"
+        ],
+        "last_verified": null,
+        "osm_id": 1038281987,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1406488,
+              65.8361277
+            ],
+            [
+              24.1405204,
+              65.8365189
+            ],
+            [
+              24.1396797,
+              65.8364726
+            ],
+            [
+              24.1398083,
+              65.8360814
+            ],
+            [
+              24.1406488,
+              65.8361277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1038281988",
+        "name": "OSM-1038281988",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1038281988,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1391545,
+              65.8366073
+            ],
+            [
+              24.1391762,
+              65.8365361
+            ],
+            [
+              24.1406016,
+              65.8365975
+            ],
+            [
+              24.1404598,
+              65.8370627
+            ],
+            [
+              24.1400698,
+              65.8370439
+            ],
+            [
+              24.1400853,
+              65.8370133
+            ],
+            [
+              24.1401104,
+              65.8369284
+            ],
+            [
+              24.1400478,
+              65.8369233
+            ],
+            [
+              24.1401175,
+              65.8366466
+            ],
+            [
+              24.1391545,
+              65.8366073
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1090676664",
+        "name": "OSM-1090676664",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1090676664,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1435826,
+              65.820728
+            ],
+            [
+              24.1442946,
+              65.8205639
+            ],
+            [
+              24.1439169,
+              65.820289
+            ],
+            [
+              24.1429201,
+              65.8205187
+            ],
+            [
+              24.1430179,
+              65.8205899
+            ],
+            [
+              24.1430612,
+              65.8205799
+            ],
+            [
+              24.1431454,
+              65.8206412
+            ],
+            [
+              24.1433869,
+              65.8205855
+            ],
+            [
+              24.1435826,
+              65.820728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1117318328",
+        "name": "OSM-1117318328",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1117318328,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "21.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7296531,
+              65.7432199
+            ],
+            [
+              23.7303462,
+              65.7429519
+            ],
+            [
+              23.7304549,
+              65.7430003
+            ],
+            [
+              23.730834,
+              65.7428051
+            ],
+            [
+              23.7310838,
+              65.7430125
+            ],
+            [
+              23.7310512,
+              65.7430999
+            ],
+            [
+              23.731009,
+              65.7431187
+            ],
+            [
+              23.7307748,
+              65.7432229
+            ],
+            [
+              23.7303566,
+              65.7434091
+            ],
+            [
+              23.7302476,
+              65.7434403
+            ],
+            [
+              23.7300789,
+              65.7434886
+            ],
+            [
+              23.7296531,
+              65.7432199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1117318337",
+        "name": "OSM-1117318337",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1117318337,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "20.7 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7414677,
+              65.742241
+            ],
+            [
+              23.7415327,
+              65.7424013
+            ],
+            [
+              23.7411593,
+              65.7424364
+            ],
+            [
+              23.7410996,
+              65.7422998
+            ],
+            [
+              23.7410813,
+              65.7422703
+            ],
+            [
+              23.7412366,
+              65.7422606
+            ],
+            [
+              23.741288,
+              65.7422529
+            ],
+            [
+              23.7414677,
+              65.742241
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1143575196",
+        "name": "OSM-1143575196",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1143575196,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1388657,
+              65.8441307
+            ],
+            [
+              24.1392791,
+              65.8440888
+            ],
+            [
+              24.1390877,
+              65.8437731
+            ],
+            [
+              24.1388968,
+              65.8437925
+            ],
+            [
+              24.1387246,
+              65.8438982
+            ],
+            [
+              24.1388657,
+              65.8441307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1143575197",
+        "name": "OSM-1143575197",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1143575197,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1383919,
+              65.8440684
+            ],
+            [
+              24.1384165,
+              65.8441384
+            ],
+            [
+              24.1376777,
+              65.844182
+            ],
+            [
+              24.137653,
+              65.844112
+            ],
+            [
+              24.1383919,
+              65.8440684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1279470870",
+        "name": "OSM-1279470870",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1279470870,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1309828,
+              65.8399367
+            ],
+            [
+              24.1305404,
+              65.8399006
+            ],
+            [
+              24.1302288,
+              65.8405398
+            ],
+            [
+              24.1305279,
+              65.8405643
+            ],
+            [
+              24.1306708,
+              65.840576
+            ],
+            [
+              24.1309828,
+              65.8399367
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1299067518",
+        "name": "OSM-1299067518",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1299067518,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "lane",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.135191,
+              65.8394926
+            ],
+            [
+              24.1351923,
+              65.8394673
+            ],
+            [
+              24.1362269,
+              65.8394625
+            ],
+            [
+              24.1360656,
+              65.8394884
+            ],
+            [
+              24.135191,
+              65.8394926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1343439223",
+        "name": "OSM-1343439223",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1343439223,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1313264,
+              65.8334074
+            ],
+            [
+              24.1311336,
+              65.8341739
+            ],
+            [
+              24.1310286,
+              65.8341693
+            ],
+            [
+              24.1306865,
+              65.834154
+            ],
+            [
+              24.1308849,
+              65.8333834
+            ],
+            [
+              24.1313264,
+              65.8334074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1343441730",
+        "name": "OSM-1343441730",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1343441730,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1303338,
+              65.8328664
+            ],
+            [
+              24.1302423,
+              65.833213
+            ],
+            [
+              24.1298664,
+              65.833197
+            ],
+            [
+              24.1299677,
+              65.8328089
+            ],
+            [
+              24.130239,
+              65.8328209
+            ],
+            [
+              24.1302292,
+              65.8328611
+            ],
+            [
+              24.1303338,
+              65.8328664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1354279726",
+        "name": "OSM-1354279726",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1354279726,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.9316419,
+              65.8102068
+            ],
+            [
+              23.9314904,
+              65.8103777
+            ],
+            [
+              23.9316044,
+              65.8103942
+            ],
+            [
+              23.9317586,
+              65.8102272
+            ],
+            [
+              23.9316419,
+              65.8102068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1354279727",
+        "name": "OSM-1354279727",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1354279727,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.9318896,
+              65.8101693
+            ],
+            [
+              23.9324281,
+              65.8102808
+            ],
+            [
+              23.9324806,
+              65.8102383
+            ],
+            [
+              23.9319421,
+              65.8101268
+            ],
+            [
+              23.9318896,
+              65.8101693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1354279730",
+        "name": "OSM-1354279730",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1354279730,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "14.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.8283381,
+              65.8181393
+            ],
+            [
+              23.8278266,
+              65.8182011
+            ],
+            [
+              23.8280978,
+              65.8182813
+            ],
+            [
+              23.8286493,
+              65.8182144
+            ],
+            [
+              23.8283381,
+              65.8181393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1354279731",
+        "name": "OSM-1354279731",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1354279731,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "14.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.8289242,
+              65.8181563
+            ],
+            [
+              23.8289985,
+              65.8181907
+            ],
+            [
+              23.8293232,
+              65.8181447
+            ],
+            [
+              23.8292454,
+              65.8181124
+            ],
+            [
+              23.8289242,
+              65.8181563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1354279732",
+        "name": "OSM-1354279732",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1354279732,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "14.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.8298389,
+              65.8181497
+            ],
+            [
+              23.8298366,
+              65.818099
+            ],
+            [
+              23.8301518,
+              65.8180263
+            ],
+            [
+              23.8301494,
+              65.8180861
+            ],
+            [
+              23.8298389,
+              65.8181497
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1392104620",
+        "name": "OSM-1392104620",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1392104620,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1361954,
+              65.8371948
+            ],
+            [
+              24.1363383,
+              65.8366984
+            ],
+            [
+              24.1370581,
+              65.8367287
+            ],
+            [
+              24.1369398,
+              65.8372291
+            ],
+            [
+              24.1361954,
+              65.8371948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1426015247",
+        "name": "OSM-1426015247",
+        "operator": "private_property",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1426015247,
+        "osm_distance_m": null,
+        "osm_access": "private",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1157574,
+              65.8384643
+            ],
+            [
+              24.115854,
+              65.8383193
+            ],
+            [
+              24.1165406,
+              65.8383808
+            ],
+            [
+              24.1165192,
+              65.8384291
+            ],
+            [
+              24.1166211,
+              65.8384379
+            ],
+            [
+              24.1165084,
+              65.838607
+            ],
+            [
+              24.1164898,
+              65.8386315
+            ],
+            [
+              24.1164602,
+              65.8386707
+            ],
+            [
+              24.1161115,
+              65.8386333
+            ],
+            [
+              24.1162188,
+              65.8384621
+            ],
+            [
+              24.1161782,
+              65.8384571
+            ],
+            [
+              24.1161598,
+              65.8384747
+            ],
+            [
+              24.1160673,
+              65.8384646
+            ],
+            [
+              24.1160797,
+              65.8384445
+            ],
+            [
+              24.1159071,
+              65.8384268
+            ],
+            [
+              24.1158732,
+              65.8384747
+            ],
+            [
+              24.1157574,
+              65.8384643
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1435890383",
+        "name": "OSM-1435890383",
+        "operator": "free_parking",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "5",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1435890383,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "21.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7386955,
+              65.7381375
+            ],
+            [
+              23.738905,
+              65.7381697
+            ],
+            [
+              23.738777,
+              65.7383102
+            ],
+            [
+              23.7385675,
+              65.7382779
+            ],
+            [
+              23.7386955,
+              65.7381375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1435904758",
+        "name": "OSM-1435904758",
+        "operator": "private_property",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "7",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1435904758,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7553913,
+              65.7125175
+            ],
+            [
+              23.7556318,
+              65.7124898
+            ],
+            [
+              23.7555272,
+              65.7123254
+            ],
+            [
+              23.7553172,
+              65.712346
+            ],
+            [
+              23.7553913,
+              65.7125175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1435904759",
+        "name": "OSM-1435904759",
+        "operator": "private_property",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "5",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1435904759,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7554763,
+              65.7126361
+            ],
+            [
+              23.7557052,
+              65.7126097
+            ],
+            [
+              23.7557954,
+              65.712738
+            ],
+            [
+              23.7555764,
+              65.7127665
+            ],
+            [
+              23.7554763,
+              65.7126361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1473659096",
+        "name": "OSM-1473659096",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1473659096,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1124284,
+              65.8524244
+            ],
+            [
+              24.1130309,
+              65.8524505
+            ],
+            [
+              24.1130525,
+              65.8523671
+            ],
+            [
+              24.1127439,
+              65.8523536
+            ],
+            [
+              24.1127769,
+              65.8522263
+            ],
+            [
+              24.1124831,
+              65.8522135
+            ],
+            [
+              24.1124284,
+              65.8524244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haparanda-osm-1473659808",
+        "name": "OSM-1473659808",
+        "operator": "unknown",
+        "municipality": "Haparanda",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1473659808,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.1054831,
+              65.8497858
+            ],
+            [
+              24.1058896,
+              65.849768
+            ],
+            [
+              24.1058384,
+              65.849572
+            ],
+            [
+              24.1054318,
+              65.8495898
+            ],
+            [
+              24.1054831,
+              65.8497858
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "free_parking": {
+    "name": "Gratis parkering",
+    "color": "#a3e635",
+    "type": "public",
+    "web": null,
+    "scraper_class": null
+  },
+  "kommun": {
+    "name": "Kiruna kommun",
+    "color": "#3b82f6",
+    "type": "municipality",
+    "web": "https://www.kiruna.se/leva-bo/trafik-parkering/parkering/",
+    "contact": "0980-701 00",
+    "payment_apps": [
+      "EasyPark",
+      "Parkster"
+    ],
+    "scraper_class": "GenericScraper",
+    "scrape_endpoints": [
+      "https://www.kiruna.se/leva-bo/trafik-parkering/parkering/"
+    ],
+    "scrape_notes": "City undergoing massive relocation (LKAB mining). New city center built. Likely paid parking in new centrum. Tourist destination (Icehotel, LKAB tours, ski resort)."
+  }
+}

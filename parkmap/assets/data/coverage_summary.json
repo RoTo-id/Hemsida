@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-07-23T18:28:11Z",
+  "cities": {
+    "ostersund": {
+      "region": "jamtland",
+      "total": 689,
+      "known": 290,
+      "unverified": 95,
+      "pct": 42.1
+    },
+    "alvsbyn": {
+      "region": "norrbotten",
+      "total": 29,
+      "known": 11,
+      "unverified": 0,
+      "pct": 37.9
+    },
+    "boden": {
+      "region": "norrbotten",
+      "total": 153,
+      "known": 128,
+      "unverified": 0,
+      "pct": 83.7
+    },
+    "gallivare": {
+      "region": "norrbotten",
+      "total": 255,
+      "known": 186,
+      "unverified": 1,
+      "pct": 72.9
+    },
+    "haparanda": {
+      "region": "norrbotten",
+      "total": 56,
+      "known": 21,
+      "unverified": 0,
+      "pct": 37.5
+    },
+    "kalix": {
+      "region": "norrbotten",
+      "total": 350,
+      "known": 203,
+      "unverified": 2,
+      "pct": 58.0
+    },
+    "kiruna": {
+      "region": "norrbotten",
+      "total": 302,
+      "known": 189,
+      "unverified": 0,
+      "pct": 62.6
+    },
+    "lulea": {
+      "region": "norrbotten",
+      "total": 665,
+      "known": 656,
+      "unverified": 28,
+      "pct": 98.6
+    },
+    "pitea": {
+      "region": "norrbotten",
+      "total": 209,
+      "known": 101,
+      "unverified": 17,
+      "pct": 48.3
+    },
+    "lycksele": {
+      "region": "vasterbotten",
+      "total": 53,
+      "known": 18,
+      "unverified": 10,
+      "pct": 34.0
+    },
+    "skelleftea": {
+      "region": "vasterbotten",
+      "total": 406,
+      "known": 339,
+      "unverified": 70,
+      "pct": 83.5
+    },
+    "umea": {
+      "region": "vasterbotten",
+      "total": 1265,
+      "known": 558,
+      "unverified": 133,
+      "pct": 44.1
+    },
+    "harnosand": {
+      "region": "vasternorrland",
+      "total": 240,
+      "known": 145,
+      "unverified": 0,
+      "pct": 60.4
+    },
+    "kramfors": {
+      "region": "vasternorrland",
+      "total": 175,
+      "known": 119,
+      "unverified": 5,
+      "pct": 68.0
+    },
+    "ornskoldsvik": {
+      "region": "vasternorrland",
+      "total": 207,
+      "known": 93,
+      "unverified": 4,
+      "pct": 44.9
+    },
+    "sundsvall": {
+      "region": "vasternorrland",
+      "total": 1376,
+      "known": 447,
+      "unverified": 101,
+      "pct": 32.5
+    }
+  },
+  "totals": {
+    "city_count": 16,
+    "zone_total": 6430,
+    "zone_known": 3504,
+    "zone_unverified": 466,
+    "pct": 54.5
+  }
+}

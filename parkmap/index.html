@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2563EB">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>ParkMap Sverige — Hitta parkering</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/parkmap.css">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- Desktop header -->
+  <div class="header">
+    <a href="/" class="brand">
+      <div class="brand-icon">P</div>
+      <div class="brand-text"><div class="brand-name">ParkMap</div><div class="brand-sub">SVERIGE</div></div>
+    </a>
+    <div class="searchbar">
+      <button class="city-pill" id="city-pill">Luleå ▾</button>
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search-input" placeholder="Sök adress, zon eller område">
+    </div>
+    <button class="btn" id="min-position-btn">◎ Min position</button>
+    <div class="header-actions">
+      <div class="menu-wrap">
+        <button class="btn" id="menu-btn">☰ Meny</button>
+        <div class="menu-dropdown" id="menu-dropdown">
+          <a class="menu-item" id="menu-switch-city">Byt stad</a>
+          <a class="menu-item" href="coverage.html">Datatäckning</a>
+          <a class="menu-item" href="about.html">Hur ParkMap fungerar</a>
+          <a class="menu-item" href="report.html">Rapportera fel</a>
+          <div class="menu-sep"></div>
+          <a class="menu-item" href="about.html">Om ParkMap</a>
+          <a class="menu-item" href="../">Maxine Platform</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-topbar">
+    <div class="mobile-topbar-row">
+      <a href="/" class="mobile-brand">
+        <div class="brand-icon">P</div>
+        <div class="brand-name">ParkMap</div>
+      </a>
+      <button class="mobile-city-pill" id="mobile-city-pill"><span id="mobile-city-name">Luleå</span> ▾</button>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+    </div>
+    <div class="mobile-search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="mobile-search-input" placeholder="Sök adress, zon eller område">
+    </div>
+  </div>
+
+  <div class="body-row">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <div class="city-status-name" id="sb-city-name">Luleå</div>
+        <div class="city-status-line" id="sb-city-line">– av – identifierade parkeringar</div>
+        <div class="city-status-label">Datatäckning</div>
+        <div class="city-status-pct" id="sb-pct">–%</div>
+        <div class="coverage-track"><div class="coverage-fill" id="sb-coverage-fill" style="width:0%"></div></div>
+
+        <div class="quickrow">
+          <button class="quickbtn primary" data-quick="near">↗ Nära mig</button>
+          <button class="quickbtn" data-quick="free">P Gratis parkering</button>
+          <button class="quickbtn" data-quick="cheap">◎ Billigast</button>
+        </div>
+
+        <div id="sb-results-title" class="sidebar-section-title" style="display:none"></div>
+        <div class="results-list" id="sb-results"></div>
+
+        <div class="sidebar-section-title">Filter</div>
+        <div id="sb-filters"></div>
+        <a class="reset-link" id="sb-reset" style="display:none">Återställ filter</a>
+
+        <div class="sidebar-section-title">Operatörer</div>
+        <div id="sb-operators"></div>
+      </div>
+    </div>
+    <button class="sidebar-toggle" id="sidebar-toggle" title="Fäll ihop panel">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#111827" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <!-- Map -->
+    <div class="map-col">
+      <div id="map"></div>
+      <div class="map-legend" id="map-legend"></div>
+      <button class="near-me-fab" id="near-me-fab" title="Nära mig">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+      </button>
+
+      <div class="parking-card" id="parking-card">
+        <button class="pc-close" id="pc-close">&times;</button>
+        <div class="pc-body" id="pc-body"></div>
+      </div>
+
+      <!-- Mobile filter chips -->
+      <div class="mobile-chips">
+        <div class="chip free" id="chip-free">＋ Gratis</div>
+        <div class="chip" id="chip-near">↗ Nära mig</div>
+        <div class="chip" id="chip-filter">☰ Filter</div>
+      </div>
+
+      <!-- Mobile bottom sheet -->
+      <div class="bottom-sheet" id="bottom-sheet"></div>
+
+      <div class="overlay" id="loading">
+        <div class="overlay-spinner"></div>
+        <div class="overlay-text">Laddar parkeringsdata...</div>
+      </div>
+      <div class="overlay" id="error" style="display:none">
+        <div class="overlay-text" id="error-msg">Kunde inte ladda data</div>
+        <button class="retry-btn" onclick="PM.map.loadCity(PM.state.city)">Försök igen</button>
+      </div>
+      <div class="toast" id="toast"></div>
+    </div>
+  </div>
+
+  <!-- Status bar -->
+  <div class="status-bar">
+    <span id="status-coverage">Datatäckning –%</span>
+    <span id="status-updated">Senast uppdaterad –</span>
+    <span id="status-city-count">– städer</span>
+    <a href="report.html">⚠ Rapportera fel</a>
+  </div>
+</div>
+
+<!-- City switcher modal -->
+<div class="city-modal-backdrop" id="city-modal-backdrop">
+  <div class="city-modal">
+    <div class="city-modal-search">
+      <input type="text" id="city-modal-search-input" placeholder="Sök stad">
+    </div>
+    <div class="city-modal-list" id="city-modal-list"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/analytics.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/classify.js"></script>
+<script src="assets/filters.js"></script>
+<script src="components/parking-card.js"></script>
+<script src="components/sidebar.js"></script>
+<script src="components/bottom-sheet.js"></script>
+<script src="assets/map.js"></script>
+<script src="assets/parkmap.js"></script>
+<script>
+document.getElementById('menu-switch-city').addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('menu-dropdown').classList.remove('open');
+  document.getElementById('city-pill').click();
+});
+// Keep status bar + sidebar in sync after each city load
+const _origOnCityLoaded = PM.ui.onCityLoaded;
+PM.ui.onCityLoaded = function() {
+  _origOnCityLoaded();
+  const cov = PM.map.cityCoverage(PM.state.city);
+  document.getElementById('status-coverage').textContent = 'Datatäckning ' + cov.pct + '%';
+  document.getElementById('status-city-count').textContent = Object.keys(PM.CITIES).length + ' städer';
+  const summary = PM.state.coverageSummary;
+  document.getElementById('status-updated').textContent = 'Senast uppdaterad ' +
+    (summary?.generated_at ? summary.generated_at.slice(0, 10) : '–');
+};
+</script>
+</body>
+</html>

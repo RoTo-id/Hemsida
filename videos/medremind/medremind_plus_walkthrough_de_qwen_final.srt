@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:05,300
+MedRemind Plus behält dieselbe einfache Check-in-Idee in einer separaten bezahlten Android-Edition.
+
+2
+00:00:05,650 --> 00:00:10,800
+Plus hat keine Werbung.
+
+3
+00:00:11,150 --> 00:00:16,300
+Plus fügt drei Erinnerungsplätze hinzu: Morgen, Mittag und Abend.
+
+4
+00:00:16,650 --> 00:00:21,800
+Wenn ein Platz erscheint, drückst du den Check-in-Knopf für diese Tageszeit.
+
+5
+00:00:22,150 --> 00:00:27,300
+Nach der Bestätigung zeigt Plus den nächsten Countdown für diesen Platz.
+
+6
+00:00:27,650 --> 00:00:32,800
+Ein ausgewählter Familienkontakt kann nach jedem bestätigten Platz eine optionale E-Mail erhalten.
+
+7
+00:00:33,150 --> 00:00:38,300
+Wenn du keine Familien-E-Mail hinzufügst, wird keine E-Mail gesendet.
+
+8
+00:00:38,650 --> 00:00:43,800
+Plus unterstützt Englisch, Schwedisch, Spanisch, Deutsch, Französisch, Italienisch und Portugiesisch.
+
+9
+00:00:44,150 --> 00:00:49,300
+Plus kostet einmalig 36 SEK. Kein Abo.
+
+10
+00:00:49,650 --> 00:00:54,800
+Eine Erinnerung auf dem Telefon. Ein sichtbarer Timer. Eine optionale Bestätigung für dich.

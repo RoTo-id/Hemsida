@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Om ParkMap Sverige</title>
+<link rel="apple-touch-icon" href="icon-192.png">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/parkmap.css">
+</head>
+<body>
+
+<div class="mkt-header">
+  <a href="/" class="brand"><div class="brand-icon">P</div><div class="brand-text"><div class="brand-name">ParkMap</div><div class="brand-sub">SVERIGE</div></div></a>
+  <div class="mkt-nav">
+    <a href="index.html">Kartan</a>
+    <a href="coverage.html">Datatäckning</a>
+    <a href="report.html">Rapportera fel</a>
+    <a href="index.html" class="btn btn-primary">Öppna kartan</a>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-inner">
+    <h1>Hitta rätt parkering.<br>Utan att leta i fem olika appar.</h1>
+    <p>ParkMap samlar parkeringszoner, priser, regler och operatörer för svenska städer på en enda karta.</p>
+    <div class="hero-actions">
+      <a href="index.html" class="btn btn-primary">Öppna kartan</a>
+      <a href="index.html?nearme=1" class="btn btn-ghost" id="use-position-link">◎ Använd min position</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="hero-stat-val" id="hero-zones">–</div><div class="hero-stat-label">parkeringsområden</div></div>
+      <div><div class="hero-stat-val" id="hero-cities">–</div><div class="hero-stat-label">städer</div></div>
+      <div><div class="hero-stat-val">Kostnadsfritt</div><div class="hero-stat-label">för alla</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="usp-grid">
+  <div class="usp-card">
+    <div class="usp-icon">🔍</div>
+    <div class="usp-title">Sök och jämför</div>
+    <div class="usp-text">Sök på gata, zon eller område och jämför pris och regler mellan operatörer direkt på kartan.</div>
+  </div>
+  <div class="usp-card">
+    <div class="usp-icon">#</div>
+    <div class="usp-title">Se rätt zonkod</div>
+    <div class="usp-text">Zonkoden du behöver för att betala finns alltid tydligt märkt, redo att kopieras.</div>
+  </div>
+  <div class="usp-card">
+    <div class="usp-icon">📊</div>
+    <div class="usp-title">Öppen datatäckning</div>
+    <div class="usp-text">Vi visar rakt upp och ner hur många parkeringar vi faktiskt känner till per stad — ingen gissning.</div>
+  </div>
+  <div class="usp-card">
+    <div class="usp-icon">⚠</div>
+    <div class="usp-title">Rapportera fel</div>
+    <div class="usp-text">Hittar du fel pris, fel zon eller en borttagen parkering? Ett klick räcker för att flagga det.</div>
+  </div>
+</div>
+
+<div class="mkt-section">
+  <h2>Hur ParkMap fungerar</h2>
+  <p>ParkMap bygger sin karta genom att kombinera öppna kartdata (OpenStreetMap) med publik information från parkeringsoperatörer som Aimo Park, APCOA, EasyPark, Parkster och kommunerna själva. Varje parkeringsyta får en färg efter vad den faktiskt betyder för dig som förare — gratis, betald, boendeparkering, laddplats eller okänd — inte efter vilket bolag som råkar äga den.</p>
+  <p>Datan är aldrig komplett på dag ett i en ny stad. Därför visar vi datatäckningen öppet: hur många av de kända parkeringsytorna vi har klassificerat, och hur många som fortfarande är okända. Rapporterar du ett fel eller en ny upptäckt hjälper det oss förbättra kartan för alla.</p>
+  <p>ParkMap är en del av <a href="../">Maxine Platform</a> och är kostnadsfritt att använda. Vissa betalknappar länkar vidare till operatörernas egna appar (EasyPark, Aimo, m.fl.) där du slutför betalningen — ParkMap tar aldrig betalt och lagrar aldrig dina betalningsuppgifter.</p>
+</div>
+
+<div class="mkt-footer">
+  <span>© ParkMap Sverige — en del av Maxine Platform</span>
+  <span><a href="privacy.html">Integritetspolicy</a> · <a href="report.html">Rapportera fel</a></span>
+</div>
+
+<script src="assets/analytics.js"></script>
+<script>
+fetch('assets/data/coverage_summary.json').then(r => r.ok ? r.json() : null).then(d => {
+  if (!d) return;
+  document.getElementById('hero-zones').textContent = d.totals.zone_total.toLocaleString('sv-SE');
+  document.getElementById('hero-cities').textContent = d.totals.city_count;
+}).catch(() => {});
+</script>
+</body>
+</html>

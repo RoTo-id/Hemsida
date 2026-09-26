@@ -1,0 +1,27 @@
+1
+00:00:00,150 --> 00:00:05,800
+Öffne die MedRemind-Einstellungen und wähle, ob du eine Familien-E-Mail verbinden möchtest.
+
+2
+00:00:06,150 --> 00:00:11,800
+Wenn eine E-Mail-Adresse hinzugefügt ist, kann nach dem Drücken eine Bestätigung gesendet werden.
+
+3
+00:00:12,150 --> 00:00:17,800
+Wähle die App-Sprache über das Globus-Symbol.
+
+4
+00:00:18,150 --> 00:00:23,800
+Wenn die tägliche Erinnerung erscheint, drückst du den großen Check-in-Knopf.
+
+5
+00:00:24,150 --> 00:00:29,800
+Nach dem Tippen zeigt MedRemind den nächsten 24-Stunden-Countdown.
+
+6
+00:00:30,150 --> 00:00:35,800
+So kann die E-Mail für deinen ausgewählten Familienkontakt aussehen.
+
+7
+00:00:36,150 --> 00:00:41,800
+Mehr Ruhe mit einem Knopf. Eine Erinnerung auf dem Telefon. Ein sichtbarer Timer. Eine optionale Bestätigung für dich.

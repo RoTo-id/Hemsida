@@ -1,0 +1,2227 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "2.0.0",
+    "generated": "2026-05-04T00:48:53.986509+00:00",
+    "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
+    "region": "Norrbotten",
+    "city": "boden",
+    "scrape_type": "deep",
+    "agent_run_id": "boden-deep-20260504T004727",
+    "zone_count": 70
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-kom-001",
+        "name": "Bodens kommun (Boden)",
+        "operator": "kommun",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "0921-620 00",
+        "source_url": "https://www.boden.se/bo-bygga-och-miljo/gator-och-trafik/parkering",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.695410499999998,
+              65.8270004
+            ],
+            [
+              21.6974105,
+              65.8270004
+            ],
+            [
+              21.6974105,
+              65.82800040000001
+            ],
+            [
+              21.695410499999998,
+              65.82800040000001
+            ],
+            [
+              21.695410499999998,
+              65.8270004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-001",
+        "name": "kvarngatan-4--hellgrensgatan-5",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kvarngatan-4--hellgrensgatan-5/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-002",
+        "name": "kvarngatan-4--hellgrensgatan-5",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kvarngatan-4--hellgrensgatan-5/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-004",
+        "name": "teknikvagen-3-15-14-20",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1191",
+        "spots": null,
+        "price_per_hour": 11,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h – 11 SEK",
+        "restrictions": "1h/d: 11 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/teknikvagen-3-15-14-20/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-005",
+        "name": "teknikvagen-3-15-14-20",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1191",
+        "spots": null,
+        "price_per_hour": 11,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h – 11 SEK",
+        "restrictions": "1h/d: 11 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/teknikvagen-3-15-14-20/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-007",
+        "name": "smedjegatan-6-gard",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/smedjegatan-6-gard/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-008",
+        "name": "smedjegatan-6-gard",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/smedjegatan-6-gard/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-010",
+        "name": "snorres-grand-56--mjolners-grand-5-7",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/snorres-grand-56--mjolners-grand-5-7/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-011",
+        "name": "snorres-grand-56--mjolners-grand-5-7",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/snorres-grand-56--mjolners-grand-5-7/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-013",
+        "name": "viktoriag.-4ringv.-22-24lundagardsg.-9",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/viktoriag.-4ringv.-22-24lundagardsg.-9",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-014",
+        "name": "viktoriag.-4ringv.-22-24lundagardsg.-9",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/viktoriag.-4ringv.-22-24lundagardsg.-9",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-016",
+        "name": "garnisonsgatan-53-57",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-017",
+        "name": "garnisonsgatan-53-57",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-019",
+        "name": "allegatan-38-40",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/allegatan-38-40/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-020",
+        "name": "allegatan-38-40",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/allegatan-38-40/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-022",
+        "name": "kyrkgatan-28--brogatan-5-7",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-023",
+        "name": "kyrkgatan-28--brogatan-5-7",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-025",
+        "name": "saxvagen-11-17",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/saxvagen-11-17/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-026",
+        "name": "saxvagen-11-17",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/saxvagen-11-17/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-028",
+        "name": "garnisonsgatan-15-a-b",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-029",
+        "name": "garnisonsgatan-15-a-b",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-031",
+        "name": "lundagardsgatan-21-23--brogatan-34-36",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-032",
+        "name": "lundagardsgatan-21-23--brogatan-34-36",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-034",
+        "name": "sturegatan-18-c-e",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/sturegatan-18-c-e/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-035",
+        "name": "sturegatan-18-c-e",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/sturegatan-18-c-e/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-037",
+        "name": "drottninggatan-46-54--sergeantsgatan-2",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-46-54--sergeantsgatan-2/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-038",
+        "name": "drottninggatan-46-54--sergeantsgatan-2",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-46-54--sergeantsgatan-2/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-040",
+        "name": "brannagatan-1--herkulesgatan-2",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/brannagatan-1--herkulesgatan-2/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-041",
+        "name": "brannagatan-1--herkulesgatan-2",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/brannagatan-1--herkulesgatan-2/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-043",
+        "name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-044",
+        "name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-046",
+        "name": "garnis",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1049",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: Only when using engine pre-heater For every started calender da",
+        "restrictions": "7h/d: 100 kr, 30h/d: 340 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnis/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-047",
+        "name": "garnis",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1049",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: Only when using engine pre-heater For every started calender da",
+        "restrictions": "7h/d: 100 kr, 30h/d: 340 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnis/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-049",
+        "name": "jakobsgatan-17-39",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/jakobsgatan-17-39/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-050",
+        "name": "jakobsgatan-17-39",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/jakobsgatan-17-39/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-052",
+        "name": "narcissen",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1264",
+        "spots": null,
+        "price_per_hour": 15,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 15 SEK",
+        "restrictions": "1h/d: 15 kr, 24h/d: 60 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/narcissen/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-053",
+        "name": "narcissen",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1264",
+        "spots": null,
+        "price_per_hour": 15,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 15 SEK",
+        "restrictions": "1h/d: 15 kr, 24h/d: 60 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/narcissen/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-055",
+        "name": "fargaregatan-8-10--drottninggatan-6",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-056",
+        "name": "fargaregatan-8-10--drottninggatan-6",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-058",
+        "name": "uggleg.lulev.hermelinsg.stureg.hokg",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/uggleg.lulev.hermelinsg.stureg.hokg",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-059",
+        "name": "uggleg.lulev.hermelinsg.stureg.hokg",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1189",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 65 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/uggleg.lulev.hermelinsg.stureg.hokg",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-061",
+        "name": "p-hus-cedern",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1002",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: For every started 20 min - 7 SEK",
+        "restrictions": "24h/d: 95 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/p-hus-cedern/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-062",
+        "name": "p-hus-cedern",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1002",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: For every started 20 min - 7 SEK",
+        "restrictions": "24h/d: 95 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/p-hus-cedern/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-064",
+        "name": "kyrkgatan-29a",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1423",
+        "spots": null,
+        "price_per_hour": 4,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 4 SEK",
+        "restrictions": "1h/d: 4 kr, 24h/d: 50 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-29a/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-065",
+        "name": "kyrkgatan-29a",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1423",
+        "spots": null,
+        "price_per_hour": 4,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 4 SEK",
+        "restrictions": "1h/d: 4 kr, 24h/d: 50 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-29a/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-067",
+        "name": "ringvagen-27",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-068",
+        "name": "ringvagen-27",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-070",
+        "name": "kyrkgatan-37-41--fargaregatan",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1003",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: For every started 20 min - 6 SEK",
+        "restrictions": null,
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-37-41--fargaregatan/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-071",
+        "name": "kyrkgatan-37-41--fargaregatan",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1003",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: For every started 20 min - 6 SEK",
+        "restrictions": null,
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-37-41--fargaregatan/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-073",
+        "name": "brogatan-47--majorsgatan-3-7",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-074",
+        "name": "brogatan-47--majorsgatan-3-7",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-076",
+        "name": "grepvagen-25-31-35",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/grepvagen-25-31-35/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-077",
+        "name": "grepvagen-25-31-35",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/grepvagen-25-31-35/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-079",
+        "name": "mandelvagen-17-21",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/mandelvagen-17-21/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-080",
+        "name": "mandelvagen-17-21",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/mandelvagen-17-21/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-082",
+        "name": "mandelvagen-3-9-potatisvagen-4-14",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/mandelvagen-3-9-potatisvagen-4-14/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-083",
+        "name": "mandelvagen-3-9-potatisvagen-4-14",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/mandelvagen-3-9-potatisvagen-4-14/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-085",
+        "name": "drottningg.-43-47sveav.-3-9sergeantsg",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottningg.-43-47sveav.-3-9sergeantsg",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-086",
+        "name": "drottningg.-43-47sveav.-3-9sergeantsg",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottningg.-43-47sveav.-3-9sergeantsg",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-088",
+        "name": "allegatan-43-45--stromsegatan-21-23",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/allegatan-43-45--stromsegatan-21-23/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-089",
+        "name": "allegatan-43-45--stromsegatan-21-23",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/allegatan-43-45--stromsegatan-21-23/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-091",
+        "name": "soldatgatan-16",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/soldatgatan-16/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-092",
+        "name": "soldatgatan-16",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/soldatgatan-16/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-094",
+        "name": "egils-grand-1-3--iduns-vag-6--lokes-vag",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/egils-grand-1-3--iduns-vag-6--lokes-vag/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-095",
+        "name": "egils-grand-1-3--iduns-vag-6--lokes-vag",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/egils-grand-1-3--iduns-vag-6--lokes-vag/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-097",
+        "name": "ringv.-5drottningg.-12sadelmakareg.-1",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringv.-5drottningg.-12sadelmakareg.-1",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-098",
+        "name": "ringv.-5drottningg.-12sadelmakareg.-1",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringv.-5drottningg.-12sadelmakareg.-1",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-100",
+        "name": "drottninggatan-29-31kyrkogardsgatan-4-6",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-ap-101",
+        "name": "drottninggatan-29-31kyrkogardsgatan-4-6",
+        "operator": "aimopark",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1074",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "confidence": 0.7,
+        "flags": [
+          "needs_review"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          65.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-bod-001",
+        "name": "Bodenbo (Boden)",
+        "operator": "bodenbo",
+        "municipality": "Bodens",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "0921-578 80",
+        "source_url": "https://www.bodenbo.se",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence"
+        ],
+        "last_verified": "2026-05-04"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.6795409,
+              65.8266634
+            ],
+            [
+              21.6815409,
+              65.8266634
+            ],
+            [
+              21.6815409,
+              65.8276634
+            ],
+            [
+              21.6795409,
+              65.8276634
+            ],
+            [
+              21.6795409,
+              65.8266634
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

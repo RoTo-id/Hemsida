@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datatäckning — ParkMap Sverige</title>
+<link rel="apple-touch-icon" href="icon-192.png">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/parkmap.css">
+</head>
+<body>
+
+<div class="mkt-header">
+  <a href="/" class="brand"><div class="brand-icon">P</div><div class="brand-text"><div class="brand-name">ParkMap</div><div class="brand-sub">SVERIGE</div></div></a>
+  <div class="mkt-nav">
+    <a href="index.html">Kartan</a>
+    <a href="about.html">Om ParkMap</a>
+    <a href="report.html">Rapportera fel</a>
+    <a href="index.html" class="btn btn-primary">Öppna kartan</a>
+  </div>
+</div>
+
+<div class="mkt-section">
+  <h2>Datatäckning per kommun</h2>
+  <p>Siffrorna nedan räknas alltid direkt från de faktiska parkeringsdatasetten (GeoJSON) — aldrig hårdkodade. Täckning = andel parkeringar där vi känner till operatör (inte "okänd"). Datan växer vecka för vecka i takt med att fler zoner klassificeras.</p>
+  <p style="font-size:12.5px;color:var(--muted)">"Overifierade" = Parkster-marker-estimat (ungefärlig position, ej granskad) — ingår inte i Totalt/Kända, visas inte på kartan som standard.</p>
+  <p id="cov-updated" style="font-size:12.5px;color:var(--muted)"></p>
+  <div style="overflow-x:auto">
+    <table class="coverage-table">
+      <thead><tr><th>Stad</th><th>Region</th><th>Täckning</th><th>Kända</th><th>Totalt</th><th>Overifierade</th></tr></thead>
+      <tbody id="cov-body"><tr><td colspan="6">Laddar…</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="mkt-footer">
+  <span>© ParkMap Sverige — en del av Maxine Platform</span>
+  <span><a href="privacy.html">Integritetspolicy</a> · <a href="report.html">Rapportera fel</a></span>
+</div>
+
+<script src="assets/analytics.js"></script>
+<script>
+const REGION_LABEL = { norrbotten: 'Norrbotten', vasterbotten: 'Västerbotten', vasternorrland: 'Västernorrland', jamtland: 'Jämtland' };
+const CITY_NAME = {
+  lulea:'Luleå',boden:'Boden',pitea:'Piteå',skelleftea:'Skellefteå',kalix:'Kalix',haparanda:'Haparanda',
+  alvsbyn:'Älvsbyn',kiruna:'Kiruna',gallivare:'Gällivare',umea:'Umeå',sundsvall:'Sundsvall',ostersund:'Östersund',
+  harnosand:'Härnösand',ornskoldsvik:'Örnsköldsvik',kramfors:'Kramfors',lycksele:'Lycksele',
+};
+function covColor(pct){ return pct>=90?'#16A34A':pct>=70?'#65A30D':pct>=50?'#F59E0B':'#DC2626'; }
+
+fetch('assets/data/coverage_summary.json').then(r => r.json()).then(d => {
+  document.getElementById('cov-updated').textContent = 'Data genererad: ' + d.generated_at + ' · ' + d.totals.zone_total.toLocaleString('sv-SE') + ' parkeringsområden totalt i ' + d.totals.city_count + ' städer';
+  const rows = Object.entries(d.cities).sort((a,b) => b[1].pct - a[1].pct);
+  document.getElementById('cov-body').innerHTML = rows.map(([key, c]) => {
+    const color = covColor(c.pct);
+    return `<tr>
+      <td>${CITY_NAME[key] || key}</td>
+      <td style="color:var(--muted)">${REGION_LABEL[c.region] || c.region}</td>
+      <td><div style="display:flex;align-items:center;gap:8px"><div class="bar-bg"><div class="bar-fill" style="width:${c.pct}%;background:${color}"></div></div><span class="mono" style="color:${color};font-weight:700">${c.pct}%</span></div></td>
+      <td>${c.known}</td>
+      <td>${c.total}</td>
+      <td style="color:var(--muted)">${c.unverified || 0}</td>
+    </tr>`;
+  }).join('');
+}).catch(() => { document.getElementById('cov-body').innerHTML = '<tr><td colspan="6">Kunde inte ladda täckningsdata.</td></tr>'; });
+</script>
+</body>
+</html>

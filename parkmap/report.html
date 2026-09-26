@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rapportera fel — ParkMap Sverige</title>
+<link rel="apple-touch-icon" href="icon-192.png">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/parkmap.css">
+</head>
+<body>
+
+<div class="mkt-header">
+  <a href="/" class="brand"><div class="brand-icon">P</div><div class="brand-text"><div class="brand-name">ParkMap</div><div class="brand-sub">SVERIGE</div></div></a>
+  <div class="mkt-nav">
+    <a href="index.html">Kartan</a>
+    <a href="about.html">Om ParkMap</a>
+    <a href="coverage.html">Datatäckning</a>
+    <a href="index.html" class="btn btn-primary">Öppna kartan</a>
+  </div>
+</div>
+
+<div class="mkt-section">
+  <h2>Rapportera fel</h2>
+  <p>Hittade du fel pris, fel öppettider, en borttagen parkering eller en felaktig zonkod? Berätta det för oss — ingen inloggning krävs. Det finns ingen backend ännu, så formuläret öppnar din e-postklient med allt förifyllt; du kan även rapportera direkt via GitHub.</p>
+
+  <div class="report-form">
+    <label for="rf-zone">Parkering / zon (namn eller zonkod)</label>
+    <input type="text" id="rf-zone" placeholder="t.ex. Storgatan 14 eller zon 11245">
+
+    <label for="rf-city">Stad</label>
+    <select id="rf-city">
+      <option value="">Välj stad (valfritt)</option>
+      <option>Luleå</option><option>Boden</option><option>Piteå</option><option>Skellefteå</option>
+      <option>Kalix</option><option>Haparanda</option><option>Älvsbyn</option><option>Kiruna</option>
+      <option>Gällivare</option><option>Umeå</option><option>Sundsvall</option><option>Östersund</option>
+      <option>Härnösand</option><option>Örnsköldsvik</option><option>Kramfors</option><option>Lycksele</option>
+    </select>
+
+    <label for="rf-type">Vad är fel?</label>
+    <select id="rf-type">
+      <option>Fel pris</option>
+      <option>Fel öppettider</option>
+      <option>Fel zonkod</option>
+      <option>Fel operatör</option>
+      <option>Parkeringen finns inte längre</option>
+      <option>Saknad parkering (finns inte på kartan)</option>
+      <option>Annat</option>
+    </select>
+
+    <label for="rf-desc">Beskrivning</label>
+    <textarea id="rf-desc" placeholder="Beskriv vad som är fel och gärna vad det rätta värdet är"></textarea>
+
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
+      <button class="btn btn-primary" id="rf-mail-btn">✉ Skicka via e-post</button>
+      <a class="btn" id="rf-github-btn" href="https://github.com/RoTo-id/Parkmap/issues/new" target="_blank" rel="noopener">Rapportera på GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="mkt-footer">
+  <span>© ParkMap Sverige — en del av Maxine Platform</span>
+  <span><a href="privacy.html">Integritetspolicy</a></span>
+</div>
+
+<script src="assets/analytics.js"></script>
+<script>
+function buildReport() {
+  const zone = document.getElementById('rf-zone').value.trim();
+  const city = document.getElementById('rf-city').value;
+  const type = document.getElementById('rf-type').value;
+  const desc = document.getElementById('rf-desc').value.trim();
+  const subject = `ParkMap felrapport: ${type}${zone ? ' — ' + zone : ''}`;
+  const body = `Stad: ${city || '(ej angiven)'}\nParkering/zon: ${zone || '(ej angiven)'}\nTyp av fel: ${type}\n\nBeskrivning:\n${desc}`;
+  return { subject, body };
+}
+document.getElementById('rf-mail-btn').addEventListener('click', () => {
+  const { subject, body } = buildReport();
+  window.open(`mailto:noreply@maxineplatform.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+  PM.trackEvent?.('report/mail', 'Felrapport via e-post');
+});
+document.getElementById('rf-github-btn').addEventListener('click', () => PM.trackEvent?.('report/github', 'Felrapport via GitHub'));
+</script>
+</body>
+</html>

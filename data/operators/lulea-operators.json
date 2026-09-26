@@ -1,0 +1,159 @@
+{
+  "kommun": {
+    "name": "Luleå kommun",
+    "color": "#3b82f6",
+    "type": "municipality",
+    "web": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+    "contact": "0920-45 30 00",
+    "contact_parking": "0920-45 39 76",
+    "enforcement": "Aimo Park (på uppdrag av kommunen)",
+    "payment_apps": [
+      "e-park",
+      "EasyPark",
+      "Parkster",
+      "Mobill"
+    ],
+    "scraper_class": "LuleaKommunScraper",
+    "scrape_endpoints": [
+      "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html"
+    ],
+    "scrape_notes": "Main page has zone info in text. Three price zones: Zon A (18 SEK), Zon B (12 SEK), Zon C (10 SEK). PDF parkeringsplan exists with detailed data. kartor.lulea.se may have GIS layers.",
+    "zone_mapping": {
+      "zon_a": {
+        "price": 18,
+        "label": "Zon A — 18 kr",
+        "description": "Mest centrala, max 2h vid Storgatan/Hermelinsgatan"
+      },
+      "zon_b": {
+        "price": 12,
+        "label": "Zon B — 12 kr",
+        "description": "Trekanten, Norra Hamn, Luleå Energi Arena"
+      },
+      "zon_c": {
+        "price": 10,
+        "label": "Zon C — 10 kr",
+        "description": "Yttre centrum"
+      }
+    }
+  },
+  "aimopark": {
+    "name": "Aimo Park",
+    "color": "#f97316",
+    "type": "private",
+    "web": "https://www.aimopark.se/en/cities/lulea/",
+    "contact": "010-498 54 00",
+    "enforcement": "Egen + uppdrag åt kommun/Lulebo",
+    "payment_apps": [
+      "Aimo"
+    ],
+    "scraper_class": "AimoParkScraper",
+    "scrape_endpoints": [
+      "https://www.aimopark.se/en/cities/lulea/",
+      "https://www.aimopark.se/en/cities/lulea/p-hus-smedjan/",
+      "https://www.aimopark.se/en/cities/lulea/kronan/",
+      "https://www.aimopark.se/en/cities/lulea/lulebo-norr/",
+      "https://www.aimopark.se/en/cities/lulea/laboratorievagen-21-33/",
+      "https://www.aimopark.se/en/cities/lulea/vanortsvagen-2-1382/"
+    ],
+    "scrape_notes": "City landing page lists all facilities. Each facility has its own page with zone code, prices, hours. Data is structured and scrapable. Watch for zone codes like 1130 (Smedjan), 1119/1245 (Kronan), 1203 (STUSAB), 1246 (Lulebo)."
+  },
+  "lulebo": {
+    "name": "Lulebo",
+    "color": "#a855f7",
+    "type": "municipal_company",
+    "web": "https://www.lulebo.se/artikel/besoksparkeringar",
+    "contact": "0920-23 67 00",
+    "enforcement": "Aimo Park (bevakning)",
+    "payment_apps": [
+      "Aimo",
+      "e-park",
+      "EasyPark",
+      "Parkster"
+    ],
+    "scraper_class": "LuleboScraper",
+    "scrape_endpoints": [
+      "https://www.lulebo.se/artikel/besoksparkeringar",
+      "https://www.lulebo.se/ledigt/parkeringsplats"
+    ],
+    "scrape_notes": "Besöksparkeringar page has all info in prose text. Uniform pricing: 6 kr/h, 35 kr/day across all areas. Areas: Porsön, Hertsön, Björkskatan, Bergnäset. Stadsdelscentra have 2h free with P-skiva. NOTE: Aimo Park manages payment under Lulebo zone codes.",
+    "known_areas": [
+      "Porsön",
+      "Hertsön",
+      "Björkskatan",
+      "Bergnäset",
+      "Lulebo Norr (Väderleden)"
+    ]
+  },
+  "apcoa": {
+    "name": "APCOA",
+    "color": "#ef4444",
+    "type": "private",
+    "web": "https://www.apcoa.se/parkering-i/luleaa/luleaa-centralstation/",
+    "contact": "apcoa.se",
+    "enforcement": "Egen",
+    "payment_apps": [
+      "APCOA Flow"
+    ],
+    "scraper_class": "APCOAScraper",
+    "scrape_endpoints": [
+      "https://www.apcoa.se/parkering-i/luleaa/luleaa-centralstation/"
+    ],
+    "scrape_notes": "Only one known facility in Luleå: Centralstation. Minimal data on page. Korttid + kontraktsuthyrning."
+  },
+  "swedavia": {
+    "name": "Swedavia (Flygplats)",
+    "color": "#06b6d4",
+    "type": "state_company",
+    "web": "https://www.swedavia.com/lulea/parking/",
+    "contact": "010-109 68 00",
+    "contact_email": "parkering@swedavia.se",
+    "enforcement": "Egen",
+    "payment_apps": [
+      "Swedavia online"
+    ],
+    "scraper_class": "SwedaviaScraper",
+    "scrape_endpoints": [
+      "https://www.swedavia.com/lulea/parking/",
+      "https://www.swedavia.com/lulea/parking/parking-prices/"
+    ],
+    "scrape_notes": "Dynamic pricing. Booking online. Probably just show 'Boka online' as price. Scrape for available parking types and general info."
+  },
+  "private_property": {
+    "name": "Privatparkering (fastighet)",
+    "color": "#78716c",
+    "type": "private",
+    "web": null,
+    "contact": null,
+    "enforcement": null,
+    "payment_apps": [],
+    "scraper_class": null,
+    "scrape_notes": "Reclassified from OSM access=private or access=customers tags."
+  },
+  "free_parking": {
+    "name": "Gratis parkering",
+    "color": "#a3e635",
+    "type": "public",
+    "web": null,
+    "contact": null,
+    "enforcement": null,
+    "payment_apps": [],
+    "scraper_class": null,
+    "scrape_notes": "Reclassified from OSM fee=no or access=permissive tags."
+  },
+  "galaren": {
+    "name": "Galären",
+    "color": "#eab308",
+    "type": "private",
+    "web": "https://galaren.se/parkering/",
+    "contact": "galaren.se",
+    "enforcement": "Aimo Park",
+    "payment_apps": [
+      "Aimo"
+    ],
+    "scraper_class": "GenericScraper",
+    "scrape_endpoints": [
+      "https://galaren.se/parkering/"
+    ],
+    "scrape_notes": "Private property owner. Mainly rental/contract parking: garage, flex, MC. Not public visitor parking. Include for completeness but flag as needs_review."
+  }
+}

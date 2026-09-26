@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ParkMap Control</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-dark: #0c0e14;
+  --bg-panel: #14161e;
+  --bg-card: #1a1d28;
+  --border: #252838;
+  --text-primary: #e4e6ee;
+  --text-secondary: #9196ab;
+  --text-muted: #565b72;
+  --accent-blue: #4a9eff;
+  --accent-green: #34d399;
+  --accent-orange: #f97316;
+  --accent-red: #f87171;
+  --accent-purple: #a855f7;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  overflow: hidden;
+  height: 100vh;
+}
+.mono { font-family: 'Space Mono', monospace; }
+
+/* HEADER */
+header {
+  height: 56px;
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+  z-index: 100;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent-blue);
+  white-space: nowrap;
+  display: flex; align-items: center; gap: 8px;
+}
+.logo span { color: var(--text-muted); font-weight: 400; font-size: 13px; }
+header select, header button {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+header select:hover, header button:hover { border-color: var(--accent-blue); }
+.vision-toggle {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 13px; color: var(--text-secondary);
+}
+.vision-toggle label { cursor: pointer; display: flex; align-items: center; gap: 4px; }
+.vision-toggle input[type=radio] { accent-color: var(--accent-blue); }
+.header-spacer { flex: 1; }
+.status-dot {
+  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+}
+.status-dot.green { background: var(--accent-green); }
+.status-dot.yellow { background: var(--accent-orange); }
+.status-dot.red { background: var(--accent-red); }
+.status-dot.blue { background: var(--accent-blue); }
+.status-indicator {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; color: var(--text-secondary);
+}
+#refreshBtn { position: relative; }
+#refreshCountdown {
+  font-size: 11px; color: var(--text-muted);
+  margin-left: 6px;
+}
+
+/* MAIN LAYOUT */
+.main {
+  display: flex;
+  height: calc(100vh - 56px - 36px);
+}
+
+/* LEFT PANEL */
+.left-panel {
+  width: 320px;
+  min-width: 280px;
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 12px;
+}
+.section-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin: 16px 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-title:first-child { margin-top: 4px; }
+.section-title .count {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+.city-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.15s;
+}
+.city-item:hover { background: var(--bg-card); }
+.city-item.active { background: var(--bg-card); border: 1px solid var(--border); }
+.city-item .name { flex: 1; }
+.city-item .zones { color: var(--text-muted); font-size: 12px; font-family: 'Space Mono', monospace; }
+.city-item .status-label {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.status-label.live { background: rgba(52,211,153,0.15); color: var(--accent-green); }
+.status-label.researched { background: rgba(74,158,255,0.15); color: var(--accent-blue); }
+
+.op-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px; font-size: 13px; border-radius: 4px;
+  cursor: pointer; transition: background 0.15s;
+}
+.op-item:hover { background: var(--bg-card); }
+.op-item .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.op-item .name { flex: 1; }
+.op-item .count { color: var(--text-muted); font-size: 12px; font-family: 'Space Mono', monospace; }
+.op-item .pct { color: var(--text-muted); font-size: 11px; width: 36px; text-align: right; }
+
+.issue-item {
+  padding: 6px 8px; font-size: 12px; border-radius: 4px;
+  border-left: 3px solid var(--accent-orange);
+  background: rgba(249,115,22,0.06);
+  margin-bottom: 6px; cursor: pointer;
+  transition: background 0.15s;
+}
+.issue-item:hover { background: rgba(249,115,22,0.12); }
+.issue-item .zone-name { font-weight: 500; margin-bottom: 2px; }
+.issue-item .flags { color: var(--text-muted); font-size: 11px; }
+
+.milestone-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 4px 8px; font-size: 12px;
+}
+.milestone-item .icon { font-size: 14px; }
+.milestone-item .desc { flex: 1; }
+.milestone-item .date { color: var(--text-muted); font-size: 11px; }
+
+/* CENTER PANEL */
+.center-panel {
+  flex: 1;
+  min-width: 400px;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.stat-card .value {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  line-height: 1;
+}
+.stat-card .label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.panel-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.panel-section-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.panel-section-title .meta { font-weight: 400; color: var(--text-muted); text-transform: none; }
+
+.agent-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 4px 0; font-size: 13px;
+}
+.agent-row .name { width: 140px; font-weight: 500; }
+.agent-bar {
+  flex: 1; height: 6px; background: var(--bg-panel);
+  border-radius: 3px; overflow: hidden;
+}
+.agent-bar .fill {
+  height: 100%; border-radius: 3px;
+  transition: width 0.3s;
+}
+.agent-bar .fill.ok { background: var(--accent-green); }
+.agent-bar .fill.warn { background: var(--accent-orange); }
+.agent-bar .fill.fail { background: var(--accent-red); }
+.agent-row .info { color: var(--text-muted); font-size: 12px; width: 120px; text-align: right; }
+.agent-row .dur { color: var(--text-muted); font-size: 11px; width: 50px; text-align: right; font-family: 'Space Mono', monospace; }
+
+.phone-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 5px 0; font-size: 13px;
+}
+.phone-row .app { width: 110px; font-weight: 500; }
+.phone-row .zones { font-family: 'Space Mono', monospace; width: 80px; }
+.phone-row .dur { color: var(--text-muted); font-size: 12px; width: 60px; text-align: right; }
+.phone-row .status { font-size: 12px; }
+.phone-row .status.ok { color: var(--accent-green); }
+.phone-row .status.warn { color: var(--accent-orange); }
+
+#growthChart { max-height: 180px; }
+
+.run-item {
+  display: flex; gap: 10px; padding: 5px 0;
+  font-size: 13px; border-bottom: 1px solid var(--border);
+}
+.run-item:last-child { border-bottom: none; }
+.run-item .city { font-weight: 500; width: 70px; }
+.run-item .mode { color: var(--text-muted); width: 50px; }
+.run-item .zones { font-family: 'Space Mono', monospace; width: 80px; }
+.run-item .ops { color: var(--text-muted); width: 60px; }
+.run-item .time { color: var(--text-muted); flex: 1; text-align: right; font-size: 12px; }
+.run-item .st { width: 30px; text-align: right; }
+.run-item .st.ok { color: var(--accent-green); }
+.run-item .st.fail { color: var(--accent-red); }
+
+/* RIGHT PANEL (MAP) */
+.right-panel {
+  flex: 1;
+  min-width: 450px;
+  position: relative;
+}
+#map { width: 100%; height: 100%; }
+.leaflet-popup-content-wrapper {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5) !important;
+}
+.leaflet-popup-tip { background: var(--bg-card) !important; }
+.popup-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+.popup-operator { color: var(--accent-blue); font-size: 12px; margin-bottom: 8px; }
+.popup-row { display: flex; justify-content: space-between; font-size: 12px; padding: 2px 0; }
+.popup-row .lbl { color: var(--text-muted); }
+.popup-flags { margin-top: 6px; }
+.popup-flag {
+  display: inline-block; font-size: 11px; padding: 2px 6px;
+  border-radius: 3px; margin: 2px 2px 0 0;
+  background: rgba(248,113,113,0.15); color: var(--accent-red);
+}
+
+/* FOOTER */
+footer {
+  height: 36px;
+  background: var(--bg-panel);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+footer button {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: inherit;
+}
+footer button:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+.footer-spacer { flex: 1; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Phone scan flags */
+.popup-flag.scan {
+  background: rgba(74,158,255,0.15); color: var(--accent-blue);
+}
+.scan-tooltip {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--accent-blue) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 11px !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+}
+.scan-tooltip::before { border-top-color: var(--accent-blue) !important; }
+
+/* Empty states */
+.empty { color: var(--text-muted); font-size: 12px; font-style: italic; padding: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">P ParkMap Control</div>
+  <select id="citySelect"><option value="">Loading...</option></select>
+  <div class="vision-toggle">
+    Vision:
+    <label><input type="radio" name="vision" value="ollama" checked> LLaVA</label>
+    <label><input type="radio" name="vision" value="gemini"> Gemini</label>
+  </div>
+  <div class="header-spacer"></div>
+  <button id="refreshBtn" onclick="refreshAll(true)">Refresh<span id="refreshCountdown"></span></button>
+  <div class="status-indicator">
+    <span class="status-dot green" id="statusDot"></span>
+    <span id="statusText">Loading...</span>
+  </div>
+</header>
+
+<div class="main">
+  <!-- LEFT -->
+  <div class="left-panel">
+    <div class="section-title">Cities <span class="count" id="cityCount"></span></div>
+    <div id="cityList"></div>
+
+    <div class="section-title">Operators <span class="count" id="opCount"></span></div>
+    <div id="operatorList"></div>
+
+    <div class="section-title">Phone Apps <span class="count" id="appCount"></span></div>
+    <div id="appList"></div>
+
+    <div class="section-title">Issues <span class="count" id="issueCount"></span></div>
+    <div id="issueList"></div>
+
+    <div class="section-title">Milestones <span class="count" id="msCount"></span></div>
+    <div id="milestoneList"></div>
+  </div>
+
+  <!-- CENTER -->
+  <div class="center-panel">
+    <div class="stats-row">
+      <div class="stat-card"><div class="value" id="statZones">--</div><div class="label">zones total</div></div>
+      <div class="stat-card"><div class="value" id="statOps">--</div><div class="label">operators found</div></div>
+      <div class="stat-card"><div class="value" id="statMapped">--</div><div class="label">mapped w/owner</div></div>
+      <div class="stat-card"><div class="value" id="statConfidence">--</div><div class="label">avg confidence</div></div>
+      <div class="stat-card"><div class="value" id="statScanned">--</div><div class="label">phone scanned</div></div>
+    </div>
+
+    <div class="panel-section">
+      <div class="panel-section-title">Agent Pipeline <span class="meta" id="pipelineMeta"></span></div>
+      <div id="agentList"></div>
+    </div>
+
+    <div class="panel-section">
+      <div class="panel-section-title">Phone Robot <span class="meta" id="phoneMeta"></span></div>
+      <div id="phoneList"></div>
+    </div>
+
+    <div class="panel-section">
+      <div class="panel-section-title">Data Growth</div>
+      <canvas id="growthChart"></canvas>
+    </div>
+
+    <div class="panel-section">
+      <div class="panel-section-title">Recent Runs</div>
+      <div id="runList"></div>
+    </div>
+  </div>
+
+  <!-- RIGHT (MAP) -->
+  <div class="right-panel">
+    <div id="map"></div>
+  </div>
+</div>
+
+<footer>
+  <span id="footerRefresh">Auto-refresh: 30s</span>
+  <span id="footerDoc"></span>
+  <div class="footer-spacer"></div>
+  <button onclick="takeSnapshot()">Take Snapshot</button>
+  <button onclick="generateReport('weekly')">Weekly Report</button>
+  <button onclick="generateReport('monthly')">Monthly Report</button>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const API = '';
+let selectedCity = null;
+let cities = [];
+let map, geoLayer;
+let refreshInterval = 30;
+let countdown = refreshInterval;
+let countdownTimer;
+let growthChart = null;
+
+const OP_COLORS = {
+  aimopark: '#4a9eff',
+  kommun: '#34d399',
+  lulebo: '#a855f7',
+  apcoa: '#f97316',
+  swedavia: '#f87171',
+  galaren: '#fbbf24',
+  easypark: '#06b6d4',
+  epark: '#10b981',
+  parkster: '#ec4899',
+  unknown: '#565b72',
+};
+
+function opColor(key) {
+  if (!key) return OP_COLORS.unknown;
+  const k = key.toLowerCase().replace(/[^a-z]/g, '');
+  for (const [name, color] of Object.entries(OP_COLORS)) {
+    if (k.includes(name)) return color;
+  }
+  return OP_COLORS.unknown;
+}
+
+// ---- MAP ----
+function initMap() {
+  map = L.map('map', { zoomControl: true }).setView([65.584, 22.155], 13);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OSM &copy; CARTO',
+    subdomains: 'abcd', maxZoom: 19,
+  }).addTo(map);
+  geoLayer = L.geoJSON(null).addTo(map);
+}
+
+function loadMapData(geojson, preserveView = false) {
+  // Save current view before clearing
+  let savedCenter = null, savedZoom = null;
+  if (preserveView && map) {
+    savedCenter = map.getCenter();
+    savedZoom = map.getZoom();
+  }
+
+  // Remove old layer from map entirely (not just clearLayers)
+  if (geoLayer) {
+    map.removeLayer(geoLayer);
+  }
+  if (!geojson || !geojson.features || geojson.features.length === 0) {
+    geoLayer = L.geoJSON(null).addTo(map);
+    return;
+  }
+
+  geoLayer = L.geoJSON(geojson, {
+    style: feature => {
+      const props = feature.properties || {};
+      const op = props.operator || 'unknown';
+      const color = opColor(op);
+      const hasFlags = (props.flags || []).length > 0;
+      return {
+        fillColor: color,
+        fillOpacity: (props.confidence || 0) > 0.7 ? 0.35 : 0.15,
+        color: hasFlags ? '#f87171' : color,
+        weight: hasFlags ? 2.5 : 1.5,
+        dashArray: hasFlags ? '5,8' : null,
+      };
+    },
+    pointToLayer: (feature, latlng) => {
+      const props = feature.properties || {};
+      const color = opColor(props.operator || 'unknown');
+      const isPhoneScan = (props.flags || []).some(f => f.includes('phone_scan'));
+      const apps = props.payment_apps || [];
+      const r = isPhoneScan ? 9 : 7;
+      const w = isPhoneScan ? 2.5 : 1;
+      const marker = L.circleMarker(latlng, {
+        radius: r, fillColor: color, fillOpacity: isPhoneScan ? 0.8 : 0.6,
+        color: isPhoneScan ? '#e4e6ee' : color, weight: w,
+      });
+      if (isPhoneScan && apps.length) {
+        marker.bindTooltip(apps.join(' + '), { permanent: false, direction: 'top', className: 'scan-tooltip' });
+      }
+      return marker;
+    },
+    onEachFeature: (feature, layer) => {
+      layer.on('click', () => showPopup(feature, layer));
+    },
+  });
+
+  // Add layer and manage view
+  if (savedCenter && preserveView) {
+    // Disable any auto-fit, add layer, then force restore
+    geoLayer.addTo(map);
+    map.setView(savedCenter, savedZoom, { animate: false });
+  } else {
+    geoLayer.addTo(map);
+    try { map.fitBounds(geoLayer.getBounds().pad(0.1)); } catch(e) {}
+  }
+}
+
+function showPopup(feature, layer) {
+  const p = feature.properties || {};
+  const flags = p.flags || [];
+  const apps = p.payment_apps || [];
+  let html = `<div class="popup-title">${flags.length ? '&#9888; ' : ''}${p.name || p.id || 'Unknown'}</div>`;
+  html += `<div class="popup-operator">${p.operator || 'Unknown operator'}</div>`;
+  if (p.zone_code) html += `<div class="popup-row"><span class="lbl">Zone</span><span>${p.zone_code}</span></div>`;
+  if (p.price_per_hour) html += `<div class="popup-row"><span class="lbl">Price</span><span>${p.price_per_hour} SEK/h</span></div>`;
+  if (p.hours) html += `<div class="popup-row"><span class="lbl">Hours</span><span>${p.hours}</span></div>`;
+  if (p.spots) html += `<div class="popup-row"><span class="lbl">Spots</span><span>${p.spots}</span></div>`;
+  if (apps.length) html += `<div class="popup-row"><span class="lbl">Pay via</span><span>${apps.join(', ')}</span></div>`;
+  if (p.parkster_name && p.parkster_name !== p.name) html += `<div class="popup-row"><span class="lbl">Parkster</span><span>${p.parkster_name}</span></div>`;
+  if (p.epark_name && p.epark_name !== p.name) html += `<div class="popup-row"><span class="lbl">e-park</span><span>${p.epark_name}</span></div>`;
+  if (p.parkster_address) html += `<div class="popup-row"><span class="lbl">Address</span><span>${p.parkster_address}</span></div>`;
+  if (p.confidence != null) html += `<div class="popup-row"><span class="lbl">Confidence</span><span>${Math.round(p.confidence * 100)}%</span></div>`;
+  if (p.source) html += `<div class="popup-row"><span class="lbl">Source</span><span>${p.source}</span></div>`;
+  if (flags.length) {
+    html += `<div class="popup-flags">`;
+    flags.forEach(f => {
+      const cls = f.includes('phone_scan') ? 'popup-flag scan' : 'popup-flag';
+      html += `<span class="${cls}">${f}</span>`;
+    });
+    html += `</div>`;
+  }
+  layer.bindPopup(html, { maxWidth: 300 }).openPopup();
+}
+
+function zoomToZone(lat, lng) {
+  if (map && lat && lng) map.setView([lat, lng], 17);
+}
+
+// ---- DATA FETCHING ----
+async function fetchJSON(url) {
+  try {
+    const r = await fetch(API + url);
+    return await r.json();
+  } catch(e) {
+    console.error('Fetch failed:', url, e);
+    return null;
+  }
+}
+
+async function loadCities() {
+  const data = await fetchJSON('/api/cities');
+  if (!data) return;
+  cities = data.cities || [];
+
+  const sel = document.getElementById('citySelect');
+  sel.innerHTML = '';
+  if (cities.length === 0) {
+    sel.innerHTML = '<option value="">No cities</option>';
+    return;
+  }
+  cities.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c.key;
+    opt.textContent = `${c.name} (${c.zones} zones)`;
+    sel.appendChild(opt);
+  });
+
+  document.getElementById('cityCount').textContent = cities.length;
+
+  // Render city list
+  const list = document.getElementById('cityList');
+  list.innerHTML = '';
+  cities.forEach(c => {
+    const div = document.createElement('div');
+    div.className = 'city-item' + (c.key === selectedCity ? ' active' : '');
+    div.innerHTML = `
+      <span class="status-dot ${c.status === 'live' ? 'green' : 'blue'}"></span>
+      <span class="name">${c.name}</span>
+      <span class="zones">${c.zones || '--'}</span>
+      <span class="status-label ${c.status}">${c.status}</span>
+    `;
+    div.onclick = () => selectCity(c.key, false);
+    list.appendChild(div);
+  });
+
+  if (!selectedCity && cities.length > 0) {
+    // Pick first live city, or first city
+    const live = cities.find(c => c.status === 'live');
+    selectCity(live ? live.key : cities[0].key);
+  }
+}
+
+async function selectCity(key, preserveView = false) {
+  selectedCity = key;
+  document.getElementById('citySelect').value = key;
+
+  // Highlight in list
+  document.querySelectorAll('.city-item').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.city-item').forEach(el => {
+    if (el.querySelector('.name')?.textContent === cities.find(c=>c.key===key)?.name) el.classList.add('active');
+  });
+
+  const data = await fetchJSON(`/api/city/${key}`);
+  if (!data) return;
+
+  // Map — preserve view on refresh, fit bounds on city change
+  if (data.geojson) loadMapData(data.geojson, preserveView);
+
+  // Stats
+  const features = data.geojson?.features || [];
+  const ops = {};
+  let totalConf = 0, confCount = 0, mapped = 0, scanned = 0;
+  const appSet = new Set();
+  features.forEach(f => {
+    const p = f.properties || {};
+    const op = p.operator || 'unknown';
+    ops[op] = (ops[op] || 0) + 1;
+    if (p.confidence != null) { totalConf += p.confidence; confCount++; }
+    if (op !== 'unknown') mapped++;
+    const flags = p.flags || [];
+    if (flags.some(fl => fl.includes('phone_scan'))) scanned++;
+    (p.payment_apps || []).forEach(a => appSet.add(a));
+  });
+
+  document.getElementById('statZones').textContent = features.length;
+  document.getElementById('statOps').textContent = Object.keys(ops).filter(k=>k!=='unknown').length;
+  document.getElementById('statMapped').textContent = mapped;
+  document.getElementById('statConfidence').textContent = confCount ? Math.round(totalConf/confCount*100)+'%' : '--';
+  document.getElementById('statScanned').textContent = scanned || '--';
+
+  // Operators
+  const opList = document.getElementById('operatorList');
+  opList.innerHTML = '';
+  document.getElementById('opCount').textContent = Object.keys(ops).length + ' total';
+  const sortedOps = Object.entries(ops).sort((a,b) => b[1]-a[1]);
+  sortedOps.forEach(([op, count]) => {
+    const pct = features.length ? Math.round(count/features.length*100) : 0;
+    const div = document.createElement('div');
+    div.className = 'op-item';
+    div.innerHTML = `
+      <span class="dot" style="background:${opColor(op)}"></span>
+      <span class="name">${op}</span>
+      <span class="count">${count}</span>
+      <span class="pct">${pct}%</span>
+    `;
+    opList.appendChild(div);
+  });
+
+  // Apps
+  const appList = document.getElementById('appList');
+  const research = data.research;
+  if (research && research.apps_to_scan) {
+    const apps = research.apps_to_scan;
+    document.getElementById('appCount').textContent = apps.length + ' apps';
+    appList.innerHTML = '';
+    apps.forEach(a => {
+      const div = document.createElement('div');
+      div.className = 'op-item';
+      const conf = a.confidence != null ? (a.confidence * 100).toFixed(0)+'%' : '';
+      div.innerHTML = `
+        <span style="color:var(--accent-green)">&#10003;</span>
+        <span class="name">${a.app_name || a.app_key || a}</span>
+        <span class="count" style="font-size:11px">${a.package || ''}</span>
+        <span class="pct">${conf}</span>
+      `;
+      appList.appendChild(div);
+    });
+  } else {
+    document.getElementById('appCount').textContent = '';
+    appList.innerHTML = '<div class="empty">No app data</div>';
+  }
+
+  // Issues
+  const issueList = document.getElementById('issueList');
+  issueList.innerHTML = '';
+  let issueCount = 0;
+  features.forEach(f => {
+    const p = f.properties || {};
+    const flags = p.flags || [];
+    if (flags.length === 0) return;
+    issueCount++;
+    const div = document.createElement('div');
+    div.className = 'issue-item';
+    div.innerHTML = `
+      <div class="zone-name">${p.name || p.id || 'Unknown zone'}</div>
+      <div class="flags">${flags.join(', ')}</div>
+    `;
+    // Get center for zoom
+    const geom = f.geometry;
+    let lat, lng;
+    if (geom.type === 'Point') { lng = geom.coordinates[0]; lat = geom.coordinates[1]; }
+    else if (geom.type === 'Polygon' && geom.coordinates[0]) {
+      const ring = geom.coordinates[0];
+      lat = ring.reduce((s,c)=>s+c[1],0)/ring.length;
+      lng = ring.reduce((s,c)=>s+c[0],0)/ring.length;
+    }
+    if (lat && lng) div.onclick = () => zoomToZone(lat, lng);
+    issueList.appendChild(div);
+  });
+  document.getElementById('issueCount').textContent = issueCount ? issueCount + ' flagged' : '';
+  if (!issueCount) issueList.innerHTML = '<div class="empty">No issues</div>';
+}
+
+async function loadPipeline() {
+  const data = await fetchJSON('/api/pipeline/status');
+  if (!data) return;
+  const runs = data.runs || [];
+
+  // Agent status from latest run
+  const agentList = document.getElementById('agentList');
+  if (runs.length > 0) {
+    const latest = runs[0];
+    const ts = latest.timestamp ? timeAgo(latest.timestamp) : '';
+    document.getElementById('pipelineMeta').textContent = `Last run: ${ts}`;
+
+    const agents = [
+      { name: 'ScraperAgent', info: `${latest.operators_success||0}/${(latest.operators_success||0)+(latest.operators_failed||0)} OK`, pct: 100, status: latest.operators_failed ? 'warn' : 'ok' },
+      { name: 'ValidatorAgent', info: 'validated', pct: 100, status: 'ok' },
+      { name: 'FixerAgent', info: 'fixes applied', pct: 100, status: 'ok' },
+      { name: 'GeocoderAgent', info: 'geocoded', pct: 100, status: 'ok' },
+      { name: 'DiffAgent', info: latest.diff_summary || 'no changes', pct: 100, status: 'ok' },
+      { name: 'PublisherAgent', info: latest.status === 'ok' ? 'pushed' : 'skipped', pct: 100, status: 'ok' },
+      { name: 'HealthAgent', info: latest.health_alerts?.length ? latest.health_alerts.length+' alerts' : 'all OK', pct: 100, status: latest.health_alerts?.length ? 'warn' : 'ok' },
+      { name: 'DocumentAgent', info: 'logged', pct: 100, status: 'ok' },
+    ];
+
+    agentList.innerHTML = '';
+    agents.forEach(a => {
+      const div = document.createElement('div');
+      div.className = 'agent-row';
+      div.innerHTML = `
+        <span class="name">${a.name}</span>
+        <div class="agent-bar"><div class="fill ${a.status}" style="width:${a.pct}%"></div></div>
+        <span class="info">${a.info}</span>
+      `;
+      agentList.appendChild(div);
+    });
+
+    // Status indicator
+    const hasErrors = latest.operators_failed > 0 || latest.status !== 'ok';
+    document.getElementById('statusDot').className = 'status-dot ' + (hasErrors ? 'yellow' : 'green');
+    document.getElementById('statusText').textContent = hasErrors ? 'Warnings' : 'All systems OK';
+  } else {
+    agentList.innerHTML = '<div class="empty">No pipeline runs yet</div>';
+    document.getElementById('pipelineMeta').textContent = '';
+  }
+
+  // Recent runs
+  const runList = document.getElementById('runList');
+  runList.innerHTML = '';
+  if (runs.length === 0) { runList.innerHTML = '<div class="empty">No runs</div>'; return; }
+  runs.slice(0, 10).forEach(r => {
+    const div = document.createElement('div');
+    div.className = 'run-item';
+    div.innerHTML = `
+      <span class="city">${r.city||'?'}</span>
+      <span class="mode">${r.mode||'?'}</span>
+      <span class="zones">${r.zones_total||0} zones</span>
+      <span class="ops">${r.operators_success||0}/${(r.operators_success||0)+(r.operators_failed||0)} ops</span>
+      <span class="time">${r.timestamp ? timeAgo(r.timestamp) : ''}</span>
+      <span class="st ${r.status==='ok'?'ok':'fail'}">${r.status==='ok'?'OK':'ERR'}</span>
+    `;
+    runList.appendChild(div);
+  });
+}
+
+async function loadPhone() {
+  const phoneList = document.getElementById('phoneList');
+
+  // Try API first
+  const data = await fetchJSON('/api/phone/status');
+  if (data && data.scans && data.scans.length > 0) {
+    const scans = data.scans;
+    const cfg = await fetchJSON('/api/config');
+    const backend = cfg?.vision_backend || 'ollama';
+    document.getElementById('phoneMeta').textContent = `Vision: ${backend === 'gemini' ? 'Gemini Flash' : 'LLaVA (local)'}`;
+    phoneList.innerHTML = '';
+    scans.forEach(s => {
+      const div = document.createElement('div');
+      div.className = 'phone-row';
+      const dur = s.duration ? Math.round(s.duration) + 's' : '--';
+      const isOk = s.status === 'ok' || s.zones > 0;
+      div.innerHTML = `
+        <span class="app">${s.app||'?'}</span>
+        <span class="zones">${s.zones} zones</span>
+        <span class="dur">${dur}</span>
+        <span class="status ${isOk?'ok':'warn'}">${s.status||'?'}</span>
+      `;
+      phoneList.appendChild(div);
+    });
+    return;
+  }
+
+  // Fallback: derive phone scan info from geojson metadata + features
+  const cityData = selectedCity ? await fetchJSON(`/api/city/${selectedCity}`) : null;
+  const meta = cityData?.geojson?.metadata?.phone_scan_merge;
+  const features = cityData?.geojson?.features || [];
+
+  if (meta) {
+    document.getElementById('phoneMeta').textContent = `Merged: ${meta.merge_date}`;
+    phoneList.innerHTML = '';
+
+    // Count zones per app from features
+    const appZones = {};
+    features.forEach(f => {
+      const flags = f.properties?.flags || [];
+      const apps = f.properties?.payment_apps || [];
+      flags.forEach(fl => {
+        if (fl === 'parkster' || fl === 'epark') appZones[fl] = (appZones[fl] || 0) + 1;
+      });
+      apps.forEach(a => { appZones[a] = (appZones[a] || 0) + 1; });
+    });
+
+    const scanApps = [
+      { app: 'Parkster', zones: meta.parkster_zones, status: 'ok' },
+      { app: 'e-park', zones: meta.epark_zones, status: 'ok' },
+    ];
+    scanApps.forEach(s => {
+      const div = document.createElement('div');
+      div.className = 'phone-row';
+      div.innerHTML = `
+        <span class="app">${s.app}</span>
+        <span class="zones">${s.zones} zones</span>
+        <span class="dur">ADB</span>
+        <span class="status ok">${s.status}</span>
+      `;
+      phoneList.appendChild(div);
+    });
+
+    // Summary row
+    const sumDiv = document.createElement('div');
+    sumDiv.className = 'phone-row';
+    sumDiv.style.borderTop = '1px solid var(--border)';
+    sumDiv.style.marginTop = '4px';
+    sumDiv.style.paddingTop = '6px';
+    sumDiv.innerHTML = `
+      <span class="app" style="color:var(--text-muted)">Total</span>
+      <span class="zones">${meta.new_zones_added} new</span>
+      <span class="dur">${meta.enriched_existing} upd</span>
+      <span class="status ok">merged</span>
+    `;
+    phoneList.appendChild(sumDiv);
+  } else {
+    document.getElementById('phoneMeta').textContent = '';
+    phoneList.innerHTML = '<div class="empty">No phone scans</div>';
+  }
+}
+
+async function loadDocumentation() {
+  const data = await fetchJSON('/api/documentation/status');
+  if (!data) return;
+
+  // Milestones
+  const msList = document.getElementById('milestoneList');
+  const milestones = data.milestones || [];
+  document.getElementById('msCount').textContent = milestones.length ? milestones.length + ' achieved' : '';
+  msList.innerHTML = '';
+  if (milestones.length === 0) { msList.innerHTML = '<div class="empty">No milestones yet</div>'; return; }
+  milestones.slice(-8).reverse().forEach(m => {
+    const div = document.createElement('div');
+    div.className = 'milestone-item';
+    div.innerHTML = `
+      <span class="icon" style="color:var(--accent-green)">&#10003;</span>
+      <span class="desc">${m.description}</span>
+      <span class="date">${(m.timestamp||'').slice(0,10)}</span>
+    `;
+    msList.appendChild(div);
+  });
+
+  // Growth chart
+  const growth = data.growth || [];
+  renderGrowthChart(growth);
+
+  // Footer
+  const timeline = data.timeline || {};
+  const totalZones = Object.values(timeline).reduce((s,c) => s + (c.last_zones||0), 0);
+  document.getElementById('footerDoc').textContent =
+    `DocumentAgent: ${milestones.length} milestones, ${totalZones} zones logged, ${data.evidence_count||0} runs`;
+}
+
+function renderGrowthChart(growth) {
+  const ctx = document.getElementById('growthChart');
+  if (!ctx) return;
+  if (growthChart) growthChart.destroy();
+
+  const labels = growth.map(g => g.date || '');
+  const zones = growth.map(g => g.total_zones || 0);
+  const citiesData = growth.map(g => g.total_cities || 0);
+
+  growthChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Zones',
+        data: zones,
+        borderColor: '#4a9eff',
+        backgroundColor: 'rgba(74,158,255,0.1)',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 3,
+      }, {
+        label: 'Cities',
+        data: citiesData,
+        borderColor: '#34d399',
+        backgroundColor: 'rgba(52,211,153,0.1)',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 3,
+        yAxisID: 'y1',
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { intersect: false, mode: 'index' },
+      plugins: {
+        legend: { labels: { color: '#9196ab', font: { size: 11 } } },
+      },
+      scales: {
+        x: { ticks: { color: '#565b72', font: { size: 10 } }, grid: { color: '#252838' } },
+        y: { ticks: { color: '#565b72', font: { size: 10 } }, grid: { color: '#252838' }, beginAtZero: true },
+        y1: { position: 'right', ticks: { color: '#565b72', font: { size: 10 } }, grid: { display: false }, beginAtZero: true },
+      },
+    },
+  });
+}
+
+function timeAgo(iso) {
+  const diff = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (diff < 60) return Math.round(diff) + 's ago';
+  if (diff < 3600) return Math.round(diff/60) + ' min ago';
+  if (diff < 86400) return Math.round(diff/3600) + 'h ago';
+  return Math.round(diff/86400) + 'd ago';
+}
+
+// ---- ACTIONS ----
+async function switchVision(backend) {
+  await fetch(API + '/api/config/vision', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({backend}),
+  });
+}
+
+async function takeSnapshot() {
+  await fetch(API + '/api/documentation/snapshot', { method: 'POST' });
+  setTimeout(refreshAll, 1000);
+}
+
+async function generateReport(type) {
+  await fetch(API + '/api/documentation/report', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({type}),
+  });
+  setTimeout(refreshAll, 2000);
+}
+
+// ---- INIT ----
+async function refreshAll(preserveView = true) {
+  countdown = refreshInterval;
+  await Promise.all([loadCities(), loadPipeline(), loadPhone(), loadDocumentation()]);
+  if (selectedCity) await selectCity(selectedCity, preserveView);
+}
+
+function startCountdown() {
+  clearInterval(countdownTimer);
+  countdownTimer = setInterval(() => {
+    countdown--;
+    document.getElementById('refreshCountdown').textContent = ` (${countdown}s)`;
+    document.getElementById('footerRefresh').textContent = `Auto-refresh: ${countdown}s`;
+    if (countdown <= 0) {
+      refreshAll(true);
+    }
+  }, 1000);
+}
+
+// Vision toggle
+document.querySelectorAll('input[name=vision]').forEach(radio => {
+  radio.addEventListener('change', e => switchVision(e.target.value));
+});
+
+// City select
+document.getElementById('citySelect').addEventListener('change', e => {
+  if (e.target.value) selectCity(e.target.value, false);
+});
+
+// Load config to set vision toggle
+fetchJSON('/api/config').then(cfg => {
+  if (cfg) {
+    document.querySelector(`input[name=vision][value=${cfg.vision_backend||'ollama'}]`).checked = true;
+  }
+});
+
+initMap();
+refreshAll(false);  // First load: move to city
+startCountdown();
+</script>
+</body>
+</html>

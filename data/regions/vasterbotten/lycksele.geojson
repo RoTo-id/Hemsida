@@ -1,0 +1,4174 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "2.0.0",
+    "generated": "2026-07-20T04:27:10.859412+00:00",
+    "source": "ParkMap Sverige — OSM Bootstrap",
+    "region": "Västerbotten",
+    "city": "lycksele",
+    "municipality": "Lycksele kommun",
+    "scrape_type": "osm_bootstrap",
+    "agent_run_id": "lycksele-osm-bootstrap",
+    "zone_count": 63,
+    "bootstrap": {
+      "osm_source": "output\\osm_parking_lycksele.geojson",
+      "zones_imported": 53,
+      "bootstrap_date": "2026-07-09"
+    },
+    "osm_reclassification": {
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
+      "needs_identification": 0,
+      "osm_operator_mapped": 0,
+      "lulebo_district": 0,
+      "near_aimo": 0,
+      "rural_free": 0,
+      "note_matched": 0,
+      "access_yes_free": 0,
+      "fee_confirmed_unknown": 0,
+      "genuinely_unknown": 45,
+      "before": 45,
+      "after": 45,
+      "total": 63,
+      "coverage_pct": 28.6,
+      "run_date": "2026-07-20"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+      "status": "needs_review",
+      "removed_previous": 10,
+      "added": 10,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-07-20T04:27:07.794939+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 10,
+      "markers_matched": 1,
+      "markers_unmatched": 9,
+      "features_matched": 1,
+      "updated_at": "2026-07-20T04:27:10.859407+00:00",
+      "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "lycksele_epark_nearby_20260720.json",
+      "zones": 2,
+      "matched": 1,
+      "added_review_points": 0,
+      "unresolved": 1
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-277789283",
+        "name": "OSM-277789283",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 277789283,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6932037,
+              64.591619
+            ],
+            [
+              18.6921504,
+              64.5916564
+            ],
+            [
+              18.6917858,
+              64.5915656
+            ],
+            [
+              18.6913464,
+              64.5916821
+            ],
+            [
+              18.6919407,
+              64.5920294
+            ],
+            [
+              18.6932532,
+              64.5919209
+            ],
+            [
+              18.6932037,
+              64.591619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-277789284",
+        "name": "OSM-277789284",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 277789284,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6917912,
+              64.5921707
+            ],
+            [
+              18.6909052,
+              64.5916634
+            ],
+            [
+              18.6903151,
+              64.591882
+            ],
+            [
+              18.690469,
+              64.5919449
+            ],
+            [
+              18.6901425,
+              64.5921615
+            ],
+            [
+              18.6909588,
+              64.5924197
+            ],
+            [
+              18.6917912,
+              64.5921707
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-277915342",
+        "name": "OSM-277915342",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 277915342,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6804313,
+              64.5945834
+            ],
+            [
+              18.6804313,
+              64.5944348
+            ],
+            [
+              18.680473,
+              64.5944352
+            ],
+            [
+              18.6804723,
+              64.5943915
+            ],
+            [
+              18.6808407,
+              64.5943872
+            ],
+            [
+              18.6808403,
+              64.5944349
+            ],
+            [
+              18.6809443,
+              64.5944343
+            ],
+            [
+              18.680961,
+              64.5952567
+            ],
+            [
+              18.6807452,
+              64.595255
+            ],
+            [
+              18.6806559,
+              64.5953182
+            ],
+            [
+              18.6798973,
+              64.5951562
+            ],
+            [
+              18.679949,
+              64.595108
+            ],
+            [
+              18.6798432,
+              64.5950879
+            ],
+            [
+              18.6804313,
+              64.5945834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-277915344",
+        "name": "OSM-277915344",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 277915344,
+        "osm_distance_m": null,
+        "osm_access": "employees",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7056236,
+              64.5499355
+            ],
+            [
+              18.705424,
+              64.5501522
+            ],
+            [
+              18.7057493,
+              64.5502077
+            ],
+            [
+              18.7059489,
+              64.549991
+            ],
+            [
+              18.7056236,
+              64.5499355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-277915345",
+        "name": "OSM-277915345",
+        "operator": "private_property",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "Kunder",
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.8,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 277915345,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.706986,
+              64.5493839
+            ],
+            [
+              18.7064491,
+              64.54981
+            ],
+            [
+              18.7072867,
+              64.5500049
+            ],
+            [
+              18.7076175,
+              64.5497423
+            ],
+            [
+              18.7074578,
+              64.5497051
+            ],
+            [
+              18.7075379,
+              64.5496416
+            ],
+            [
+              18.7071651,
+              64.5495549
+            ],
+            [
+              18.7072911,
+              64.5494549
+            ],
+            [
+              18.706986,
+              64.5493839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-277915346",
+        "name": "OSM-277915346",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 277915346,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6974931,
+              64.5848961
+            ],
+            [
+              18.6971576,
+              64.5855074
+            ],
+            [
+              18.6978281,
+              64.5855752
+            ],
+            [
+              18.6980811,
+              64.585114
+            ],
+            [
+              18.697704,
+              64.5850759
+            ],
+            [
+              18.6977863,
+              64.5849257
+            ],
+            [
+              18.6974931,
+              64.5848961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-302169406",
+        "name": "OSM-302169406",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 302169406,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6793748,
+              64.5858377
+            ],
+            [
+              18.6807488,
+              64.5858407
+            ],
+            [
+              18.6813894,
+              64.5859018
+            ],
+            [
+              18.6812684,
+              64.5861646
+            ],
+            [
+              18.6809979,
+              64.5862684
+            ],
+            [
+              18.6800938,
+              64.5862195
+            ],
+            [
+              18.6800763,
+              64.586269
+            ],
+            [
+              18.6792253,
+              64.5862366
+            ],
+            [
+              18.6793748,
+              64.5858377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-428275852",
+        "name": "OSM-428275852",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 428275852,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "40.2 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.0322203,
+              64.8301935
+            ],
+            [
+              18.0327433,
+              64.8301177
+            ],
+            [
+              18.0330337,
+              64.8298936
+            ],
+            [
+              18.0324362,
+              64.8300058
+            ],
+            [
+              18.0322203,
+              64.8301935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-428275854",
+        "name": "Blåviksjön",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "11",
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.75,
+        "flags": [
+          "osm_bootstrap",
+          "osm_operator_mapped"
+        ],
+        "last_verified": null,
+        "osm_id": 428275854,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": "Trafikverket",
+        "osm_note": null,
+        "source_note": "OSM operator tag: Trafikverket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.0343127,
+              64.8297302
+            ],
+            [
+              18.0350421,
+              64.8296511
+            ],
+            [
+              18.0350712,
+              64.8296046
+            ],
+            [
+              18.0343236,
+              64.8296775
+            ],
+            [
+              18.0343127,
+              64.8297302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-605947161",
+        "name": "OSM-605947161",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 605947161,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "69.3 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.229637,
+              65.1882111
+            ],
+            [
+              18.2293809,
+              65.1881482
+            ],
+            [
+              18.2298816,
+              65.1877661
+            ],
+            [
+              18.2302116,
+              65.1878561
+            ],
+            [
+              18.2301396,
+              65.187958
+            ],
+            [
+              18.229637,
+              65.1882111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-606151312",
+        "name": "OSM-606151312",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 606151312,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "40.2 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.0328625,
+              64.8300878
+            ],
+            [
+              18.0332982,
+              64.8300119
+            ],
+            [
+              18.0336114,
+              64.8298008
+            ],
+            [
+              18.0331011,
+              64.8299049
+            ],
+            [
+              18.0328625,
+              64.8300878
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-694659870",
+        "name": "OSM-694659870",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 694659870,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6636277,
+              64.585299
+            ],
+            [
+              18.6646631,
+              64.5850268
+            ],
+            [
+              18.6650533,
+              64.5849229
+            ],
+            [
+              18.6655234,
+              64.5847994
+            ],
+            [
+              18.6658573,
+              64.5847145
+            ],
+            [
+              18.6661859,
+              64.5846271
+            ],
+            [
+              18.6663475,
+              64.5845758
+            ],
+            [
+              18.6665057,
+              64.584518
+            ],
+            [
+              18.6666694,
+              64.5844564
+            ],
+            [
+              18.6668202,
+              64.584387
+            ],
+            [
+              18.6670274,
+              64.5842869
+            ],
+            [
+              18.667537,
+              64.5840184
+            ],
+            [
+              18.6674403,
+              64.583984
+            ],
+            [
+              18.6669317,
+              64.584252
+            ],
+            [
+              18.6667274,
+              64.5843508
+            ],
+            [
+              18.6665818,
+              64.5844177
+            ],
+            [
+              18.6664236,
+              64.5844772
+            ],
+            [
+              18.6662694,
+              64.5845336
+            ],
+            [
+              18.6661154,
+              64.5845824
+            ],
+            [
+              18.6657922,
+              64.5846685
+            ],
+            [
+              18.6654586,
+              64.5847533
+            ],
+            [
+              18.6649874,
+              64.584877
+            ],
+            [
+              18.6645972,
+              64.5849809
+            ],
+            [
+              18.6635649,
+              64.5852523
+            ],
+            [
+              18.6636277,
+              64.585299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-708224200",
+        "name": "OSM-708224200",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "2",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 708224200,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "48.8 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.6888148,
+              64.7136546
+            ],
+            [
+              17.6882356,
+              64.7137426
+            ],
+            [
+              17.6879373,
+              64.7137961
+            ],
+            [
+              17.6880044,
+              64.7137306
+            ],
+            [
+              17.6887339,
+              64.7136206
+            ],
+            [
+              17.6888148,
+              64.7136546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-708325325",
+        "name": "OSM-708325325",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "10",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.55,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "access_yes_free"
+        ],
+        "last_verified": null,
+        "osm_id": 708325325,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.6784335,
+              64.7154023
+            ],
+            [
+              17.678166,
+              64.7154273
+            ],
+            [
+              17.6779696,
+              64.7154905
+            ],
+            [
+              17.6784959,
+              64.715685
+            ],
+            [
+              17.6786106,
+              64.7156784
+            ],
+            [
+              17.6786032,
+              64.7156461
+            ],
+            [
+              17.6787293,
+              64.7156278
+            ],
+            [
+              17.6786917,
+              64.7155705
+            ],
+            [
+              17.6785764,
+              64.7155854
+            ],
+            [
+              17.6784335,
+              64.7154023
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-708325326",
+        "name": "OSM-708325326",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "20",
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.55,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "access_yes_free"
+        ],
+        "last_verified": null,
+        "osm_id": 708325326,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.6771193,
+              64.716037
+            ],
+            [
+              17.6772729,
+              64.7160333
+            ],
+            [
+              17.6777127,
+              64.7160001
+            ],
+            [
+              17.6783183,
+              64.7159362
+            ],
+            [
+              17.6782492,
+              64.7158546
+            ],
+            [
+              17.6780051,
+              64.7158603
+            ],
+            [
+              17.6777744,
+              64.7158248
+            ],
+            [
+              17.6773688,
+              64.7157586
+            ],
+            [
+              17.6772004,
+              64.7158237
+            ],
+            [
+              17.6770638,
+              64.7158194
+            ],
+            [
+              17.6769611,
+              64.7158422
+            ],
+            [
+              17.6769537,
+              64.7159233
+            ],
+            [
+              17.6771193,
+              64.716037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1036315423",
+        "name": "OSM-1036315423",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1036315423,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6688027,
+              64.5844395
+            ],
+            [
+              18.668571,
+              64.5845529
+            ],
+            [
+              18.6674652,
+              64.5841481
+            ],
+            [
+              18.6676807,
+              64.5840434
+            ],
+            [
+              18.6688027,
+              64.5844395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1097969781",
+        "name": "OSM-1097969781",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1097969781,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "22.8 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.282069,
+              64.7118865
+            ],
+            [
+              18.2819446,
+              64.7118178
+            ],
+            [
+              18.2817321,
+              64.7117219
+            ],
+            [
+              18.2818839,
+              64.7116648
+            ],
+            [
+              18.2823209,
+              64.7116765
+            ],
+            [
+              18.282176,
+              64.711895
+            ],
+            [
+              18.282069,
+              64.7118865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1124091019",
+        "name": "OSM-1124091019",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1124091019,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.8419664,
+              64.5236263
+            ],
+            [
+              18.8427132,
+              64.5236415
+            ],
+            [
+              18.8429149,
+              64.5230493
+            ],
+            [
+              18.8416408,
+              64.5230021
+            ],
+            [
+              18.841163,
+              64.522996
+            ],
+            [
+              18.8415028,
+              64.5232168
+            ],
+            [
+              18.8419664,
+              64.5236263
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1136724911",
+        "name": "OSM-1136724911",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1136724911,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6745544,
+              64.5962784
+            ],
+            [
+              18.6750935,
+              64.5963831
+            ],
+            [
+              18.6753242,
+              64.5961783
+            ],
+            [
+              18.674777,
+              64.596069
+            ],
+            [
+              18.6745544,
+              64.5962784
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1136724912",
+        "name": "OSM-1136724912",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1136724912,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.674093,
+              64.5961518
+            ],
+            [
+              18.6743532,
+              64.5962025
+            ],
+            [
+              18.6745624,
+              64.5960241
+            ],
+            [
+              18.6742915,
+              64.5959712
+            ],
+            [
+              18.674093,
+              64.5961518
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1136724913",
+        "name": "OSM-1136724913",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
+        ],
+        "last_verified": null,
+        "osm_id": 1136724913,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "90291",
+        "epark_name": "Storgatan 28",
+        "epark_reported_operator": "Securitas Sverige AB",
+        "epark_distance_m": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6753481,
+              64.5950593
+            ],
+            [
+              18.6756725,
+              64.5951252
+            ],
+            [
+              18.6760949,
+              64.5947429
+            ],
+            [
+              18.6757703,
+              64.5946769
+            ],
+            [
+              18.6756592,
+              64.5947775
+            ],
+            [
+              18.6755941,
+              64.5948365
+            ],
+            [
+              18.6753481,
+              64.5950593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1136928274",
+        "name": "OSM-1136928274",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1136928274,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6772533,
+              64.596195
+            ],
+            [
+              18.6775732,
+              64.5959185
+            ],
+            [
+              18.6779982,
+              64.5960037
+            ],
+            [
+              18.6776923,
+              64.5962832
+            ],
+            [
+              18.6772533,
+              64.596195
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190252265",
+        "name": "OSM-1190252265",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190252265,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "lane",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6973652,
+              64.598698
+            ],
+            [
+              18.6975387,
+              64.5987064
+            ],
+            [
+              18.6976021,
+              64.5984079
+            ],
+            [
+              18.69744,
+              64.5984058
+            ],
+            [
+              18.6973652,
+              64.598698
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190252266",
+        "name": "OSM-1190252266",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190252266,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "lane",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.69744,
+              64.5984058
+            ],
+            [
+              18.6976021,
+              64.5984079
+            ],
+            [
+              18.6976877,
+              64.5981675
+            ],
+            [
+              18.6974982,
+              64.5981576
+            ],
+            [
+              18.69744,
+              64.5984058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190252267",
+        "name": "OSM-1190252267",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190252267,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "lane",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6974982,
+              64.5981576
+            ],
+            [
+              18.6976877,
+              64.5981675
+            ],
+            [
+              18.6977699,
+              64.5979395
+            ],
+            [
+              18.6977967,
+              64.5979245
+            ],
+            [
+              18.6978624,
+              64.5979251
+            ],
+            [
+              18.6978753,
+              64.5978751
+            ],
+            [
+              18.6977888,
+              64.5978721
+            ],
+            [
+              18.6976657,
+              64.5978761
+            ],
+            [
+              18.6975984,
+              64.5979007
+            ],
+            [
+              18.6975652,
+              64.597946
+            ],
+            [
+              18.6975339,
+              64.5980182
+            ],
+            [
+              18.6974982,
+              64.5981576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190252268",
+        "name": "OSM-1190252268",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190252268,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "lane",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6975387,
+              64.5987064
+            ],
+            [
+              18.6973652,
+              64.598698
+            ],
+            [
+              18.6972849,
+              64.5990201
+            ],
+            [
+              18.6974567,
+              64.5990266
+            ],
+            [
+              18.6975387,
+              64.5987064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190259789",
+        "name": "OSM-1190259789",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": "20",
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190259789,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7099184,
+              64.5790803
+            ],
+            [
+              18.7103502,
+              64.5787689
+            ],
+            [
+              18.7108114,
+              64.578877
+            ],
+            [
+              18.7105286,
+              64.5791525
+            ],
+            [
+              18.7099184,
+              64.5790803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190259790",
+        "name": "OSM-1190259790",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190259790,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7102292,
+              64.5786207
+            ],
+            [
+              18.7104003,
+              64.5785145
+            ],
+            [
+              18.7100562,
+              64.5783995
+            ],
+            [
+              18.7103333,
+              64.5782781
+            ],
+            [
+              18.7107729,
+              64.5784318
+            ],
+            [
+              18.7104672,
+              64.5786826
+            ],
+            [
+              18.7102292,
+              64.5786207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1190259791",
+        "name": "OSM-1190259791",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1190259791,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7104145,
+              64.5787226
+            ],
+            [
+              18.7105584,
+              64.5787485
+            ],
+            [
+              18.7109081,
+              64.5785001
+            ],
+            [
+              18.7107511,
+              64.5784497
+            ],
+            [
+              18.7104145,
+              64.5787226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1227235079",
+        "name": "OSM-1227235079",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1227235079,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "52.2 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.5813496,
+              65.0616885
+            ],
+            [
+              18.5817193,
+              65.0618554
+            ],
+            [
+              18.5818696,
+              65.0617959
+            ],
+            [
+              18.5821167,
+              65.061698
+            ],
+            [
+              18.5824126,
+              65.0615829
+            ],
+            [
+              18.5823525,
+              65.0615557
+            ],
+            [
+              18.5820428,
+              65.0614154
+            ],
+            [
+              18.5813496,
+              65.0616885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1227235083",
+        "name": "OSM-1227235083",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1227235083,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "52.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.5826503,
+              65.0614599
+            ],
+            [
+              18.5825966,
+              65.0614354
+            ],
+            [
+              18.582441,
+              65.0613644
+            ],
+            [
+              18.5827442,
+              65.0612462
+            ],
+            [
+              18.5828989,
+              65.0613168
+            ],
+            [
+              18.5829536,
+              65.0613418
+            ],
+            [
+              18.5828444,
+              65.0613843
+            ],
+            [
+              18.5826503,
+              65.0614599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1227235084",
+        "name": "OSM-1227235084",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1227235084,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "52.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.582913,
+              65.0611664
+            ],
+            [
+              18.583592,
+              65.060903
+            ],
+            [
+              18.5837261,
+              65.060851
+            ],
+            [
+              18.5836773,
+              65.0608294
+            ],
+            [
+              18.5835736,
+              65.0607803
+            ],
+            [
+              18.5827594,
+              65.061096
+            ],
+            [
+              18.5828736,
+              65.0611483
+            ],
+            [
+              18.582913,
+              65.0611664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1285973026",
+        "name": "OSM-1285973026",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1285973026,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.660846,
+              64.5927865
+            ],
+            [
+              18.6606498,
+              64.5929979
+            ],
+            [
+              18.6605658,
+              64.5929798
+            ],
+            [
+              18.6607502,
+              64.5927664
+            ],
+            [
+              18.660846,
+              64.5927865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1285973027",
+        "name": "OSM-1285973027",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1285973027,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.660477,
+              64.5929688
+            ],
+            [
+              18.6606708,
+              64.5927494
+            ],
+            [
+              18.6605611,
+              64.5927294
+            ],
+            [
+              18.660372,
+              64.5929548
+            ],
+            [
+              18.660477,
+              64.5929688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1285973028",
+        "name": "OSM-1285973028",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1285973028,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6599377,
+              64.5929578
+            ],
+            [
+              18.6601875,
+              64.5929848
+            ],
+            [
+              18.660351,
+              64.5927153
+            ],
+            [
+              18.6600848,
+              64.5926913
+            ],
+            [
+              18.6599377,
+              64.5929578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1285973029",
+        "name": "OSM-1285973029",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1285973029,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6605004,
+              64.5934687
+            ],
+            [
+              18.6606288,
+              64.5934767
+            ],
+            [
+              18.6607829,
+              64.5931802
+            ],
+            [
+              18.6606312,
+              64.5931682
+            ],
+            [
+              18.6605004,
+              64.5934687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1285973030",
+        "name": "OSM-1285973030",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1285973030,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6603346,
+              64.5933926
+            ],
+            [
+              18.6602972,
+              64.5932112
+            ],
+            [
+              18.660393,
+              64.5932062
+            ],
+            [
+              18.660428,
+              64.5933886
+            ],
+            [
+              18.6603346,
+              64.5933926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1368462460",
+        "name": "OSM-1368462460",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1368462460,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6709334,
+              64.6014543
+            ],
+            [
+              18.6709883,
+              64.6014175
+            ],
+            [
+              18.6709339,
+              64.6014029
+            ],
+            [
+              18.6708872,
+              64.6013905
+            ],
+            [
+              18.6708446,
+              64.6013791
+            ],
+            [
+              18.670798,
+              64.6013666
+            ],
+            [
+              18.6707545,
+              64.601355
+            ],
+            [
+              18.6707086,
+              64.6013428
+            ],
+            [
+              18.670665,
+              64.6013311
+            ],
+            [
+              18.6706197,
+              64.601319
+            ],
+            [
+              18.6705796,
+              64.6013083
+            ],
+            [
+              18.6705316,
+              64.6012955
+            ],
+            [
+              18.6704758,
+              64.6013331
+            ],
+            [
+              18.6705242,
+              64.6013459
+            ],
+            [
+              18.6705688,
+              64.6013577
+            ],
+            [
+              18.6706102,
+              64.6013686
+            ],
+            [
+              18.6706567,
+              64.601381
+            ],
+            [
+              18.6707036,
+              64.6013934
+            ],
+            [
+              18.670746,
+              64.6014046
+            ],
+            [
+              18.6707907,
+              64.6014165
+            ],
+            [
+              18.6708359,
+              64.6014284
+            ],
+            [
+              18.6708795,
+              64.60144
+            ],
+            [
+              18.6709334,
+              64.6014543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1425398793",
+        "name": "OSM-1425398793",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1425398793,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6718552,
+              64.5996954
+            ],
+            [
+              18.6724736,
+              64.599861
+            ],
+            [
+              18.6728776,
+              64.5995835
+            ],
+            [
+              18.6729483,
+              64.5996024
+            ],
+            [
+              18.6730292,
+              64.5995469
+            ],
+            [
+              18.6723399,
+              64.5993623
+            ],
+            [
+              18.6718552,
+              64.5996954
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1425553406",
+        "name": "OSM-1425553406",
+        "operator": "kommun",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "street",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.65,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified",
+          "street_side_match"
+        ],
+        "last_verified": null,
+        "osm_id": 1425553406,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "street_side",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6796135,
+              64.5964352
+            ],
+            [
+              18.6789405,
+              64.5970677
+            ],
+            [
+              18.6790591,
+              64.5970909
+            ],
+            [
+              18.6797317,
+              64.5964584
+            ],
+            [
+              18.6796135,
+              64.5964352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1425553407",
+        "name": "OSM-1425553407",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1425553407,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6795863,
+              64.5964308
+            ],
+            [
+              18.6793219,
+              64.5966729
+            ],
+            [
+              18.6790188,
+              64.5966119
+            ],
+            [
+              18.6792833,
+              64.5963699
+            ],
+            [
+              18.6795863,
+              64.5964308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1425553455",
+        "name": "OSM-1425553455",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1425553455,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6715936,
+              64.5956119
+            ],
+            [
+              18.6719416,
+              64.5953087
+            ],
+            [
+              18.6720605,
+              64.5953338
+            ],
+            [
+              18.6717124,
+              64.595637
+            ],
+            [
+              18.6715936,
+              64.5956119
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1425553456",
+        "name": "OSM-1425553456",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1425553456,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6703747,
+              64.5954284
+            ],
+            [
+              18.6707068,
+              64.5954655
+            ],
+            [
+              18.6709461,
+              64.5950719
+            ],
+            [
+              18.6706138,
+              64.5950347
+            ],
+            [
+              18.6703747,
+              64.5954284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1425553457",
+        "name": "OSM-1425553457",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
+        ],
+        "last_verified": "2026-07-20",
+        "osm_id": 1425553457,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 6,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lycksele-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+            "distance_m": 93.7
+          },
+          {
+            "marker_id": "lycksele-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+            "distance_m": 80.6
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.670335,
+              64.5950552
+            ],
+            [
+              18.6700999,
+              64.5950317
+            ],
+            [
+              18.6699456,
+              64.5953089
+            ],
+            [
+              18.670143,
+              64.5953291
+            ],
+            [
+              18.670125,
+              64.5953614
+            ],
+            [
+              18.6702821,
+              64.5953775
+            ],
+            [
+              18.6704115,
+              64.5951453
+            ],
+            [
+              18.6702927,
+              64.5951335
+            ],
+            [
+              18.670335,
+              64.5950552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1426189324",
+        "name": "OSM-1426189324",
+        "operator": "private_property",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1426189324,
+        "osm_distance_m": null,
+        "osm_access": "private",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": "Jehovas vittnen - Lycksele",
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7119433,
+              64.5752571
+            ],
+            [
+              18.711537,
+              64.5752712
+            ],
+            [
+              18.7114576,
+              64.5749444
+            ],
+            [
+              18.7118545,
+              64.5749313
+            ],
+            [
+              18.7118629,
+              64.5749614
+            ],
+            [
+              18.7119106,
+              64.5751338
+            ],
+            [
+              18.7119176,
+              64.5751709
+            ],
+            [
+              18.7119479,
+              64.5751709
+            ],
+            [
+              18.7119643,
+              64.5751418
+            ],
+            [
+              18.711997,
+              64.5751268
+            ],
+            [
+              18.7120437,
+              64.5751178
+            ],
+            [
+              18.7121114,
+              64.5751208
+            ],
+            [
+              18.7121651,
+              64.5751338
+            ],
+            [
+              18.7121161,
+              64.5751599
+            ],
+            [
+              18.7120717,
+              64.5751509
+            ],
+            [
+              18.7120413,
+              64.5751509
+            ],
+            [
+              18.7120157,
+              64.5751629
+            ],
+            [
+              18.712011,
+              64.5751799
+            ],
+            [
+              18.7119783,
+              64.575203
+            ],
+            [
+              18.7119316,
+              64.575204
+            ],
+            [
+              18.7119374,
+              64.5752302
+            ],
+            [
+              18.7119433,
+              64.5752571
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1435074427",
+        "name": "OSM-1435074427",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1435074427,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7241539,
+              64.5410366
+            ],
+            [
+              18.7242943,
+              64.5410567
+            ],
+            [
+              18.7243236,
+              64.5410085
+            ],
+            [
+              18.7241871,
+              64.5409939
+            ],
+            [
+              18.7241539,
+              64.5410366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1435074428",
+        "name": "OSM-1435074428",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1435074428,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7239209,
+              64.5413956
+            ],
+            [
+              18.7239355,
+              64.5412714
+            ],
+            [
+              18.7240897,
+              64.5412747
+            ],
+            [
+              18.7240751,
+              64.541399
+            ],
+            [
+              18.7239209,
+              64.5413956
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1435074429",
+        "name": "OSM-1435074429",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1435074429,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7244278,
+              64.5411102
+            ],
+            [
+              18.7246671,
+              64.5411161
+            ],
+            [
+              18.7246753,
+              64.5410545
+            ],
+            [
+              18.724436,
+              64.5410486
+            ],
+            [
+              18.7244278,
+              64.5411102
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1435645526",
+        "name": "OSM-1435645526",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1435645526,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "14.8 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.9725299,
+              64.6314055
+            ],
+            [
+              18.9724373,
+              64.631347
+            ],
+            [
+              18.9727982,
+              64.6312508
+            ],
+            [
+              18.9728908,
+              64.6313125
+            ],
+            [
+              18.9725299,
+              64.6314055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1485379974",
+        "name": "OSM-1485379974",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1485379974,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6961014,
+              64.5832832
+            ],
+            [
+              18.6967284,
+              64.5834931
+            ],
+            [
+              18.6961808,
+              64.5838627
+            ],
+            [
+              18.6963773,
+              64.5839003
+            ],
+            [
+              18.6975142,
+              64.5832509
+            ],
+            [
+              18.6967451,
+              64.5830159
+            ],
+            [
+              18.6961014,
+              64.5832832
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1492564826",
+        "name": "OSM-1492564826",
+        "operator": "free_parking",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1492564826,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.2387405,
+              64.7699159
+            ],
+            [
+              19.2382904,
+              64.7698092
+            ],
+            [
+              19.2381432,
+              64.769922
+            ],
+            [
+              19.2385933,
+              64.7700287
+            ],
+            [
+              19.2387405,
+              64.7699159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1510985064",
+        "name": "OSM-1510985064",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1510985064,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.6936597,
+              64.5626895
+            ],
+            [
+              18.6936891,
+              64.5625998
+            ],
+            [
+              18.6928675,
+              64.5625502
+            ],
+            [
+              18.6928382,
+              64.5626399
+            ],
+            [
+              18.6936597,
+              64.5626895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1524815982",
+        "name": "OSM-1524815982",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1524815982,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7171153,
+              64.5391404
+            ],
+            [
+              18.7174149,
+              64.5392292
+            ],
+            [
+              18.7178645,
+              64.5389552
+            ],
+            [
+              18.7174152,
+              64.5388341
+            ],
+            [
+              18.717194,
+              64.5389756
+            ],
+            [
+              18.7173311,
+              64.539014
+            ],
+            [
+              18.7171153,
+              64.5391404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 330,
+        "screen_y": 1844,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.669603,
+          64.5874064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 546,
+        "screen_y": 1847,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6741256,
+          64.5873794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1031,
+        "screen_y": 1840,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6842807,
+          64.5874423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 733,
+        "screen_y": 1802,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6780411,
+          64.5877837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 534,
+        "screen_y": 1696,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6738744,
+          64.5887359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 678,
+        "screen_y": 1665,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6768895,
+          64.5890144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 683,
+        "screen_y": 1466,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6769942,
+          64.590802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 541,
+        "screen_y": 1272,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6740209,
+          64.5925447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 384,
+        "screen_y": 1105,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6707336,
+          64.5940449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260720T005734.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260720T005734\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 295,
+        "screen_y": 1025,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6688701,
+          64.5947636
+        ]
+      }
+    }
+  ]
+}

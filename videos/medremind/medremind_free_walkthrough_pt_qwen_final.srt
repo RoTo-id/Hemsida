@@ -1,0 +1,27 @@
+1
+00:00:00,150 --> 00:00:05,800
+Abra as definições do MedRemind e escolha se quer ligar um e-mail familiar.
+
+2
+00:00:06,150 --> 00:00:11,800
+Se for adicionado um endereço, uma confirmação pode ser enviada depois de tocar no botão.
+
+3
+00:00:12,150 --> 00:00:17,800
+Escolha o idioma da app com o ícone do globo.
+
+4
+00:00:18,150 --> 00:00:23,800
+Quando aparecer o lembrete diário, toque no grande botão de check-in.
+
+5
+00:00:24,150 --> 00:00:29,800
+Depois do toque, o MedRemind mostra a próxima contagem de 24 horas.
+
+6
+00:00:30,150 --> 00:00:35,800
+Este é um exemplo do e-mail que o contacto familiar escolhido pode receber.
+
+7
+00:00:36,150 --> 00:00:41,800
+Tranquilidade num botão. Um lembrete no telefone. Um temporizador visível. Uma confirmação opcional para si.
