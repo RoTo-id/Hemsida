@@ -91,15 +91,19 @@
         "last_verified": null,
         "osm_id": 263062012,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -154,15 +158,19 @@
         "last_verified": null,
         "osm_id": 263062013,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -217,15 +225,19 @@
         "last_verified": null,
         "osm_id": 263062014,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -280,15 +292,19 @@
         "last_verified": null,
         "osm_id": 263062015,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -347,15 +363,19 @@
         "last_verified": null,
         "osm_id": 263062017,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -414,15 +434,19 @@
         "last_verified": null,
         "osm_id": 263062018,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -481,7 +505,7 @@
         "last_verified": null,
         "osm_id": 336669149,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -490,7 +514,11 @@
         "aimopark_distance_m": 89.5,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -622,11 +650,15 @@
         "last_verified": null,
         "osm_id": 395874328,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -681,7 +713,7 @@
         "last_verified": null,
         "osm_id": 440519365,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -690,7 +722,11 @@
         "aimopark_distance_m": 185.7,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -745,7 +781,7 @@
         "last_verified": null,
         "osm_id": 440519366,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -754,7 +790,11 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -818,7 +858,11 @@
         "aimopark_distance_m": 66.0,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -873,7 +917,7 @@
         "last_verified": null,
         "osm_id": 440519370,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -882,7 +926,11 @@
         "aimopark_distance_m": 106.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -950,7 +998,11 @@
         "aimopark_distance_m": 147.9,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1021,7 +1073,7 @@
         "last_verified": null,
         "osm_id": 440662756,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -1029,7 +1081,11 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1084,7 +1140,7 @@
         "last_verified": null,
         "osm_id": 440662759,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -1093,7 +1149,11 @@
         "aimopark_distance_m": 63.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1164,12 +1224,19 @@
         "last_verified": null,
         "osm_id": 541050828,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "46.1 km från centrum, ingen avgiftstagg"
+        "source_note": "46.1 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1244,16 +1311,20 @@
         "last_verified": null,
         "osm_id": 557132017,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "snorres-grand-56--mjolners-grand-5-7",
         "aimopark_distance_m": 41.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1316,16 +1387,20 @@
         "last_verified": null,
         "osm_id": 655356662,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1417,11 +1492,15 @@
         "last_verified": null,
         "osm_id": 655356678,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1485,11 +1564,15 @@
         "last_verified": null,
         "osm_id": 655603935,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1545,11 +1628,15 @@
         "last_verified": null,
         "osm_id": 655654742,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1625,11 +1712,15 @@
         "last_verified": null,
         "osm_id": 833961559,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1720,16 +1811,20 @@
         "last_verified": null,
         "osm_id": 865581258,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1784,16 +1879,20 @@
         "last_verified": null,
         "osm_id": 865581259,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1848,16 +1947,20 @@
         "last_verified": null,
         "osm_id": 865581260,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1912,16 +2015,20 @@
         "last_verified": null,
         "osm_id": 865581272,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2080,12 +2187,19 @@
         "last_verified": null,
         "osm_id": 909190441,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "29.0 km från centrum, ingen avgiftstagg"
+        "source_note": "29.0 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2164,12 +2278,19 @@
         "last_verified": null,
         "osm_id": 909288804,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "32.9 km från centrum, ingen avgiftstagg"
+        "source_note": "32.9 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2229,11 +2350,15 @@
         "last_verified": null,
         "osm_id": 998569938,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2296,15 +2421,19 @@
         "last_verified": null,
         "osm_id": 999270034,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2367,15 +2496,19 @@
         "last_verified": null,
         "osm_id": 999270055,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2430,15 +2563,19 @@
         "last_verified": null,
         "osm_id": 999270058,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2501,15 +2638,19 @@
         "last_verified": null,
         "osm_id": 999270072,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2564,15 +2705,19 @@
         "last_verified": null,
         "osm_id": 999270073,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2628,11 +2773,15 @@
         "last_verified": null,
         "osm_id": 999737554,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2703,15 +2852,19 @@
         "last_verified": null,
         "osm_id": 1002077685,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2774,15 +2927,19 @@
         "last_verified": null,
         "osm_id": 1002077692,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2865,15 +3022,19 @@
         "last_verified": null,
         "osm_id": 1002077693,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2928,15 +3089,19 @@
         "last_verified": null,
         "osm_id": 1002077694,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3007,15 +3172,19 @@
         "last_verified": null,
         "osm_id": 1002077701,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3070,15 +3239,19 @@
         "last_verified": null,
         "osm_id": 1002077704,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3134,11 +3307,15 @@
         "last_verified": null,
         "osm_id": 1002276423,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3201,15 +3378,19 @@
         "last_verified": null,
         "osm_id": 1004436766,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3284,16 +3465,20 @@
         "last_verified": null,
         "osm_id": 1004595429,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "jakobsgatan-17-39",
         "aimopark_distance_m": 104.5,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3348,15 +3533,19 @@
         "last_verified": null,
         "osm_id": 1004595443,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3423,16 +3612,20 @@
         "last_verified": null,
         "osm_id": 1004597364,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "egils-grand-1-3--iduns-vag-6--lokes-vag",
         "aimopark_distance_m": 117.3,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3488,11 +3681,15 @@
         "last_verified": null,
         "osm_id": 1056599609,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3576,11 +3773,15 @@
         "last_verified": null,
         "osm_id": 1056599610,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3643,15 +3844,19 @@
         "last_verified": null,
         "osm_id": 1073421798,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3706,15 +3911,19 @@
         "last_verified": null,
         "osm_id": 1076039763,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3773,16 +3982,20 @@
         "last_verified": null,
         "osm_id": 1076039782,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-15-a-b",
         "aimopark_distance_m": 134.1,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3837,16 +4050,20 @@
         "last_verified": null,
         "osm_id": 1076562415,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "sturegatan-18-c-e",
         "aimopark_distance_m": 36.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3901,15 +4118,19 @@
         "last_verified": null,
         "osm_id": 1078147593,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3972,16 +4193,20 @@
         "last_verified": null,
         "osm_id": 1078147609,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
         "aimopark_distance_m": 131.4,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4040,15 +4265,19 @@
         "last_verified": null,
         "osm_id": 1078147618,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4111,16 +4340,20 @@
         "last_verified": null,
         "osm_id": 1078147653,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-53-57",
         "aimopark_distance_m": 71.8,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4187,7 +4420,7 @@
         "last_verified": null,
         "osm_id": 1078147662,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": null,
@@ -4196,7 +4429,11 @@
         "aimopark_distance_m": 164.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4267,16 +4504,20 @@
         "last_verified": null,
         "osm_id": 1078184374,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-15-a-b",
         "aimopark_distance_m": 155.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4331,15 +4572,19 @@
         "last_verified": null,
         "osm_id": 1078742248,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4398,16 +4643,20 @@
         "last_verified": null,
         "osm_id": 1078742275,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4462,16 +4711,20 @@
         "last_verified": null,
         "osm_id": 1078786583,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "kvarngatan-4--hellgrensgatan-5",
         "aimopark_distance_m": 82.4,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4526,16 +4779,20 @@
         "last_verified": null,
         "osm_id": 1078786589,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
         "aimopark_distance_m": 95.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4590,16 +4847,20 @@
         "last_verified": null,
         "osm_id": 1078786590,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
         "aimopark_distance_m": 106.9,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4654,16 +4915,20 @@
         "last_verified": null,
         "osm_id": 1078786629,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "soldatgatan-16",
         "aimopark_distance_m": 187.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4719,11 +4984,15 @@
         "last_verified": null,
         "osm_id": 1078786661,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4778,16 +5047,20 @@
         "last_verified": null,
         "osm_id": 1078786669,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "soldatgatan-16",
         "aimopark_distance_m": 167.8,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4846,16 +5119,20 @@
         "last_verified": null,
         "osm_id": 1082863937,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-15-a-b",
         "aimopark_distance_m": 100.4,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4922,16 +5199,20 @@
         "last_verified": null,
         "osm_id": 1082863940,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-15-a-b",
         "aimopark_distance_m": 177.7,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4986,15 +5267,19 @@
         "last_verified": null,
         "osm_id": 1082863941,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5049,15 +5334,19 @@
         "last_verified": null,
         "osm_id": 1082863942,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5112,15 +5401,19 @@
         "last_verified": null,
         "osm_id": 1082863943,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5175,16 +5468,20 @@
         "last_verified": null,
         "osm_id": 1082863958,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "smedjegatan-6-gard",
         "aimopark_distance_m": 107.1,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5247,16 +5544,20 @@
         "last_verified": null,
         "osm_id": 1082863962,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-15-a-b",
         "aimopark_distance_m": 63.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5311,16 +5612,20 @@
         "last_verified": null,
         "osm_id": 1082863969,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "smedjegatan-6-gard",
         "aimopark_distance_m": 160.0,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5376,11 +5681,15 @@
         "last_verified": null,
         "osm_id": 1083463521,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5436,11 +5745,15 @@
         "last_verified": null,
         "osm_id": 1084628611,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5503,15 +5816,19 @@
         "last_verified": null,
         "osm_id": 1088102923,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5566,16 +5883,20 @@
         "last_verified": null,
         "osm_id": 1093936604,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "mandelvagen-3-9-potatisvagen-4-14",
         "aimopark_distance_m": 31.5,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5630,16 +5951,20 @@
         "last_verified": null,
         "osm_id": 1094117311,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "garnisonsgatan-15-a-b",
         "aimopark_distance_m": 142.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5711,11 +6036,15 @@
         "last_verified": null,
         "osm_id": 1094461032,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5778,16 +6107,20 @@
         "last_verified": null,
         "osm_id": 1095138011,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brannagatan-1--herkulesgatan-2",
         "aimopark_distance_m": 193.4,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5842,15 +6175,19 @@
         "last_verified": null,
         "osm_id": 1096942985,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5905,15 +6242,19 @@
         "last_verified": null,
         "osm_id": 1105028878,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sävast",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5972,15 +6313,19 @@
         "last_verified": null,
         "osm_id": 1105155691,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sävast",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6036,11 +6381,15 @@
         "last_verified": null,
         "osm_id": 1108296542,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6136,11 +6485,15 @@
         "last_verified": null,
         "osm_id": 1108296548,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6215,16 +6568,20 @@
         "last_verified": null,
         "osm_id": 1108296686,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "teknikvagen-3-15-14-20",
         "aimopark_distance_m": 150.7,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6296,11 +6653,15 @@
         "last_verified": null,
         "osm_id": 1112521427,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6355,7 +6716,7 @@
         "last_verified": null,
         "osm_id": 1112800542,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
@@ -6364,7 +6725,11 @@
         "aimopark_distance_m": 75.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6419,7 +6784,7 @@
         "last_verified": null,
         "osm_id": 1211799094,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": "Lidl",
@@ -6428,7 +6793,11 @@
         "aimopark_distance_m": 188.9,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6592,7 +6961,11 @@
         "aimopark_distance_m": 178.1,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6671,7 +7044,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6743,11 +7120,15 @@
         "last_verified": null,
         "osm_id": 1272407406,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6803,11 +7184,15 @@
         "last_verified": null,
         "osm_id": 1272407407,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6863,11 +7248,15 @@
         "last_verified": null,
         "osm_id": 1272407408,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6923,11 +7312,15 @@
         "last_verified": null,
         "osm_id": 1272407409,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6982,12 +7375,19 @@
         "last_verified": null,
         "osm_id": 1305733589,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "13.3 km från centrum, ingen avgiftstagg"
+        "source_note": "13.3 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7046,7 +7446,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7105,7 +7509,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7160,11 +7568,15 @@
         "last_verified": null,
         "osm_id": 1344786225,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7219,15 +7631,19 @@
         "last_verified": null,
         "osm_id": 1354637536,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7282,15 +7698,19 @@
         "last_verified": null,
         "osm_id": 1355833546,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7353,11 +7773,15 @@
         "last_verified": null,
         "osm_id": 1368402155,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": "yes",
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7433,11 +7857,15 @@
         "last_verified": null,
         "osm_id": 1395929718,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7501,7 +7929,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7557,11 +7992,15 @@
         "last_verified": null,
         "osm_id": 1413466253,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7616,11 +8055,15 @@
         "last_verified": null,
         "osm_id": 1415690264,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7712,7 +8155,14 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "29.6 km från centrum, ingen avgiftstagg"
+        "source_note": "29.6 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7767,11 +8217,15 @@
         "last_verified": null,
         "osm_id": 1417480762,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7844,13 +8298,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7909,7 +8367,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7993,7 +8455,11 @@
         "aimopark_distance_m": 62.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8076,7 +8542,7 @@
         "last_verified": null,
         "osm_id": 1435986358,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -8084,7 +8550,11 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8191,7 +8661,11 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8250,7 +8724,7 @@
         "last_verified": null,
         "osm_id": 1435986360,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -8258,7 +8732,11 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8325,15 +8803,19 @@
         "last_verified": null,
         "osm_id": 1437106595,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8388,15 +8870,19 @@
         "last_verified": null,
         "osm_id": 1437106614,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8457,13 +8943,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8542,15 +9032,19 @@
         "last_verified": null,
         "osm_id": 1437116871,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8613,15 +9107,19 @@
         "last_verified": null,
         "osm_id": 1437116874,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8680,15 +9178,19 @@
         "last_verified": null,
         "osm_id": 1437116878,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8751,7 +9253,11 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8806,15 +9312,19 @@
         "last_verified": null,
         "osm_id": 1437116880,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8875,14 +9385,18 @@
         "osm_distance_m": null,
         "osm_access": "customers",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "ringvagen-27",
         "aimopark_distance_m": 50.9,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8957,16 +9471,20 @@
         "last_verified": null,
         "osm_id": 1437116886,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "ringvagen-27",
         "aimopark_distance_m": 43.1,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9027,14 +9545,18 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "ringvagen-27",
         "aimopark_distance_m": 91.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9091,14 +9613,18 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "ringvagen-27",
         "aimopark_distance_m": 144.9,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9166,7 +9692,11 @@
         "aimopark_distance_m": 50.5,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9234,7 +9764,11 @@
         "aimopark_distance_m": 38.6,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9301,16 +9835,20 @@
         "last_verified": null,
         "osm_id": 1441487806,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
         "aimopark_distance_m": 145.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9377,15 +9915,19 @@
         "last_verified": null,
         "osm_id": 1441487822,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9457,7 +9999,11 @@
         "aimopark_distance_m": 50.1,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9529,7 +10075,11 @@
         "aimopark_distance_m": 50.8,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9590,14 +10140,18 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
         "aimopark_distance_m": 186.2,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9654,14 +10208,18 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
         "aimopark_distance_m": 184.5,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9718,13 +10276,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9795,7 +10357,11 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9852,13 +10418,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9915,13 +10485,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9978,13 +10552,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10041,13 +10619,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10104,13 +10686,17 @@
         "osm_distance_m": null,
         "osm_access": "customers",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10171,13 +10757,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10242,13 +10832,17 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10305,14 +10899,18 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "soldatgatan-16",
         "aimopark_distance_m": 198.1,
         "payment_apps": [
           "aimo"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10367,15 +10965,19 @@
         "last_verified": null,
         "osm_id": 1441642070,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10436,13 +11038,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10499,13 +11105,17 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10561,11 +11171,15 @@
         "last_verified": null,
         "osm_id": 1475013633,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10632,12 +11246,19 @@
         "last_verified": null,
         "osm_id": 1501010528,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "25.7 km från centrum, ingen avgiftstagg"
+        "source_note": "25.7 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10693,11 +11314,15 @@
         "last_verified": null,
         "osm_id": 1510247788,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10753,11 +11378,15 @@
         "last_verified": null,
         "osm_id": 1510247789,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10817,7 +11446,11 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",

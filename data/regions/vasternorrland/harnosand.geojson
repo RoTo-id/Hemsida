@@ -78,11 +78,15 @@
         "last_verified": null,
         "osm_id": 31820163,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -142,11 +146,15 @@
         "last_verified": null,
         "osm_id": 31820173,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -222,11 +230,15 @@
         "last_verified": null,
         "osm_id": 31820360,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -282,11 +294,15 @@
         "last_verified": null,
         "osm_id": 31820455,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -342,11 +358,15 @@
         "last_verified": null,
         "osm_id": 32041532,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -405,7 +425,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -484,7 +508,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -543,7 +571,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -602,7 +634,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -677,7 +715,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -758,9 +800,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -817,9 +865,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -878,7 +932,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -942,7 +1003,11 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1001,7 +1066,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1065,11 +1134,15 @@
         "last_verified": null,
         "osm_id": 41774000,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": "reconstructed (2012)"
+        "osm_note": "reconstructed (2012)",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1129,11 +1202,15 @@
         "last_verified": null,
         "osm_id": 41815525,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1245,11 +1322,15 @@
         "last_verified": null,
         "osm_id": 41825582,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1348,12 +1429,19 @@
         "last_verified": null,
         "osm_id": 44010534,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "17.1 km från centrum, ingen avgiftstagg"
+        "source_note": "17.1 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1412,7 +1500,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1479,7 +1571,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1537,9 +1633,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1597,9 +1700,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1658,7 +1768,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1742,11 +1856,15 @@
         "last_verified": null,
         "osm_id": 46418803,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1805,7 +1923,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1884,7 +2006,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -1959,7 +2085,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2021,9 +2151,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2119,11 +2256,15 @@
         "last_verified": null,
         "osm_id": 115984731,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2231,11 +2372,15 @@
         "last_verified": null,
         "osm_id": 128825972,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2310,7 +2455,13 @@
         "osm_fee": "yes",
         "osm_parking": "underground",
         "osm_operator": "Westerlind Fastigheter AB",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2377,7 +2528,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2433,11 +2590,15 @@
         "last_verified": null,
         "osm_id": 190581610,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2496,7 +2657,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2555,7 +2720,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2614,7 +2785,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2681,7 +2858,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2744,7 +2925,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2812,7 +2997,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2911,7 +3103,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -2982,7 +3178,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3041,7 +3243,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3100,7 +3308,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3159,7 +3373,13 @@
         "osm_fee": null,
         "osm_parking": "garage",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3222,7 +3442,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3305,7 +3531,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3432,7 +3662,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3500,11 +3736,15 @@
         "last_verified": null,
         "osm_id": 335877720,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3575,7 +3815,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3634,12 +3880,19 @@
         "last_verified": null,
         "osm_id": 360769509,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "19.5 km från centrum, ingen avgiftstagg"
+        "source_note": "19.5 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3696,9 +3949,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3770,11 +4029,15 @@
         "last_verified": null,
         "osm_id": 360813391,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3834,11 +4097,15 @@
         "last_verified": null,
         "osm_id": 361131751,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3902,11 +4169,15 @@
         "last_verified": null,
         "osm_id": 361156446,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -3962,11 +4233,15 @@
         "last_verified": null,
         "osm_id": 361160565,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4053,7 +4328,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4120,11 +4401,15 @@
         "last_verified": null,
         "osm_id": 361547060,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4179,12 +4464,19 @@
         "last_verified": null,
         "osm_id": 361951481,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "19.6 km från centrum, ingen avgiftstagg"
+        "source_note": "19.6 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4239,12 +4531,19 @@
         "last_verified": null,
         "osm_id": 361951483,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "19.6 km från centrum, ingen avgiftstagg"
+        "source_note": "19.6 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4315,12 +4614,19 @@
         "last_verified": null,
         "osm_id": 361951493,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "19.7 km från centrum, ingen avgiftstagg"
+        "source_note": "19.7 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4376,11 +4682,15 @@
         "last_verified": null,
         "osm_id": 362222016,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4450,9 +4760,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4507,12 +4824,19 @@
         "last_verified": null,
         "osm_id": 389715653,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "13.7 km från centrum, ingen avgiftstagg"
+        "source_note": "13.7 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4572,11 +4896,15 @@
         "last_verified": null,
         "osm_id": 407173791,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4635,7 +4963,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4691,11 +5023,15 @@
         "last_verified": null,
         "osm_id": 408659662,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4758,7 +5094,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -4816,9 +5156,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4880,9 +5227,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4938,11 +5292,15 @@
         "last_verified": null,
         "osm_id": 427176665,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5001,7 +5359,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5069,7 +5431,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": "Härnösands kommun",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5133,11 +5502,15 @@
         "last_verified": null,
         "osm_id": 431690563,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5209,11 +5582,15 @@
         "last_verified": null,
         "osm_id": 431695224,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5273,7 +5650,11 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": "Region Västernorrland",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5352,7 +5733,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5416,11 +5801,15 @@
         "last_verified": null,
         "osm_id": 439278383,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5479,7 +5868,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5550,7 +5943,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5618,11 +6017,15 @@
         "last_verified": null,
         "osm_id": 546448448,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5678,11 +6081,15 @@
         "last_verified": null,
         "osm_id": 546448450,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5762,11 +6169,15 @@
         "last_verified": null,
         "osm_id": 546448465,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5825,7 +6236,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5881,11 +6296,15 @@
         "last_verified": null,
         "osm_id": 546659141,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -5941,11 +6360,15 @@
         "last_verified": null,
         "osm_id": 546659142,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6001,11 +6424,15 @@
         "last_verified": null,
         "osm_id": 546906779,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6062,9 +6489,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6120,11 +6553,15 @@
         "last_verified": null,
         "osm_id": 547029862,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6195,7 +6632,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6255,11 +6698,15 @@
         "last_verified": null,
         "osm_id": 559716809,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6315,11 +6762,15 @@
         "last_verified": null,
         "osm_id": 559716812,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6384,9 +6835,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6453,7 +6910,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6509,11 +6970,15 @@
         "last_verified": null,
         "osm_id": 563665992,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6572,7 +7037,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": "Härnösands pastorat",
-        "osm_note": "För tjänstgörande präst, musiker, vaktmästare och kyrkvärd."
+        "osm_note": "För tjänstgörande präst, musiker, vaktmästare och kyrkvärd.",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6631,7 +7100,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6698,7 +7173,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6757,7 +7238,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6820,12 +7307,19 @@
         "last_verified": null,
         "osm_id": 589461761,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "30.1 km från centrum, ingen avgiftstagg"
+        "source_note": "30.1 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6884,7 +7378,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -6940,11 +7438,15 @@
         "last_verified": null,
         "osm_id": 591571323,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7000,11 +7502,15 @@
         "last_verified": null,
         "osm_id": 599381918,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7060,11 +7566,15 @@
         "last_verified": null,
         "osm_id": 599381919,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7120,11 +7630,15 @@
         "last_verified": null,
         "osm_id": 614074107,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7182,9 +7696,13 @@
         "osm_distance_m": null,
         "osm_access": "destination",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7247,7 +7765,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7311,11 +7835,15 @@
         "last_verified": null,
         "osm_id": 615747880,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7371,11 +7899,15 @@
         "last_verified": null,
         "osm_id": 615747882,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7431,11 +7963,15 @@
         "last_verified": null,
         "osm_id": 615747884,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7491,11 +8027,15 @@
         "last_verified": null,
         "osm_id": 615747885,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7579,11 +8119,15 @@
         "last_verified": null,
         "osm_id": 615747886,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7640,9 +8184,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7698,11 +8248,15 @@
         "last_verified": null,
         "osm_id": 615747888,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7758,11 +8312,15 @@
         "last_verified": null,
         "osm_id": 615747889,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -7819,9 +8377,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7880,7 +8444,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7947,7 +8517,13 @@
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8006,7 +8582,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8089,7 +8669,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8148,7 +8734,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8215,7 +8805,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8279,11 +8875,15 @@
         "last_verified": null,
         "osm_id": 625059508,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8342,7 +8942,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8398,11 +9004,15 @@
         "last_verified": null,
         "osm_id": 625232870,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8474,11 +9084,15 @@
         "last_verified": null,
         "osm_id": 625232875,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8534,11 +9148,15 @@
         "last_verified": null,
         "osm_id": 627544584,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8596,9 +9214,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8677,7 +9302,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8745,11 +9374,15 @@
         "last_verified": null,
         "osm_id": 628298509,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8805,11 +9438,15 @@
         "last_verified": null,
         "osm_id": 629099556,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -8876,7 +9513,13 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8943,7 +9586,13 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9003,7 +9652,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9059,11 +9715,15 @@
         "last_verified": null,
         "osm_id": 631644103,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9119,11 +9779,15 @@
         "last_verified": null,
         "osm_id": 632206534,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9203,11 +9867,15 @@
         "last_verified": null,
         "osm_id": 644853203,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9263,11 +9931,15 @@
         "last_verified": null,
         "osm_id": 645746382,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9327,11 +9999,15 @@
         "last_verified": null,
         "osm_id": 657654826,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9390,7 +10066,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9449,7 +10129,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9506,9 +10192,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9567,7 +10259,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9626,7 +10324,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9683,9 +10387,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9744,7 +10454,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9808,11 +10522,15 @@
         "last_verified": null,
         "osm_id": 677966115,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9868,11 +10586,15 @@
         "last_verified": null,
         "osm_id": 684608856,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -9930,9 +10652,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9995,12 +10724,19 @@
         "last_verified": null,
         "osm_id": 685113160,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "17.6 km från centrum, ingen avgiftstagg"
+        "source_note": "17.6 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10056,11 +10792,15 @@
         "last_verified": null,
         "osm_id": 686806002,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10116,11 +10856,15 @@
         "last_verified": null,
         "osm_id": 693447819,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10176,11 +10920,15 @@
         "last_verified": null,
         "osm_id": 693933765,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10252,11 +11000,15 @@
         "last_verified": null,
         "osm_id": 700800992,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10324,11 +11076,15 @@
         "last_verified": null,
         "osm_id": 701584334,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10392,11 +11148,15 @@
         "last_verified": null,
         "osm_id": 702193677,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10452,11 +11212,15 @@
         "last_verified": null,
         "osm_id": 715763745,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10515,7 +11279,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10576,10 +11344,17 @@
         "osm_distance_m": null,
         "osm_access": "destination",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "15.8 km från centrum, ingen avgiftstagg"
+        "source_note": "15.8 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10658,7 +11433,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10714,11 +11495,15 @@
         "last_verified": null,
         "osm_id": 761061566,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10774,11 +11559,15 @@
         "last_verified": null,
         "osm_id": 761061567,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -10837,7 +11626,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10915,9 +11711,16 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastroat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10978,9 +11781,13 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11035,11 +11842,15 @@
         "last_verified": null,
         "osm_id": 777806976,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11096,9 +11907,13 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11155,9 +11970,13 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11214,9 +12033,13 @@
         "osm_distance_m": null,
         "osm_access": "permissive",
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11279,7 +12102,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": "Härnösands pastorat",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11337,9 +12164,13 @@
         "osm_distance_m": null,
         "osm_access": "permit",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11395,11 +12226,15 @@
         "last_verified": null,
         "osm_id": 813265501,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": "Brännaskolan",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11456,9 +12291,13 @@
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11515,9 +12354,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -11573,11 +12418,15 @@
         "last_verified": null,
         "osm_id": 874724391,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11640,11 +12489,15 @@
         "last_verified": null,
         "osm_id": 875760017,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11716,7 +12569,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -11779,7 +12639,12 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": "Härnösands Kommun",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [],
+        "osm_opening_hours": "Mo-Su 09:00-18:00"
       },
       "geometry": {
         "type": "Polygon",
@@ -11843,11 +12708,15 @@
         "last_verified": null,
         "osm_id": 1071311043,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11903,11 +12772,15 @@
         "last_verified": null,
         "osm_id": 1071311044,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -11970,7 +12843,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12029,7 +12906,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12085,11 +12966,15 @@
         "last_verified": null,
         "osm_id": 1096370637,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12149,7 +13034,11 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12208,7 +13097,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12272,11 +13165,15 @@
         "last_verified": null,
         "osm_id": 1108050442,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12332,11 +13229,15 @@
         "last_verified": null,
         "osm_id": 1108050443,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12448,11 +13349,15 @@
         "last_verified": null,
         "osm_id": 1108050445,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12564,11 +13469,15 @@
         "last_verified": null,
         "osm_id": 1108062221,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12624,11 +13533,15 @@
         "last_verified": null,
         "osm_id": 1108062222,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12684,11 +13597,15 @@
         "last_verified": null,
         "osm_id": 1108062223,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12744,11 +13661,15 @@
         "last_verified": null,
         "osm_id": 1108062224,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12807,7 +13728,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -12883,11 +13810,15 @@
         "last_verified": null,
         "osm_id": 1108062253,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -12954,7 +13885,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13018,11 +13955,15 @@
         "last_verified": null,
         "osm_id": 1108154417,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13089,7 +14030,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13145,11 +14092,15 @@
         "last_verified": null,
         "osm_id": 1108154434,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13220,7 +14171,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13279,7 +14234,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13339,7 +14298,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13394,11 +14357,16 @@
         "last_verified": null,
         "osm_id": 1127987856,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_access_conditional": "yes @ charging",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13458,7 +14426,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13517,7 +14489,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13582,9 +14560,15 @@
         "osm_distance_m": null,
         "osm_access": "customers",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13643,7 +14627,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -13702,7 +14690,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13769,7 +14763,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13828,7 +14828,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13903,7 +14909,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13974,7 +14986,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14033,7 +15051,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14100,7 +15124,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14156,11 +15186,15 @@
         "last_verified": null,
         "osm_id": 1136271207,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14235,7 +15269,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14302,7 +15342,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14361,7 +15407,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14420,7 +15472,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14479,7 +15537,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14567,11 +15629,15 @@
         "last_verified": null,
         "osm_id": 1210860154,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14626,12 +15692,19 @@
         "last_verified": null,
         "osm_id": 1216226509,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "source_note": "31.5 km från centrum, ingen avgiftstagg"
+        "source_note": "31.5 km från centrum, ingen avgiftstagg",
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm",
+          "free_classification_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14694,11 +15767,15 @@
         "last_verified": null,
         "osm_id": 1307501537,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14754,11 +15831,15 @@
         "last_verified": null,
         "osm_id": 1311930531,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14861,7 +15942,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14921,11 +16006,15 @@
         "last_verified": null,
         "osm_id": 1348489349,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -14981,11 +16070,15 @@
         "last_verified": null,
         "osm_id": 1358420903,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15041,11 +16134,15 @@
         "last_verified": null,
         "osm_id": 1358420905,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15101,11 +16198,15 @@
         "last_verified": null,
         "osm_id": 1358420920,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15161,11 +16262,15 @@
         "last_verified": null,
         "osm_id": 1358420921,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15222,9 +16327,15 @@
         "osm_distance_m": null,
         "osm_access": "customers",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15281,9 +16392,15 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15339,11 +16456,15 @@
         "last_verified": null,
         "osm_id": 1358420933,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15402,7 +16523,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15461,7 +16588,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15517,11 +16650,15 @@
         "last_verified": null,
         "osm_id": 1358420942,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15577,11 +16714,15 @@
         "last_verified": null,
         "osm_id": 1358420945,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15640,7 +16781,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15699,7 +16846,13 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": [
+          "zero_price_not_supported_by_osm"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15755,11 +16908,15 @@
         "last_verified": null,
         "osm_id": 1426397428,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": null,
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": null,
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
@@ -15850,7 +17007,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": "Härnösands Kommun",
-        "osm_note": null
+        "osm_note": null,
+        "osm_checked_at": "2026-10-25",
+        "osm_status": "source_unchanged",
+        "osm_fee_conditions_checked": true,
+        "osm_conflicts": []
       },
       "geometry": {
         "type": "Polygon",
