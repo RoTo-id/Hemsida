@@ -90,7 +90,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -156,7 +156,7 @@
         "osm_parking": "multi-storey",
         "osm_operator": "Övik parkering",
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -223,7 +223,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -319,7 +319,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -391,7 +391,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -483,7 +483,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -559,7 +559,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -663,7 +663,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -767,7 +767,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -855,7 +855,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -959,7 +959,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1023,7 +1023,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1087,7 +1087,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1162,7 +1162,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1230,7 +1230,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1302,7 +1302,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1378,7 +1378,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1450,7 +1450,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1522,7 +1522,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1590,7 +1590,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1654,7 +1654,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1734,7 +1734,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1826,7 +1826,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1930,7 +1930,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2034,7 +2034,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2097,7 +2097,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2168,7 +2168,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2240,7 +2240,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "14.8 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -2366,7 +2366,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2482,7 +2482,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "14.5 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -2557,7 +2557,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2649,7 +2649,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "21.2 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -2724,7 +2724,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "16.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -2791,7 +2791,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "15.8 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -2866,7 +2866,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "12.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -2949,7 +2949,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3025,7 +3025,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3153,7 +3153,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3245,7 +3245,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3309,7 +3309,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3389,7 +3389,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3497,7 +3497,7 @@
             "distance_m": 60.2
           }
         ],
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -3594,7 +3594,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -3672,7 +3672,7 @@
             "distance_m": 65.3
           }
         ],
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -3754,7 +3754,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3825,7 +3825,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3896,7 +3896,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3991,7 +3991,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4071,7 +4071,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4190,7 +4190,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4286,7 +4286,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4350,7 +4350,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4490,7 +4490,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4602,7 +4602,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4678,7 +4678,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4742,7 +4742,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "14.7 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -4905,7 +4905,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "14.8 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -5000,7 +5000,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5080,7 +5080,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "13.9 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -5158,7 +5158,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5238,7 +5238,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5309,7 +5309,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5376,7 +5376,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5444,7 +5444,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5523,7 +5523,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5595,7 +5595,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5675,7 +5675,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5747,7 +5747,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5814,13 +5814,13 @@
         "last_verified": null,
         "osm_id": 153410785,
         "osm_distance_m": null,
-        "osm_access": null,
+        "osm_access": "yes",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
-        "osm_status": "source_unchanged",
+        "osm_checked_at": "2026-11-01",
+        "osm_status": "source_updated",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
       },
@@ -5931,7 +5931,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5995,7 +5995,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6059,7 +6059,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6123,7 +6123,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6211,7 +6211,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6279,7 +6279,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6355,7 +6355,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6419,7 +6419,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6483,7 +6483,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6547,7 +6547,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6615,7 +6615,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6682,7 +6682,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6758,7 +6758,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6833,7 +6833,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6909,7 +6909,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6981,7 +6981,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7053,7 +7053,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7141,7 +7141,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7209,7 +7209,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7273,7 +7273,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7345,7 +7345,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7417,7 +7417,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7493,7 +7493,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7561,7 +7561,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7641,7 +7641,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7713,7 +7713,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7805,7 +7805,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7869,7 +7869,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7941,7 +7941,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8017,7 +8017,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8129,7 +8129,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "26.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -8200,7 +8200,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8296,7 +8296,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8360,7 +8360,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8444,7 +8444,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "13.5 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -8539,7 +8539,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8683,7 +8683,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "19.2 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -8790,7 +8790,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "19.2 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -8865,7 +8865,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8936,7 +8936,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9018,7 +9018,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "21.1 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9084,7 +9084,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9175,7 +9175,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9264,7 +9264,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9330,7 +9330,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9394,7 +9394,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9474,7 +9474,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "77.9 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9541,7 +9541,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9613,7 +9613,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.6 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9712,7 +9712,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.7 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9790,7 +9790,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9853,7 +9853,7 @@
         "osm_parking": "surface",
         "osm_operator": "Husumskolan",
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9919,7 +9919,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10015,7 +10015,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10114,7 +10114,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10178,7 +10178,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10246,7 +10246,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "99.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -10317,7 +10317,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10381,7 +10381,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10456,7 +10456,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [],
@@ -10528,7 +10528,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [],
@@ -10596,7 +10596,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10660,7 +10660,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10727,7 +10727,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10790,7 +10790,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -10867,7 +10867,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -10941,7 +10941,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.7 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11008,7 +11008,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11075,7 +11075,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11142,7 +11142,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11209,7 +11209,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11276,7 +11276,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11363,7 +11363,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11431,7 +11431,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "23.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11498,7 +11498,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.6 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11565,7 +11565,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "23.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11632,7 +11632,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.7 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11698,7 +11698,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11763,7 +11763,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -11829,7 +11829,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11961,7 +11961,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12024,7 +12024,7 @@
         "osm_parking": null,
         "osm_operator": "Privat",
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12088,7 +12088,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "54.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -12166,7 +12166,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12229,7 +12229,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12288,7 +12288,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12351,7 +12351,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12414,7 +12414,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12485,7 +12485,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12549,7 +12549,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12613,7 +12613,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12705,7 +12705,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12785,7 +12785,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12865,7 +12865,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12937,7 +12937,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13000,7 +13000,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13076,7 +13076,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "19.2 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -13146,7 +13146,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13222,7 +13222,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13286,7 +13286,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13350,7 +13350,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13414,7 +13414,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13478,7 +13478,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13541,7 +13541,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13629,7 +13629,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "33.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -13715,7 +13715,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13779,7 +13779,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "17.2 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -13846,7 +13846,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.7 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -13912,7 +13912,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13988,7 +13988,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14080,7 +14080,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "42.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -14147,7 +14147,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14243,7 +14243,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14306,7 +14306,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14373,7 +14373,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14461,7 +14461,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "15.3 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -14528,7 +14528,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "15.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -14595,7 +14595,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "15.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -14662,7 +14662,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14817,7 +14817,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14893,7 +14893,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14973,7 +14973,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15041,7 +15041,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15105,7 +15105,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15177,7 +15177,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15241,7 +15241,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15309,7 +15309,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15373,7 +15373,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15437,7 +15437,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15501,7 +15501,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15601,7 +15601,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15665,7 +15665,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15729,7 +15729,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15809,7 +15809,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15880,7 +15880,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -15954,7 +15954,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16018,7 +16018,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16082,7 +16082,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "25.1 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-10-25",
+        "osm_checked_at": "2026-11-01",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
