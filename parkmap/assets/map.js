@@ -27,9 +27,12 @@ const PIN_ZOOM_THRESHOLD = 15;
 function initMap() {
   map = L.map('map', { zoomControl: false }).setView([65.583, 22.148], 13);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd', maxZoom: 19,
+  // 2026-11-05: CARTO's free raster basemap now answers every tile with an "API KEY REQUIRED" watermark
+  // (verified by curl: all tiles are the same 2049-byte placeholder). OSM's own tile server is free under its tile
+  // usage policy for modest traffic; swap for a keyed provider (MapTiler/Stadia) if traffic grows.
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-bidragsgivare',
+    maxZoom: 19,
   }).addTo(map);
 
   map.on('moveend', () => {
