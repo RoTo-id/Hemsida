@@ -220,10 +220,12 @@ function cityCoverage(key) {
 }
 
 function locateMe(onDone) {
+  PM.trackEvent?.('near-me/click', 'Nära mig');
   if (!navigator.geolocation) { alert('GPS stöds ej i denna webbläsare'); onDone && onDone(); return; }
   navigator.geolocation.getCurrentPosition((pos) => {
     const lat = pos.coords.latitude, lng = pos.coords.longitude;
     PM.state.userLatLng = [lat, lng];
+    PM.trackEvent?.('near-me/found', 'Nära mig: position hittad'); // the position itself is never sent
     map.setView([lat, lng], 16);
     if (userMarker) map.removeLayer(userMarker);
     userMarker = L.circleMarker([lat, lng], { radius: 8, color: '#2563EB', fillColor: '#2563EB', fillOpacity: 0.9 }).addTo(map).bindPopup('Du är här');
