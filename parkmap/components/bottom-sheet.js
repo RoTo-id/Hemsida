@@ -78,7 +78,7 @@ function renderBottomSheet() {
 
 function sheetItemHtml(p) {
   const color = PM.classify.usageColor(p);
-  const priceStr = PM.classify.priceIsFree(p) ? 'Gratis' : (p.price_per_hour != null ? `${p.price_per_hour} kr/tim` : 'Pris okänt');
+  const priceStr = PM.classify.priceText(p);
   const opName = (PM.state.opsData && PM.state.opsData[p.operator]?.name) || p.operator;
   return `<div class="sheet-item" data-sheet-item="1">
     <div class="sheet-item-pin" style="background:${color}">P</div>

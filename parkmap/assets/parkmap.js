@@ -145,7 +145,8 @@ function initHeader() {
 
 async function boot() {
   initHeader();
-  PM.map.initMap();
+  const leafletMap = PM.map.initMap();
+  PM.appZones.init(leafletMap);   // separate layer; loads its own file, never touches PM.state.geoData
   await PM.map.fetchCoverageSummary();
 
   const hashCity = location.hash.replace('#', '').toLowerCase();

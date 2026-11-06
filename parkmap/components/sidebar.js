@@ -134,7 +134,7 @@ function renderResultsList() {
 }
 
 function resultItemHtml(p) {
-  const priceStr = PM.classify.priceIsFree(p) ? 'Gratis' : (p.price_per_hour != null ? `${p.price_per_hour} kr/tim` : 'Pris okänt');
+  const priceStr = PM.classify.priceText(p);
   const opName = (PM.state.opsData && PM.state.opsData[p.operator]?.name) || p.operator;
   return `<div class="result-item" data-result="1">
     <div class="result-name">${PM.classify.displayName(p, PM.state.opsData)}</div>
