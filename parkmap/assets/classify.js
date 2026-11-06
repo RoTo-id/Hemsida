@@ -12,7 +12,7 @@ const RE_ACCESSIBLE = /tillgänglig|handicap|rullstol|disab/i;
 
 /* Fee state of a zone whose price was never measured (owner 2026-11-06: "vi ska kolla så mycket vi kan istället för
    att andra ska göra det"). Zones that would otherwise read "Gratis" without evidence -- private_property with price 0
-   and no OSM fee=no, or OSM fee=yes with price 0 / free_parking -- take their state from the fee check
+   (an explicit OSM fee=no included), or OSM fee=yes with price 0 / free_parking -- take their state from the fee check
    (assets/data/fee_check.json, attached as p.fee_check by map.js; every entry names its source). Without an entry they
    are 'unknown', never free. Returns null for every other zone, so ordinary zones are unaffected.
    States: paid | free | customers | residents | private | unknown. Data files stay untouched (the weekly OSM sync locks them). */
@@ -22,7 +22,7 @@ function feeState(p) {
   const price = p.price_per_hour;
   if (typeof price === 'number' && price > 0) return null;
   const needsCheck = (fee === 'yes' && (price === 0 || p.operator === 'free_parking'))
-    || (p.operator === 'private_property' && price === 0 && fee !== 'no');
+    || (p.operator === 'private_property' && price === 0);
   if (!needsCheck) return null;
   const state = p.fee_check && FEE_CLASSES[p.fee_check.c];
   if (!state) return 'unknown';
@@ -46,7 +46,7 @@ function priceText(p) {
   switch (feeState(p)) {
     case 'paid': return checkedPrice(p) ? `${checkedPrice(p)} kr/tim` : 'Avgiftsbelagd – pris okänt';
     case 'free': return 'Gratis';
-    case 'customers': return 'Kundparkering';
+    case 'customers': return String(p.osm_fee || '').toLowerCase() === 'no' ? 'Kundparkering – gratis för kunder' : 'Kundparkering';
     case 'residents': return 'Boendeparkering / tillstånd';
     case 'private': return 'Privat parkering – ej för allmänheten';
     case 'unknown': return p.operator === 'private_property' ? 'Privat mark – avgift okänd' : 'Avgift okänd – se skylt';
