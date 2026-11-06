@@ -43,7 +43,9 @@ function buildCardHtml(p, opsData) {
   const cat = PM.classify.usageCategory(p);
   const opColor = PM.USAGE_COLORS[cat];
 
-  const priceHtml = PM.classify.priceIsFree(p)
+  const priceHtml = PM.classify.feeUnknown(p)
+    ? `<div class="pc-price pc-price-fee-unknown">${PM.classify.priceText(p)}</div>`
+    : PM.classify.priceIsFree(p)
     ? `<div class="pc-price free">Gratis</div>`
     : (p.price_per_hour != null
         ? `<div class="pc-price">${p.price_per_hour} <small>${p.currency || 'SEK'}/tim</small></div>`

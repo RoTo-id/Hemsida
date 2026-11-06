@@ -10,11 +10,26 @@ const RE_CHARGING = /ladd|charg|elbil|\bev\b/i;
 const RE_RESIDENT = /boende|hyresgäst|resident|tillst[aå]nd(?!.*erfordras.*1 h)/i;
 const RE_ACCESSIBLE = /tillgänglig|handicap|rullstol|disab/i;
 
+/* OSM says fee=yes but our data has no price (price_per_hour 0 / free_parking was an import default, not a
+   measurement). Such a zone must NEVER read "Gratis": a wrong "free" costs a user a parking fine (owner decision
+   2026-11-06; 21 Umeå private_property zones + 6 more). Data stays untouched (the weekly OSM sync locks price fields). */
+function feeUnknown(p) {
+  return String(p.osm_fee == null ? '' : p.osm_fee).toLowerCase() === 'yes' && !priceIsPaid(p)
+    && (p.price_per_hour === 0 || p.operator === 'free_parking');
+}
 function priceIsFree(p) {
+  if (feeUnknown(p)) return false;
   return p.price_per_hour === 0 || p.operator === 'free_parking';
 }
 function priceIsPaid(p) {
   return typeof p.price_per_hour === 'number' && p.price_per_hour > 0;
+}
+/* One wording for card, sheet and sidebar list. */
+function priceText(p) {
+  if (feeUnknown(p)) return p.operator === 'private_property' ? 'Privat mark – avgift kan gälla, se skylt' : 'Avgift kan gälla – se skylt';
+  if (priceIsFree(p)) return 'Gratis';
+  if (priceIsPaid(p)) return `${p.price_per_hour} kr/tim`;
+  return 'Pris okänt';
 }
 function textBlob(p) {
   return [p.restrictions, p.osm_note, p.name, p.hours].filter(Boolean).join(' ');
@@ -132,7 +147,7 @@ PM.FILTER_DEFS = [
 
 PM.classify = {
   usageCategory, usageColor, isOpenNow,
-  priceIsFree, priceIsPaid, isCharging, isResident, isAccessible, isTimeLimited,
+  priceIsFree, priceIsPaid, feeUnknown, priceText, isCharging, isResident, isAccessible, isTimeLimited,
   isGarageType, isStreetType, isReviewMarker,
   isPlaceholderName, displayName,
 };
