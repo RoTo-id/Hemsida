@@ -322,3 +322,10 @@ button{font-family:inherit}
 .appzone-name{font-size:12.5px;margin-top:4px}
 .appzone-note{margin-top:8px;padding:6px 8px;background:#FEF3C7;border-radius:6px;color:#92400E;font-size:12px;font-weight:600}
 @media (max-width:860px){.appzones-ctl{max-width:200px;font-size:12px}}
+
+/* app-zone markers: small visible ring, 36 px clickable box */
+.appzone-icon{background:none;border:0;display:flex;align-items:center;justify-content:center}
+.appzone-dot{display:block;width:14px;height:14px;border-radius:50%;border:2.5px solid #111827;background:rgba(255,255,255,.12);box-sizing:border-box}
+.appzone-dot-n{width:24px;height:24px;display:flex;align-items:center;justify-content:center;background:#fff;color:#111827;font:700 11px 'DM Sans',sans-serif}
+.appzone-list{margin:6px 0 0;padding:0 0 0 16px;max-height:160px;overflow:auto;font-size:12.5px}
+.appzone-list li{margin:2px 0}

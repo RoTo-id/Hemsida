@@ -135,7 +135,7 @@ function renderResultsList() {
 
 function resultItemHtml(p) {
   const priceStr = PM.classify.priceText(p);
-  const opName = (PM.state.opsData && PM.state.opsData[p.operator]?.name) || p.operator;
+  const opName = PM.classify.operatorLabel(p, PM.state.opsData);
   return `<div class="result-item" data-result="1">
     <div class="result-name">${PM.classify.displayName(p, PM.state.opsData)}</div>
     <div class="result-meta">${priceStr} · ${opName}</div>

@@ -70,8 +70,15 @@ const TYPE_AREA_LABELS = {
   app_marker_review: 'Ej verifierad parkering',
 };
 
+/* "free_parking" is a price class stored in the operator field; for a fee-unknown zone it must not surface as an
+   operator named "Gratis" anywhere (card title, operator row, lists). */
+function operatorLabel(p, opsData) {
+  if (feeUnknown(p) && p.operator === 'free_parking') return 'Okänd operatör';
+  return (opsData && opsData[p.operator]?.name) || p.operator;
+}
+
 function areaLabel(p, opsData) {
-  const knownOperator = p.operator && p.operator !== 'unknown' ? (opsData && opsData[p.operator]) : null;
+  const knownOperator = p.operator && p.operator !== 'unknown' && !(feeUnknown(p) && p.operator === 'free_parking') ? (opsData && opsData[p.operator]) : null;
   if (knownOperator?.name) return knownOperator.name;
   return p.lulebo_district || p.municipality || p.region || '';
 }
@@ -149,5 +156,5 @@ PM.classify = {
   usageCategory, usageColor, isOpenNow,
   priceIsFree, priceIsPaid, feeUnknown, priceText, isCharging, isResident, isAccessible, isTimeLimited,
   isGarageType, isStreetType, isReviewMarker,
-  isPlaceholderName, displayName,
+  isPlaceholderName, displayName, operatorLabel,
 };
