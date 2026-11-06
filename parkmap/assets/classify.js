@@ -17,6 +17,15 @@ const RE_ACCESSIBLE = /tillgänglig|handicap|rullstol|disab/i;
    are 'unknown', never free. Returns null for every other zone, so ordinary zones are unaffected.
    States: paid | free | customers | residents | private | unknown. Data files stay untouched (the weekly OSM sync locks them). */
 const FEE_CLASSES = { PAID: 'paid', FREE: 'free', CUSTOMERS: 'customers', RESIDENTS: 'residents', PRIVATE: 'private', UNKNOWN: 'unknown' };
+/* The overlay entry, or null when it is stale: "a"/"f" are the osm_access/osm_fee the verdict was built on; when the weekly
+   OSM sync later changes either, the verdict no longer rests on the current tag and the zone falls back to "unknown". */
+function feeEntry(p) {
+  const fc = p.fee_check;
+  if (!fc) return null;
+  if (fc.a !== undefined && String(p.osm_access || '') !== fc.a) return null;
+  if (fc.f !== undefined && String(p.osm_fee == null ? '' : p.osm_fee).toLowerCase() !== fc.f) return null;
+  return fc;
+}
 function feeState(p) {
   const fee = String(p.osm_fee == null ? '' : p.osm_fee).toLowerCase();
   const price = p.price_per_hour;
@@ -24,7 +33,7 @@ function feeState(p) {
   const needsCheck = (fee === 'yes' && (price === 0 || p.operator === 'free_parking'))
     || (p.operator === 'private_property' && price === 0);
   if (!needsCheck) return null;
-  const state = p.fee_check && FEE_CLASSES[p.fee_check.c];
+  const state = feeEntry(p) && FEE_CLASSES[p.fee_check.c];
   if (!state) return 'unknown';
   if (state === 'free' && fee === 'yes') return 'unknown'; // OSM later said fee=yes: a stale "free" must not survive
   return state;
@@ -36,7 +45,7 @@ function priceIsFree(p) {
   return p.price_per_hour === 0 || p.operator === 'free_parking';
 }
 function checkedPrice(p) {
-  return feeState(p) === 'paid' && p.fee_check && typeof p.fee_check.p === 'number' && p.fee_check.p > 0 ? p.fee_check.p : null;
+  return feeState(p) === 'paid' && feeEntry(p) && typeof p.fee_check.p === 'number' && p.fee_check.p > 0 ? p.fee_check.p : null;
 }
 function priceIsPaid(p) {
   return (typeof p.price_per_hour === 'number' && p.price_per_hour > 0) || feeState(p) === 'paid';
@@ -44,11 +53,11 @@ function priceIsPaid(p) {
 /* One wording for card, sheet and sidebar list. */
 function priceText(p) {
   switch (feeState(p)) {
-    case 'paid': return checkedPrice(p) ? `${checkedPrice(p)} kr/tim` : 'Avgiftsbelagd – pris okänt';
+    case 'paid': return checkedPrice(p) ? `${checkedPrice(p)} kr/tim` : (p.fee_check && p.fee_check.h ? `Avgiftsbelagd ${p.fee_check.h} – pris okänt` : 'Avgiftsbelagd – pris okänt');
     case 'free': return 'Gratis';
     case 'customers': return String(p.osm_fee || '').toLowerCase() === 'no' ? 'Kundparkering – gratis för kunder' : 'Kundparkering';
     case 'residents': return 'Boendeparkering / tillstånd';
-    case 'private': return 'Privat parkering – ej för allmänheten';
+    case 'private': return 'Privat parkering enligt OpenStreetMap';
     case 'unknown': return p.operator === 'private_property' ? 'Privat mark – avgift okänd' : 'Avgift okänd – se skylt';
     default: break;
   }
@@ -58,7 +67,7 @@ function priceText(p) {
 }
 /* Where the state comes from, for the card ("Källa"). */
 function feeSource(p) {
-  return feeState(p) && feeState(p) !== 'unknown' && p.fee_check && p.fee_check.s ? p.fee_check.s : '';
+  return feeState(p) && feeEntry(p) && p.fee_check.s ? p.fee_check.s : '';
 }
 function textBlob(p) {
   return [p.restrictions, p.osm_note, p.name, p.hours].filter(Boolean).join(' ');
@@ -186,7 +195,7 @@ PM.FILTER_DEFS = [
 
 PM.classify = {
   usageCategory, usageColor, isOpenNow,
-  priceIsFree, priceIsPaid, feeState, feeUnknown, checkedPrice, feeSource, priceText, isCharging, isResident, isAccessible, isTimeLimited,
+  priceIsFree, priceIsPaid, feeEntry, feeState, feeUnknown, checkedPrice, feeSource, priceText, isCharging, isResident, isAccessible, isTimeLimited,
   isGarageType, isStreetType, isReviewMarker,
   isPlaceholderName, displayName, operatorLabel,
 };

@@ -54,7 +54,8 @@ function buildCardHtml(p, opsData) {
         ? `<div class="pc-price">${p.price_per_hour} <small>${p.currency || 'SEK'}/tim</small></div>`
         : `<div class="pc-price" style="color:var(--muted);font-size:15px">Pris ej känt</div>`);
   const feeSource = PM.classify.feeSource(p);
-  const feeSourceHtml = feeSource ? `<div class="pc-fee-source">Källa: ${feeSource.replace(/</g, '&lt;')}${p.fee_check.d ? ` (kontrollerad ${p.fee_check.d})` : ''}</div>` : '';
+  const escHtml = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  const feeSourceHtml = feeSource ? `<div class="pc-fee-source">Källa: ${escHtml(feeSource)}${p.fee_check.d ? ` (kontrollerad ${escHtml(p.fee_check.d)})` : ''}</div>` : '';
 
   const openState = PM.classify.isOpenNow(p);
   const openBadge = openState === true ? `<span class="pc-open-badge open">Öppet nu</span>`
@@ -100,7 +101,7 @@ function buildCardHtml(p, opsData) {
     ${facts.length ? `<div class="pc-facts">${facts.join('')}</div>` : ''}
     ${flags ? `<div class="pc-flags">${flags}</div>` : ''}
     ${unknownNotice}
-    <div class="pc-verified">Data senast kontrollerad: ${p.last_verified || 'okänt datum'}</div>
+    ${p.last_verified || !feeSource ? `<div class="pc-verified">Data senast kontrollerad: ${p.last_verified || 'okänt datum'}</div>` : ''}
     <a href="#" class="pc-report" data-report="${encodeURIComponent(p.name || 'zon')}">⚠ Rapportera felaktig information</a>
   `;
 }

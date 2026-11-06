@@ -77,7 +77,7 @@ PM.USAGE_COLORS = {
   resident:   '#7C3AED', // Boende/tillstånd
   charging:   '#0D9488', // Laddplats
   incomplete: '#F59E0B', // Ofullständig info
-  restricted: '#0891B2', // Kundparkering / privat, ej för allmänheten
+  restricted: '#DB2777', // Kundparkering / privat, ej för allmänheten
   unknown:    '#94A3B8', // Okänd
 };
 PM.USAGE_LABELS = {
