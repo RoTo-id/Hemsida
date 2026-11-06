@@ -11,24 +11,50 @@ window.PM = window.PM || {};
   const MIN_ZOOM = 12;           // below this the rings would only clutter a country-wide view
   const DATA_URL = 'assets/data/app_zones.json';
 
-  const st = { zones: [], visible: true, layer: null, markers: new Map(), map: null, ctl: null, error: null, loaded: false };
+  const st = { zones: [], visible: true, layer: null, markers: new Map(), groups: [], map: null, ctl: null, error: null, loaded: false };
 
   function esc(v) {
     return String(v == null ? '' : v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
 
   /* The popup says exactly what we know: code, app, city, name, and that the location is approximate and the price unknown. */
-  function popupHtml(z) {
-    return `<div class="appzone-popup">
-      <div class="appzone-title">Zon ${esc(z.code)}</div>
+  function zoneBlock(z) {
+    return `<div class="appzone-title">Zon ${esc(z.code)}</div>
       <div class="appzone-meta">${esc(z.app)} · ${esc(z.city)}</div>
-      ${z.name ? `<div class="appzone-name">${esc(z.name)}</div>` : ''}
-      <div class="appzone-note">${esc(NOTE)}</div>
-    </div>`;
+      ${z.name ? `<div class="appzone-name">${esc(z.name)}</div>` : ''}`;
+  }
+  function popupHtml(z) {
+    return `<div class="appzone-popup">${zoneBlock(z)}<div class="appzone-note">${esc(NOTE)}</div></div>`;
+  }
+  /* Several zones with identical coordinates (the apps only gave a street/city centroid): ONE ring with a count,
+     and a list of all of them, so none is hidden and no zone looks more precisely placed than it is. */
+  function groupPopupHtml(g) {
+    const items = g.zones.map((z) => `<li><b>Zon ${esc(z.code)}</b> · ${esc(z.app)}${z.name ? ' · ' + esc(z.name) : ''}</li>`).join('');
+    return `<div class="appzone-popup"><div class="appzone-title">${g.zones.length} zoner på samma punkt</div>
+      <div class="appzone-meta">${esc(g.zones[0].city)} · exakt plats okänd</div>
+      <ul class="appzone-list">${items}</ul><div class="appzone-note">${esc(NOTE)}</div></div>`;
   }
 
+  /* Group zones that share a coordinate. */
+  function groupZones(zones) {
+    const m = new Map();
+    for (const z of zones) {
+      const k = z.lat + ',' + z.lon;
+      if (!m.has(k)) m.set(k, { lat: z.lat, lon: z.lon, zones: [] });
+      m.get(k).zones.push(z);
+    }
+    return [...m.values()];
+  }
+
+  /* Visual stays small (hollow ring 14 px, or 24 px with a count); the clickable box is 36 px (touch target). */
+  const HIT = 36;
+  function iconFor(g) {
+    const n = g.zones.length;
+    const inner = n > 1 ? `<span class="appzone-dot appzone-dot-n">${n}</span>` : '<span class="appzone-dot"></span>';
+    return L.divIcon({ className: 'appzone-icon', html: inner, iconSize: [HIT, HIT], iconAnchor: [HIT / 2, HIT / 2], popupAnchor: [0, -12] });
+  }
   function ringOptions() {
-    return { radius: 7, color: '#111827', weight: 2.5, opacity: 0.95, fill: true, fillColor: '#ffffff', fillOpacity: 0.12, className: 'appzone-ring' };
+    return { keyboard: true, riseOnHover: true };
   }
 
   function inView(z, bounds) { return bounds.contains([z.lat, z.lon]); }
@@ -48,11 +74,12 @@ window.PM = window.PM || {};
     if (!st.map.hasLayer(st.layer)) st.layer.addTo(st.map);
     const bounds = st.map.getBounds().pad(0.25);
     const keep = new Set();
-    st.zones.forEach((z, i) => {
-      if (!inView(z, bounds)) return;
+    st.groups.forEach((g, i) => {
+      if (!inView(g, bounds)) return;
       keep.add(i);
       if (st.markers.has(i)) return;
-      const m = L.circleMarker([z.lat, z.lon], ringOptions()).bindPopup(popupHtml(z), { maxWidth: 260 });
+      const m = L.marker([g.lat, g.lon], Object.assign({ icon: iconFor(g) }, ringOptions()))
+        .bindPopup(g.zones.length > 1 ? groupPopupHtml(g) : popupHtml(g.zones[0]), { maxWidth: 280, autoPanPaddingTopLeft: [12, 125], autoPanPaddingBottomRight: [12, 12] });
       st.markers.set(i, m); st.layer.addLayer(m);
     });
     for (const [i, m] of st.markers) {
@@ -104,6 +131,7 @@ window.PM = window.PM || {};
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       st.zones = (data.zones || []).filter((z) => Number.isFinite(z.lat) && Number.isFinite(z.lon));
+      st.groups = groupZones(st.zones);
       st.loaded = true;
     } catch (e) {
       st.error = e.message;
@@ -112,5 +140,5 @@ window.PM = window.PM || {};
     refresh();
   }
 
-  PM.appZones = { LABEL, NOTE, MIN_ZOOM, esc, popupHtml, ringOptions, init, setVisible, refresh, state: st };
+  PM.appZones = { LABEL, NOTE, MIN_ZOOM, HIT, esc, popupHtml, groupPopupHtml, groupZones, iconFor, ringOptions, init, setVisible, refresh, state: st };
 })();

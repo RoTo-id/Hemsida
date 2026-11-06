@@ -38,7 +38,7 @@ function directionsUrl(p) {
 
 function buildCardHtml(p, opsData) {
   const op = opsData[p.operator];
-  const opName = op?.name || p.operator;
+  const opName = PM.classify.operatorLabel(p, opsData);
   const isUnknown = p.operator === 'unknown';
   const cat = PM.classify.usageCategory(p);
   const opColor = PM.USAGE_COLORS[cat];

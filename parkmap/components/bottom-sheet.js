@@ -79,7 +79,7 @@ function renderBottomSheet() {
 function sheetItemHtml(p) {
   const color = PM.classify.usageColor(p);
   const priceStr = PM.classify.priceText(p);
-  const opName = (PM.state.opsData && PM.state.opsData[p.operator]?.name) || p.operator;
+  const opName = PM.classify.operatorLabel(p, PM.state.opsData);
   return `<div class="sheet-item" data-sheet-item="1">
     <div class="sheet-item-pin" style="background:${color}">P</div>
     <div>
