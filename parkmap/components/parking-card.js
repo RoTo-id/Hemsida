@@ -43,13 +43,18 @@ function buildCardHtml(p, opsData) {
   const cat = PM.classify.usageCategory(p);
   const opColor = PM.USAGE_COLORS[cat];
 
-  const priceHtml = PM.classify.feeUnknown(p)
-    ? `<div class="pc-price pc-price-fee-unknown">${PM.classify.priceText(p)}</div>`
+  const feeSt = PM.classify.feeState(p);
+  const priceHtml = (feeSt && feeSt !== 'free' && !(feeSt === 'paid' && PM.classify.checkedPrice(p)))
+    ? `<div class="pc-price pc-price-fee-${feeSt === 'unknown' ? 'unknown' : 'checked'}">${PM.classify.priceText(p)}</div>`
     : PM.classify.priceIsFree(p)
     ? `<div class="pc-price free">Gratis</div>`
+    : PM.classify.checkedPrice(p)
+    ? `<div class="pc-price">${PM.classify.checkedPrice(p)} <small>${p.currency || 'SEK'}/tim</small></div>`
     : (p.price_per_hour != null
         ? `<div class="pc-price">${p.price_per_hour} <small>${p.currency || 'SEK'}/tim</small></div>`
         : `<div class="pc-price" style="color:var(--muted);font-size:15px">Pris ej känt</div>`);
+  const feeSource = PM.classify.feeSource(p);
+  const feeSourceHtml = feeSource ? `<div class="pc-fee-source">Källa: ${feeSource.replace(/</g, '&lt;')}${p.fee_check.d ? ` (kontrollerad ${p.fee_check.d})` : ''}</div>` : '';
 
   const openState = PM.classify.isOpenNow(p);
   const openBadge = openState === true ? `<span class="pc-open-badge open">Öppet nu</span>`
@@ -87,6 +92,7 @@ function buildCardHtml(p, opsData) {
     <div class="pc-name">${PM.classify.displayName(p, opsData)}</div>
     <div class="pc-operator"><span class="filter-dot" style="background:${opColor}"></span>${opName}</div>
     ${priceHtml}
+    ${feeSourceHtml}
     ${p.hours ? `<div class="pc-hours">${p.hours}</div>` : ''}
     ${openBadge}
     ${heroBlock}
