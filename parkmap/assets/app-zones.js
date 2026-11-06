@@ -110,8 +110,8 @@ window.PM = window.PM || {};
       options: { position: 'topright' },
       onAdd() {
         const div = L.DomUtil.create('div', 'appzones-ctl leaflet-bar');
-        div.innerHTML = `<label class="appzones-label"><input type="checkbox" id="app-zones-toggle" checked>
-          <span class="appzones-swatch" aria-hidden="true"></span><span class="appzones-text">${esc(LABEL)}</span></label>
+        div.innerHTML = `<label class="appzones-label" title="${esc(LABEL)}"><input type="checkbox" id="app-zones-toggle" aria-label="${esc(LABEL)}" checked>
+          <span class="appzones-swatch" aria-hidden="true"></span><span class="appzones-text"><span class="appzones-full">${esc(LABEL)}</span><span class="appzones-short">Appzoner (ungefärligt)</span></span></label>
           <div class="appzones-hint">Laddar …</div>`;
         L.DomEvent.disableClickPropagation(div);
         div.querySelector('input').addEventListener('change', (e) => setVisible(e.target.checked));

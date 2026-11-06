@@ -233,7 +233,7 @@ button{font-family:inherit}
   .map-legend{display:none}
   .status-bar{display:none}
 
-  .mobile-chips{position:absolute;left:12px;right:12px;bottom:calc(14vh + 12px);display:flex;gap:8px;z-index:900;flex-wrap:wrap}
+  .mobile-chips{position:absolute;left:12px;right:12px;bottom:calc(116px + 28px);display:flex;gap:8px;z-index:900;flex-wrap:wrap}
   .chip{height:36px;padding:0 14px;border-radius:999px;background:var(--panel);border:1px solid var(--border);box-shadow:var(--shadow-sm);font-size:12.5px;font-weight:700;display:flex;align-items:center;gap:6px;cursor:pointer;color:var(--text)}
   .chip.free{color:var(--free)}
   .chip.active{background:var(--primary);color:#fff;border-color:var(--primary)}
@@ -254,7 +254,7 @@ button{font-family:inherit}
   .sheet-item-meta{font-size:12px;color:var(--text2)}
 
   .pc-close{display:none}
-  .bottom-sheet .pc-body{padding:0 0 20px}
+  .bottom-sheet .pc-body{padding:0 16px 20px}
   .bottom-sheet .pc-name{padding-right:0}
 
   .city-modal-backdrop{padding-top:0;align-items:stretch}
@@ -329,3 +329,25 @@ button{font-family:inherit}
 .appzone-dot-n{width:24px;height:24px;display:flex;align-items:center;justify-content:center;background:#fff;color:#111827;font:700 11px 'DM Sans',sans-serif}
 .appzone-list{margin:6px 0 0;padding:0 0 0 16px;max-height:160px;overflow:auto;font-size:12.5px}
 .appzone-list li{margin:2px 0}
+
+/* ---- r3 (owner phone walk 2026-11-06) ---- */
+.loc-msg{position:absolute;left:12px;right:12px;top:12px;z-index:1700;display:none;align-items:center;gap:10px;flex-wrap:wrap;background:#FEF3C7;border:1px solid #F59E0B;color:#78350F;border-radius:10px;padding:10px 12px;font-size:13px;line-height:1.35;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.loc-msg span{flex:1 1 180px}
+.loc-msg button{min-height:36px;padding:0 12px;border-radius:8px;border:1px solid #B45309;background:#fff;color:#78350F;font-weight:700;font-size:13px}
+.loc-msg .loc-msg-x{border:0;background:transparent;font-size:22px;padding:0 6px;min-height:36px}
+.appzones-short{display:none}
+@media (max-width:860px){
+  /* compact layer toggle, below the near-me button */
+  .leaflet-top.leaflet-right{top:50px}
+  .appzones-ctl{padding:5px 8px;max-width:none;font-size:12px}
+  .appzones-full,.appzones-hint{display:none}
+  .appzones-short{display:inline}
+  .appzones-label{gap:6px;min-height:30px}
+  /* OSM attribution stays visible above the collapsed sheet */
+  .leaflet-bottom{bottom:118px}
+  .leaflet-control-zoom a{width:36px;height:36px;line-height:36px}
+}
+@media (max-width:860px){
+  /* expanded sheet / card: attribution would float over its text, so it moves to the top edge of the map (still visible) */
+  .map-col:has(.bottom-sheet.expanded) .leaflet-bottom.leaflet-right{bottom:auto;top:0}
+}

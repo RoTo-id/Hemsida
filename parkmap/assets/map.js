@@ -26,7 +26,8 @@ const PIN_ZOOM_THRESHOLD = 15;
 
 function initMap() {
   map = L.map('map', { zoomControl: false }).setView([65.583, 22.148], 13);
-  L.control.zoom({ position: 'bottomright' }).addTo(map);
+  // Phone: zoom buttons go top-left; bottom-right is under the bottom sheet (owner phone walk 2026-11-06).
+  L.control.zoom({ position: window.matchMedia('(max-width:860px)').matches ? 'topleft' : 'bottomright' }).addTo(map);
   // 2026-11-05: CARTO's free raster basemap now answers every tile with an "API KEY REQUIRED" watermark
   // (verified by curl: all tiles are the same 2049-byte placeholder). OSM's own tile server is free under its tile
   // usage policy for modest traffic; swap for a keyed provider (MapTiler/Stadia) if traffic grows.
@@ -59,7 +60,10 @@ async function fetchCoverageSummary() {
   } catch (e) { /* non-fatal — sidebar falls back to live geojson counts */ }
 }
 
-async function loadCity(city) {
+/* opts.view = [lat, lng, zoom] keeps the user's position instead of centring on the city; opts.remember === false
+   (the built-in default start city) does not save the city. */
+async function loadCity(city, opts) {
+  opts = opts || {};
   const cfg = PM.CITIES[city];
   if (!cfg) return;
   PM.state.city = city;
@@ -81,7 +85,8 @@ async function loadCity(city) {
     } catch (e) { /* fall back to defaults */ }
     PM.state.opsData = Object.assign({}, PM.DEFAULT_OPS, ops);
 
-    map.setView(cfg.center, cfg.zoom);
+    if (opts.view) map.setView([opts.view[0], opts.view[1]], opts.view[2]); else map.setView(cfg.center, cfg.zoom);
+    if (opts.remember !== false) PM.cityMemory.set(city);
     document.title = `ParkMap Sverige – ${cfg.name}`;
     render();
     renderBboxOverlays();
@@ -195,6 +200,10 @@ function renderBboxOverlays() {
 
 function detectCityFromCenter() {
   const c = map.getCenter();
+  return detectCityAt(c.lat, c.lng);
+}
+function detectCityAt(lat, lng) {
+  const c = { lat, lng };
   for (const [key, bb] of Object.entries(PM.CITY_BOUNDS)) {
     if (c.lat >= bb.latMin && c.lat <= bb.latMax && c.lng >= bb.lngMin && c.lng <= bb.lngMax) return key;
   }
@@ -223,18 +232,55 @@ function cityCoverage(key) {
   return { total: 0, known: 0, pct: 0, unverified: 0 };
 }
 
+function showLocMessage(text, canRetry) {
+  let el = document.getElementById('loc-msg');
+  if (!el) {
+    el = document.createElement('div'); el.id = 'loc-msg'; el.className = 'loc-msg'; el.setAttribute('role', 'alert');
+    document.querySelector('.map-col').appendChild(el);
+  }
+  el.innerHTML = '';
+  const t = document.createElement('span'); t.textContent = text; el.appendChild(t);
+  if (canRetry) { const b = document.createElement('button'); b.type = 'button'; b.textContent = 'Försök igen'; b.addEventListener('click', () => locateMe()); el.appendChild(b); }
+  const x = document.createElement('button'); x.type = 'button'; x.className = 'loc-msg-x'; x.setAttribute('aria-label', 'Stäng'); x.textContent = '×';
+  x.addEventListener('click', hideLocMessage); el.appendChild(x);
+  el.style.display = 'flex';
+}
+function hideLocMessage() { const el = document.getElementById('loc-msg'); if (el) el.style.display = 'none'; }
+
+function placeUser(lat, lng, isFirst) {
+  PM.state.userLatLng = [lat, lng];
+  if (isFirst) {
+    // Nearest city only when the user taps "Nära mig" and has never chosen a city (owner decision 2026-11-06).
+    const target = PM.cityMemory.get() ? detectCityAt(lat, lng) : (detectCityAt(lat, lng) || PM.cityMemory.nearest(lat, lng));
+    if (target && target !== PM.state.city) {
+      PM.state.autoSwitching = true;
+      loadCity(target, { view: [lat, lng, 16] }).finally(() => { PM.state.autoSwitching = false; });
+    } else map.setView([lat, lng], 16);
+  }
+  if (userMarker) map.removeLayer(userMarker);
+  userMarker = L.circleMarker([lat, lng], { radius: 8, color: '#2563EB', fillColor: '#2563EB', fillOpacity: 0.9 }).addTo(map).bindPopup('Du är här');
+}
+
 function locateMe(onDone) {
   PM.trackEvent?.('near-me/click', 'Nära mig');
-  if (!navigator.geolocation) { alert('GPS stöds ej i denna webbläsare'); onDone && onDone(); return; }
-  navigator.geolocation.getCurrentPosition((pos) => {
-    const lat = pos.coords.latitude, lng = pos.coords.longitude;
-    PM.state.userLatLng = [lat, lng];
-    PM.trackEvent?.('near-me/found', 'Nära mig: position hittad'); // the position itself is never sent
-    map.setView([lat, lng], 16);
-    if (userMarker) map.removeLayer(userMarker);
-    userMarker = L.circleMarker([lat, lng], { radius: 8, color: '#2563EB', fillColor: '#2563EB', fillOpacity: 0.9 }).addTo(map).bindPopup('Du är här');
-    onDone && onDone();
-  }, () => { alert('Kunde inte hämta position'); onDone && onDone(); }, { enableHighAccuracy: true, timeout: 10000 });
+  hideLocMessage();
+  let bestAcc = Infinity, finished = false;
+  const done = () => { if (!finished) { finished = true; onDone && onDone(); } };
+  PM.locate.request(navigator.geolocation, {
+    onFix(pos, isFirst) {
+      const acc = pos.coords.accuracy == null ? 1e9 : pos.coords.accuracy;
+      if (!isFirst && acc >= bestAcc) return;          // a later, worse fix never replaces a better one
+      bestAcc = acc;
+      placeUser(pos.coords.latitude, pos.coords.longitude, isFirst);
+      if (isFirst) PM.trackEvent?.('near-me/found', 'Nära mig: position hittad'); // the position itself is never sent
+      done();
+    },
+    onFail(info) {
+      PM.trackEvent?.('near-me/error-' + info.code, 'Nära mig: fel');
+      showLocMessage(info.message, info.code !== 0);
+      done();
+    },
+  });
 }
 
 function nearestFeatures(n) {
@@ -259,6 +305,6 @@ function nearestFeatures(n) {
 
 PM.map = {
   initMap, loadCity, switchCity, render, visibleFeatures, cityCoverage,
-  locateMe, nearestFeatures, fetchCoverageSummary, covColor,
+  locateMe, nearestFeatures, fetchCoverageSummary, covColor, hideLocMessage, detectCityAt,
   getMap: () => map,
 };
