@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://maxineplatform.com/sitemap-index.xml
+Sitemap: https://maxineplatform.com/parkmap/sitemap-parkering.xml

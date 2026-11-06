@@ -27,9 +27,13 @@ const PIN_ZOOM_THRESHOLD = 15;
 function initMap() {
   map = L.map('map', { zoomControl: false }).setView([65.583, 22.148], 13);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd', maxZoom: 19,
+  // 2026-11-05: CARTO's free raster basemap now answers every tile with an "API KEY REQUIRED" watermark
+  // (verified by curl: all tiles are the same 2049-byte placeholder). OSM's own tile server is free under its tile
+  // usage policy for modest traffic; swap for a keyed provider (MapTiler/Stadia) if traffic grows.
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    // OSM tile usage policy: visible attribution "© OpenStreetMap contributors" linked to /copyright.
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19,
   }).addTo(map);
 
   map.on('moveend', () => {
@@ -220,10 +224,12 @@ function cityCoverage(key) {
 }
 
 function locateMe(onDone) {
+  PM.trackEvent?.('near-me/click', 'Nära mig');
   if (!navigator.geolocation) { alert('GPS stöds ej i denna webbläsare'); onDone && onDone(); return; }
   navigator.geolocation.getCurrentPosition((pos) => {
     const lat = pos.coords.latitude, lng = pos.coords.longitude;
     PM.state.userLatLng = [lat, lng];
+    PM.trackEvent?.('near-me/found', 'Nära mig: position hittad'); // the position itself is never sent
     map.setView([lat, lng], 16);
     if (userMarker) map.removeLayer(userMarker);
     userMarker = L.circleMarker([lat, lng], { radius: 8, color: '#2563EB', fillColor: '#2563EB', fillOpacity: 0.9 }).addTo(map).bindPopup('Du är här');

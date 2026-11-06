@@ -25,8 +25,8 @@ function payButtonsHtml(op, zoneCode) {
       <div><div class="pc-hero-zone-label">Zonkod</div><div class="pc-hero-zone-code">${zoneCode}</div></div>
       <button class="pc-copy-btn" data-copy="${zoneCode}">Kopiera</button>
     </div>` : '';
-  const primaryBtn = `<a class="pc-pay-btn pc-pay-hero" href="${primary.cfg.url}" target="_blank" rel="noopener" style="background:${primary.cfg.color}">Öppna i ${primary.name}</a>`;
-  const restBtns = rest.map(({ name, cfg }) => `<a class="pc-pay-btn pc-pay-secondary" href="${cfg.url}" target="_blank" rel="noopener" style="border-color:${cfg.color};color:${cfg.color}">Öppna i ${name}</a>`).join('');
+  const primaryBtn = `<a class="pc-pay-btn pc-pay-hero" data-app="${primary.name}" href="${primary.cfg.url}" target="_blank" rel="noopener" style="background:${primary.cfg.color}">Öppna i ${primary.name}</a>`;
+  const restBtns = rest.map(({ name, cfg }) => `<a class="pc-pay-btn pc-pay-secondary" data-app="${name}" href="${cfg.url}" target="_blank" rel="noopener" style="border-color:${cfg.color};color:${cfg.color}">Öppna i ${name}</a>`).join('');
   return `<div class="pc-hero">${zoneChip}${primaryBtn}${restBtns}</div>`;
 }
 
@@ -101,7 +101,7 @@ function wireCardEvents(root, p) {
   root.querySelectorAll('.pc-pay-btn').forEach(a => {
     a.addEventListener('click', () => {
       // Privacy-friendly event: which operator's pay app users actually tap.
-      window.goatcounter?.count({ path: `pay-click/${p.operator || 'unknown'}`, title: 'Pay click', event: true });
+      PM.trackEvent?.(`pay-click/${p.operator || 'unknown'}/${a.getAttribute('data-app') || 'app'}`, 'Pay click');
     });
   });
   root.querySelectorAll('[data-copy]').forEach(btn => {
