@@ -77,9 +77,10 @@ PM.USAGE_COLORS = {
   resident:   '#7C3AED', // Boende/tillstånd
   charging:   '#0D9488', // Laddplats
   incomplete: '#F59E0B', // Ofullständig info
+  restricted: '#DB2777', // Kundparkering / privat, ej för allmänheten
   unknown:    '#94A3B8', // Okänd
 };
 PM.USAGE_LABELS = {
   free: 'Gratis', paid: 'Betald', resident: 'Boende', charging: 'Laddplats',
-  incomplete: 'Ofullständig info', unknown: 'Okänd',
+  incomplete: 'Ofullständig info', restricted: 'Kund / privat', unknown: 'Okänd',
 };

@@ -116,8 +116,8 @@ function renderResultsList() {
     title = 'Nära mig';
   } else if (s.quickMode === 'cheap') {
     items = PM.map.visibleFeatures().map(f => f.properties)
-      .filter(p => PM.classify.priceIsPaid(p) || PM.classify.priceIsFree(p))
-      .sort((a, b) => (a.price_per_hour || 0) - (b.price_per_hour || 0))
+      .filter(p => PM.classify.priceIsFree(p) || (PM.classify.priceIsPaid(p) && (PM.classify.checkedPrice(p) || p.price_per_hour > 0)))
+      .sort((a, b) => (PM.classify.priceIsFree(a) ? 0 : (PM.classify.checkedPrice(a) || a.price_per_hour)) - (PM.classify.priceIsFree(b) ? 0 : (PM.classify.checkedPrice(b) || b.price_per_hour)))
       .slice(0, 8);
     title = 'Billigast';
   } else {

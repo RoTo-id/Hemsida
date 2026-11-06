@@ -53,6 +53,19 @@ function initMap() {
   return map;
 }
 
+/* Fee check overlay (see classify.js feeState): zone id -> {c: class, s: source, p: price, d: date}. If the file cannot
+   be loaded the zones simply stay "avgift okänd" -- they never fall back to "Gratis". */
+let feeCheckZones = null;
+async function attachFeeCheck(geo) {
+  if (feeCheckZones === null) {
+    try {
+      const res = await fetch('assets/data/fee_check.json');
+      feeCheckZones = res.ok ? ((await res.json()).zones || {}) : {};
+    } catch (e) { feeCheckZones = {}; }
+  }
+  geo.features.forEach(f => { const fc = feeCheckZones[f.properties.id]; if (fc) f.properties.fee_check = fc; });
+}
+
 async function fetchCoverageSummary() {
   try {
     const res = await fetch('assets/data/coverage_summary.json');
@@ -77,6 +90,7 @@ async function loadCity(city, opts) {
     const geoRes = await fetch(`../data/regions/${cfg.region}/${city}.geojson`);
     if (!geoRes.ok) throw new Error('HTTP ' + geoRes.status);
     PM.state.geoData = await geoRes.json();
+    await attachFeeCheck(PM.state.geoData);
 
     let ops = PM.DEFAULT_OPS;
     try {
