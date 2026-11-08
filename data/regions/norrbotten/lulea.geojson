@@ -195,7 +195,7 @@
         "payment_apps": [
           "swedavia_online"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -310,7 +310,7 @@
         "payment_apps": [
           "swedavia_online"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -486,7 +486,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -626,7 +626,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -730,7 +730,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -802,7 +802,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -942,7 +942,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1026,7 +1026,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1098,7 +1098,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1174,7 +1174,7 @@
         "payment_apps": [
           "apcoa_flow"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1258,7 +1258,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1378,7 +1378,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1454,7 +1454,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1530,7 +1530,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1638,7 +1638,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1714,7 +1714,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1782,7 +1782,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -1906,7 +1906,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2127,7 +2127,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2215,7 +2215,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2415,7 +2415,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2499,7 +2499,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2579,7 +2579,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2651,7 +2651,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2723,7 +2723,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2791,7 +2791,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2895,7 +2895,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -2971,7 +2971,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3083,7 +3083,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3171,7 +3171,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3247,7 +3247,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3319,7 +3319,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3395,7 +3395,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3487,7 +3487,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3567,7 +3567,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3675,7 +3675,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3743,7 +3743,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3811,7 +3811,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3887,7 +3887,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -3959,7 +3959,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4027,7 +4027,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4203,7 +4203,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4411,7 +4411,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4495,7 +4495,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4567,7 +4567,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4723,7 +4723,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4871,7 +4871,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -4995,7 +4995,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5071,7 +5071,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5191,7 +5191,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5271,7 +5271,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5339,7 +5339,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5407,7 +5407,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5495,7 +5495,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5563,7 +5563,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -5642,7 +5642,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5710,7 +5710,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5782,7 +5782,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5850,7 +5850,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -5962,7 +5962,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6034,7 +6034,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [],
@@ -6187,7 +6187,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 225.0,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6295,7 +6295,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 308.9,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6403,7 +6403,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 349.8,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6531,7 +6531,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 232.0,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6607,7 +6607,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 224.9,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6675,7 +6675,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 207.0,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6743,7 +6743,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6815,7 +6815,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6887,7 +6887,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -6963,7 +6963,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7035,7 +7035,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7107,7 +7107,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7179,7 +7179,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7259,7 +7259,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7331,7 +7331,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7407,7 +7407,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7475,7 +7475,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7547,7 +7547,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7615,7 +7615,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7719,7 +7719,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7811,7 +7811,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7879,7 +7879,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -7951,7 +7951,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8019,7 +8019,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8091,7 +8091,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8275,7 +8275,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8347,7 +8347,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8431,7 +8431,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 532.5,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8511,7 +8511,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "12.1 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -8594,7 +8594,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8678,7 +8678,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8772,7 +8772,7 @@
             "distance_m": 82.2
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8869,7 +8869,7 @@
             "distance_m": 44.3
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -8968,7 +8968,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9040,7 +9040,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "23.5 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -9119,7 +9119,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9191,7 +9191,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9283,7 +9283,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9395,7 +9395,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9463,7 +9463,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9549,8 +9549,8 @@
         "last_verified": null,
         "osm_id": 86384994,
         "osm_distance_m": null,
-        "osm_access": "private",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
@@ -9559,8 +9559,8 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
-        "osm_status": "source_unchanged",
+        "osm_checked_at": "2026-11-08",
+        "osm_status": "source_updated",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
       },
@@ -9656,7 +9656,7 @@
           "aimo"
         ],
         "osm_checked_at": "2026-11-01",
-        "osm_status": "source_unchanged",
+        "osm_status": "not_found_in_osm",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
       },
@@ -9812,7 +9812,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9880,7 +9880,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -9956,7 +9956,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10040,7 +10040,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10108,7 +10108,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10196,7 +10196,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10300,7 +10300,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10368,7 +10368,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10476,7 +10476,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10560,7 +10560,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10660,7 +10660,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10780,7 +10780,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10856,7 +10856,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -10960,7 +10960,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11032,7 +11032,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11140,7 +11140,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11208,7 +11208,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11340,7 +11340,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11464,7 +11464,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [],
@@ -11557,7 +11557,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11665,7 +11665,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11737,7 +11737,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11809,7 +11809,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -11909,7 +11909,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12064,7 +12064,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12160,7 +12160,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12272,7 +12272,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12376,7 +12376,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12480,7 +12480,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12645,7 +12645,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12761,7 +12761,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12845,7 +12845,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12913,7 +12913,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -12997,7 +12997,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13073,7 +13073,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13141,7 +13141,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13221,7 +13221,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13309,7 +13309,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13377,7 +13377,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13469,7 +13469,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13537,7 +13537,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13620,7 +13620,7 @@
         "osm_parking": "surface",
         "osm_operator": "Trafikverket",
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13683,7 +13683,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13787,7 +13787,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13883,7 +13883,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -13959,7 +13959,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14027,7 +14027,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14111,7 +14111,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14223,7 +14223,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14343,7 +14343,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14427,7 +14427,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14495,7 +14495,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14663,7 +14663,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14755,7 +14755,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14839,7 +14839,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14911,7 +14911,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -14979,7 +14979,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15051,7 +15051,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15123,7 +15123,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15203,7 +15203,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15315,7 +15315,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15523,7 +15523,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15603,7 +15603,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15703,7 +15703,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15779,7 +15779,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15859,7 +15859,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -15967,7 +15967,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16075,7 +16075,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16163,7 +16163,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16243,7 +16243,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16311,7 +16311,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16379,7 +16379,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16459,7 +16459,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16535,7 +16535,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16603,7 +16603,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16727,7 +16727,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16795,7 +16795,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16875,7 +16875,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -16975,7 +16975,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17043,7 +17043,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17123,7 +17123,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17203,7 +17203,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17287,7 +17287,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17375,7 +17375,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17451,7 +17451,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17559,7 +17559,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17627,7 +17627,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17703,7 +17703,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17779,7 +17779,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -17871,7 +17871,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_access_conditional": "permit @ (Mo-Fr 06:00-18:00)",
         "osm_fee_conditions_checked": true,
@@ -17992,7 +17992,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18104,7 +18104,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18208,7 +18208,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18276,7 +18276,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18360,7 +18360,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18456,7 +18456,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18540,7 +18540,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18642,7 +18642,7 @@
             "distance_m": 18.8
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18730,7 +18730,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18798,7 +18798,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -18866,7 +18866,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19006,7 +19006,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19090,7 +19090,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19158,7 +19158,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19226,7 +19226,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19294,7 +19294,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19406,7 +19406,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19490,7 +19490,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19566,7 +19566,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19678,7 +19678,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19750,7 +19750,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19826,7 +19826,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19894,7 +19894,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -19978,7 +19978,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20054,7 +20054,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20130,7 +20130,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20198,7 +20198,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20290,7 +20290,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20378,7 +20378,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20446,7 +20446,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20514,7 +20514,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20582,7 +20582,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20650,7 +20650,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20734,7 +20734,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20802,7 +20802,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20874,7 +20874,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -20942,7 +20942,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21014,7 +21014,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21082,7 +21082,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21150,7 +21150,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21218,7 +21218,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21286,7 +21286,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21402,7 +21402,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21486,7 +21486,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21566,7 +21566,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21634,7 +21634,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21702,7 +21702,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21770,7 +21770,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21838,7 +21838,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21906,7 +21906,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -21974,7 +21974,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22050,7 +22050,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22118,7 +22118,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22186,7 +22186,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22254,7 +22254,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22322,7 +22322,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22394,7 +22394,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22470,7 +22470,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22538,7 +22538,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22606,7 +22606,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22674,7 +22674,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22742,7 +22742,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22825,7 +22825,7 @@
             "distance_m": 12.3
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22893,7 +22893,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -22981,7 +22981,7 @@
             "distance_m": 9.5
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23064,7 +23064,7 @@
             "distance_m": 70.3
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23144,7 +23144,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23212,7 +23212,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23280,7 +23280,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23348,7 +23348,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23416,7 +23416,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23484,7 +23484,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23552,7 +23552,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23620,7 +23620,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23688,7 +23688,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23756,7 +23756,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23832,7 +23832,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -23900,7 +23900,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [],
@@ -23969,7 +23969,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24041,7 +24041,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24125,7 +24125,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24193,7 +24193,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24309,7 +24309,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24397,7 +24397,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24465,7 +24465,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24533,7 +24533,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24613,7 +24613,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24689,7 +24689,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24773,7 +24773,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24869,7 +24869,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -24945,7 +24945,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25021,7 +25021,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25097,7 +25097,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25173,7 +25173,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25241,7 +25241,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25309,7 +25309,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25393,7 +25393,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25477,7 +25477,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25549,7 +25549,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25617,7 +25617,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25713,7 +25713,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25781,7 +25781,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25849,7 +25849,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25917,7 +25917,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -25985,7 +25985,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26053,7 +26053,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26133,7 +26133,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26197,7 +26197,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "16.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -26280,7 +26280,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26343,7 +26343,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26419,7 +26419,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26511,7 +26511,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26583,7 +26583,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26651,7 +26651,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26723,7 +26723,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26791,7 +26791,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26859,7 +26859,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -26927,7 +26927,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27007,7 +27007,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27083,7 +27083,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27151,7 +27151,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27219,7 +27219,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27287,7 +27287,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27363,7 +27363,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27431,7 +27431,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27499,7 +27499,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27567,7 +27567,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27635,7 +27635,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27703,7 +27703,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27771,7 +27771,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27839,7 +27839,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27907,7 +27907,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -27975,7 +27975,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28043,7 +28043,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28111,7 +28111,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28179,7 +28179,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28247,7 +28247,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28315,7 +28315,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28387,7 +28387,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28511,7 +28511,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28587,7 +28587,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28663,7 +28663,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28735,7 +28735,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28819,7 +28819,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28895,7 +28895,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -28971,7 +28971,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29115,7 +29115,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29211,7 +29211,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29335,7 +29335,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29415,7 +29415,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29491,7 +29491,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29563,7 +29563,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29635,7 +29635,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29707,7 +29707,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29787,7 +29787,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29855,7 +29855,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29923,7 +29923,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -29991,7 +29991,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30059,7 +30059,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30139,7 +30139,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30203,7 +30203,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30271,7 +30271,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30347,7 +30347,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30415,7 +30415,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30487,7 +30487,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30559,7 +30559,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30627,7 +30627,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30691,7 +30691,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "12.6 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -30762,7 +30762,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30870,7 +30870,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -30942,7 +30942,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31010,7 +31010,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31082,7 +31082,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31170,7 +31170,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31250,7 +31250,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31318,7 +31318,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31386,7 +31386,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31454,7 +31454,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31522,7 +31522,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31594,7 +31594,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31662,7 +31662,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31730,7 +31730,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31798,7 +31798,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31882,7 +31882,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -31950,7 +31950,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32022,7 +32022,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32090,7 +32090,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32158,7 +32158,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32226,7 +32226,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32306,7 +32306,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32382,7 +32382,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32454,7 +32454,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32522,7 +32522,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32590,7 +32590,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32673,7 +32673,7 @@
             "distance_m": 55.1
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32753,7 +32753,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32825,7 +32825,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32909,7 +32909,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -32977,7 +32977,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33045,7 +33045,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33137,7 +33137,7 @@
             "distance_m": 24.2
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33205,7 +33205,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33277,7 +33277,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33349,7 +33349,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33437,7 +33437,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33505,7 +33505,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33573,7 +33573,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33641,7 +33641,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33709,7 +33709,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33777,7 +33777,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33893,7 +33893,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -33961,7 +33961,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34085,7 +34085,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34153,7 +34153,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34221,7 +34221,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34293,7 +34293,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34364,7 +34364,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34452,7 +34452,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34540,7 +34540,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34624,7 +34624,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34700,7 +34700,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34792,7 +34792,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34892,7 +34892,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -34960,7 +34960,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35044,7 +35044,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35112,7 +35112,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35180,7 +35180,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35256,7 +35256,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35352,7 +35352,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35428,7 +35428,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 203.5,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35520,7 +35520,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35600,7 +35600,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35740,7 +35740,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35820,7 +35820,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35888,7 +35888,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -35956,7 +35956,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36028,7 +36028,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36100,7 +36100,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36180,7 +36180,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "17.3 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -36251,7 +36251,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.3 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -36322,7 +36322,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36410,7 +36410,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "12.7 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -36481,7 +36481,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "12.5 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -36556,7 +36556,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36624,7 +36624,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36700,7 +36700,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36800,7 +36800,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36868,7 +36868,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -36960,7 +36960,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37028,7 +37028,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37112,7 +37112,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37212,7 +37212,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37280,7 +37280,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37348,7 +37348,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37452,7 +37452,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37540,7 +37540,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37612,7 +37612,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37680,7 +37680,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37748,7 +37748,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37816,7 +37816,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37884,7 +37884,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -37952,7 +37952,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38028,7 +38028,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38096,7 +38096,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38172,7 +38172,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38248,7 +38248,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38316,7 +38316,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38384,7 +38384,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38448,7 +38448,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "13.6 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -38519,7 +38519,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38587,7 +38587,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38659,7 +38659,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38743,7 +38743,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38835,7 +38835,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -38931,7 +38931,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39019,7 +39019,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39131,7 +39131,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39199,7 +39199,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39267,7 +39267,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39335,7 +39335,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39399,7 +39399,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -39490,7 +39490,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39578,7 +39578,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": "Korttidsparkering (ingen motorvärmare)",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39666,7 +39666,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "22.0 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -39741,7 +39741,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -39809,7 +39809,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40033,7 +40033,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40101,7 +40101,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40169,7 +40169,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40237,7 +40237,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40305,7 +40305,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40373,7 +40373,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40441,7 +40441,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40513,7 +40513,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "32.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -40579,7 +40579,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -40645,7 +40645,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -40711,7 +40711,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -40797,7 +40797,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40873,7 +40873,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -40937,7 +40937,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "14.3 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -41008,7 +41008,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41104,7 +41104,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41172,7 +41172,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41240,7 +41240,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41308,7 +41308,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41376,7 +41376,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41444,7 +41444,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41512,7 +41512,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41580,7 +41580,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41648,7 +41648,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41716,7 +41716,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41784,7 +41784,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41852,7 +41852,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41920,7 +41920,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -41988,7 +41988,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42056,7 +42056,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42128,7 +42128,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42200,7 +42200,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42284,7 +42284,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42352,7 +42352,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42420,7 +42420,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42488,7 +42488,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42556,7 +42556,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42636,7 +42636,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42720,7 +42720,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42796,7 +42796,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42864,7 +42864,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -42932,7 +42932,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43004,7 +43004,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43072,7 +43072,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43140,7 +43140,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43208,7 +43208,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43300,7 +43300,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "16.1 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -43391,7 +43391,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43459,7 +43459,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43527,7 +43527,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43599,7 +43599,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43679,7 +43679,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43747,7 +43747,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43811,7 +43811,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "35.6 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -43882,7 +43882,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -43950,7 +43950,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44018,7 +44018,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44086,7 +44086,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44154,7 +44154,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44238,7 +44238,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44314,7 +44314,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44382,7 +44382,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44454,7 +44454,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44554,7 +44554,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44634,7 +44634,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44702,7 +44702,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44786,7 +44786,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44870,7 +44870,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -44954,7 +44954,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45110,7 +45110,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45298,7 +45298,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45454,7 +45454,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45526,7 +45526,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 458.2,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45658,7 +45658,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45734,7 +45734,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45842,7 +45842,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45910,7 +45910,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -45994,7 +45994,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46062,7 +46062,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46134,7 +46134,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46202,7 +46202,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 128.8,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46278,7 +46278,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 105.7,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46370,7 +46370,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 140.2,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46442,7 +46442,7 @@
         ],
         "aimopark_location": "Sunderby sjukhus",
         "aimopark_distance_m": 196.2,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46510,7 +46510,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46590,7 +46590,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -46682,7 +46682,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47050,7 +47050,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47118,7 +47118,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47190,7 +47190,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47316,7 +47316,7 @@
             "distance_m": 32.1
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47388,7 +47388,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47464,7 +47464,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47556,7 +47556,7 @@
             "distance_m": 85.9
           }
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47636,7 +47636,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47801,7 +47801,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -47909,7 +47909,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48113,7 +48113,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48225,7 +48225,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48313,7 +48313,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48385,7 +48385,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48481,7 +48481,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48573,7 +48573,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48649,7 +48649,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48721,7 +48721,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48797,7 +48797,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48881,7 +48881,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -48957,7 +48957,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49081,7 +49081,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49173,7 +49173,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49253,7 +49253,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49337,7 +49337,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49425,7 +49425,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49505,7 +49505,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49573,7 +49573,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49641,7 +49641,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49709,7 +49709,7 @@
         "payment_apps": [
           "apcoa_flow"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49801,7 +49801,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -49897,7 +49897,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50009,7 +50009,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50093,7 +50093,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50169,7 +50169,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50261,7 +50261,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50333,7 +50333,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50409,7 +50409,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50481,7 +50481,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50549,7 +50549,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50625,7 +50625,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50701,7 +50701,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50777,7 +50777,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50853,7 +50853,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50921,7 +50921,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -50989,7 +50989,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51057,7 +51057,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51125,7 +51125,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51193,7 +51193,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51261,7 +51261,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51329,7 +51329,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51397,7 +51397,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51465,7 +51465,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51549,7 +51549,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51617,7 +51617,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51705,7 +51705,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51805,7 +51805,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51901,7 +51901,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -51969,7 +51969,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52037,7 +52037,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52121,7 +52121,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52189,7 +52189,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52257,7 +52257,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52337,7 +52337,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52409,7 +52409,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52481,7 +52481,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52553,7 +52553,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52629,7 +52629,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52709,7 +52709,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52777,7 +52777,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52845,7 +52845,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52913,7 +52913,7 @@
         "payment_apps": [
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -52981,7 +52981,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53053,7 +53053,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53117,7 +53117,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53181,7 +53181,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53245,7 +53245,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "17.5 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -53316,7 +53316,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53424,7 +53424,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53504,7 +53504,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53568,7 +53568,7 @@
         "osm_parking": null,
         "osm_operator": null,
         "osm_note": "Motorvärmare",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53632,7 +53632,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53696,7 +53696,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53764,7 +53764,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53832,7 +53832,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -53896,7 +53896,7 @@
         "osm_operator": null,
         "osm_note": null,
         "source_note": "20.4 km från centrum, ingen avgiftstagg",
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": [
@@ -53971,7 +53971,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54035,7 +54035,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54115,7 +54115,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54179,7 +54179,7 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54271,7 +54271,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54351,7 +54351,7 @@
           "parkster",
           "aimo"
         ],
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54435,7 +54435,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
@@ -54507,7 +54507,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "osm_checked_at": "2026-11-01",
+        "osm_checked_at": "2026-11-08",
         "osm_status": "source_unchanged",
         "osm_fee_conditions_checked": true,
         "osm_conflicts": []
