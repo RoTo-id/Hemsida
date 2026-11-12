@@ -80,3 +80,33 @@
     });
   } catch (e) { /* links keep working without the referrer */ }
 })();
+
+/* Home page: Stockholm clock, rotating headline line, scroll reveals. */
+(function () {
+  'use strict';
+  document.documentElement.classList.add('js');
+
+  var clock = document.querySelector('[data-clock]');
+  if (clock) {
+    var fmt = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Stockholm', hour: '2-digit', minute: '2-digit', hour12: false });
+    var tickClock = function () { clock.textContent = fmt.format(new Date()); };
+    tickClock(); setInterval(tickClock, 15000);
+  }
+
+  var rot = document.querySelector('[data-rotate]');
+  var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (rot && !calm) {
+    var lines = JSON.parse(rot.getAttribute('data-rotate')), i = 0;
+    setInterval(function () {
+      rot.classList.add('out');
+      setTimeout(function () { i = (i + 1) % lines.length; rot.textContent = lines[i]; rot.classList.remove('out'); }, 460);
+    }, 2800);
+  }
+
+  var items = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { items.forEach(function (el) { el.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  items.forEach(function (el) { io.observe(el); });
+})();
