@@ -13,12 +13,14 @@ sedan Parkmap blev privat den 2026-09-24.
 1. Gör och granska ändringen i Parkmap och merga den till Parkmaps `main`.
 2. Kopiera endast granskade publika filer från Parkmaps `main`. Nuvarande
    publika kataloger är `_assets/`, `about/`, `build-log/`, `channels/`,
-   `data/`, `images/`, `legal/`, `operators/`, `parkmap/`, `products/`,
-   `regions/`, `shop/` och `videos/`. Rotfiler för webbplatsen (HTML,
+   `data/`, `images/`, `legal/`, `medremind/`, `operators/`, `parkmap/`,
+   `products/`, `regions/`, `shop/` och `videos/`. Rotfiler för webbplatsen (HTML,
    favicon, CNAME, robots och sitemap) får också följa med efter granskning.
    Nya kataloger kräver en separat kontroll av att de är avsedda för
    besökare. Kopiera aldrig `dashboard/`, adminverktyg, lokal statistik,
    körloggar, konfiguration, källkod eller privata data.
+   Sidorna utanför `/parkmap/` byggs i Parkmap med
+   `node site-src/build.mjs`; kopiera de färdiga filerna, inte `site-src/`.
 3. Committa och pusha till `main` här. GitHub Pages publicerar om inom en
    minut eller två.
 
