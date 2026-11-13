@@ -160,9 +160,29 @@ function watchSheetForBack() {
 }
 
 async function boot() {
+  // Never leave the visitor on an endless spinner: if start-up fails or hangs, say so and offer a reload.
+  const watchdog = setTimeout(() => {
+    if (document.getElementById('loading').style.display !== 'none') {
+      setLoading(false);
+      setError('Kartan tar ovanligt lång tid att ladda. Kontrollera anslutningen och försök igen.');
+    }
+  }, 20000);
+  try {
+    await startApp();
+  } catch (e) {
+    setLoading(false);
+    setError('Kartan kunde inte starta' + (typeof L === 'undefined' ? ' (kartbiblioteket laddades inte).' : '.') + ' Ladda om sidan.');
+    console.error('ParkMap start failed', e);
+  } finally {
+    clearTimeout(watchdog);
+  }
+}
+
+async function startApp() {
   initHeader();
   watchSheetForBack();
   const leafletMap = PM.map.initMap();
+  PM.state.mapReady = true;
   PM.appZones.init(leafletMap);   // separate layer; loads its own file, never touches PM.state.geoData
   await PM.map.fetchCoverageSummary();
 

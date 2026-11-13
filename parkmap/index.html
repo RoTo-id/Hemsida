@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="apple-touch-icon" href="icon-192.png">
 <title>ParkMap Sverige — Hitta parkering</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/parkmap.css">
@@ -125,7 +125,7 @@
       </div>
       <div class="overlay" id="error" style="display:none">
         <div class="overlay-text" id="error-msg">Kunde inte ladda data</div>
-        <button class="retry-btn" onclick="PM.map.loadCity(PM.state.city)">Försök igen</button>
+        <button class="retry-btn" onclick="PM.state.mapReady ? PM.map.loadCity(PM.state.city) : location.reload()">Försök igen</button>
       </div>
       <div class="toast" id="toast"></div>
     </div>
@@ -151,7 +151,7 @@
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/analytics.js"></script>
 <script src="assets/config.js"></script>
 <script src="assets/classify.js"></script>
