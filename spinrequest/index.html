@@ -59,7 +59,14 @@ footer{border-top:1px solid var(--line);padding-block:28px 48px;color:var(--mute
 .phone .m{font-size:19px;font-weight:600}
 .phone .sp{flex:1}
 .phone .b{background:var(--accent);color:var(--on);border-radius:14px;padding:18px 12px;text-align:center;font-weight:800;font-size:21px}
+.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.facts li{background:var(--card);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:8px}
+.facts p{color:var(--muted)}
+.facts .never{color:var(--ok);font-weight:800;font-size:21px}
+.facts .kept{color:var(--accent);font-weight:800;font-size:21px}
+.note{background:var(--card);border-radius:12px;padding:14px 18px;color:var(--muted);font-size:16px;margin-top:14px;max-width:none}
 @media (max-width:820px){
+ .facts{grid-template-columns:1fr}
  .hero{grid-template-columns:1fr;padding-block:20px 40px}
  .steps,.two{grid-template-columns:1fr}
  .top nav{display:none}
@@ -72,6 +79,8 @@ footer{border-top:1px solid var(--line);padding-block:28px 48px;color:var(--mute
   <a class="brand" href="./"><img src="logo.svg" alt="" width="44" height="44">SpinRequest</a>
   <nav aria-label="Innehåll">
     <a href="#gast">För gäster</a>
+    <a href="#app">Appen</a>
+    <a href="#data">Dina uppgifter</a>
     <a href="#dj">För DJ:s</a>
     <a href="#fragor">Frågor</a>
   </nav>
@@ -108,12 +117,41 @@ footer{border-top:1px solid var(--line);padding-block:28px 48px;color:var(--mute
   </ol>
 </section>
 
+<section id="app">
+  <h2>Appen för gäster</h2>
+  <p class="sub">Du behöver den inte. Sidan i webbläsaren gör samma sak. Appen är till för dig som går ut ofta.</p>
+  <div class="two">
+    <div class="card"><h3>Vad appen är</h3><p>Samma sida som du får när du skannar koden, fast som app i mobilen. Du önskar en låt, ser när DJ:n svarat och betalar med Swish.</p></div>
+    <div class="card"><h3>Vad appen lägger till</h3><p>En karta över DJ:s i närheten som tar emot önskningar just nu, så du hittar rätt utan att leta efter skylten.</p></div>
+    <div class="card"><h3>Vad appen ber om</h3><p>Din plats, och inget annat. Inga kontakter, inga bilder, ingen kamera, ingen mikrofon. Du skapar inget konto.</p></div>
+    <div class="card"><h3>Vad den kostar</h3><p>Ingenting. Du betalar bara DJ:n för låten, och bara om DJ:n sagt ja.</p></div>
+  </div>
+  <div class="cta">
+    <a class="btn" href="#app" aria-disabled="true">Ladda ner för Android</a>
+    <a class="btn line" href="#gast">Använd sidan i stället</a>
+  </div>
+  <p class="note">Nedladdningen öppnas när testet är klart. Appen finns för Android. Har du iPhone använder du sidan i webbläsaren, den fungerar likadant.</p>
+</section>
+
+<section id="data">
+  <h2>Dina uppgifter</h2>
+  <p class="sub">Kort och exakt: det här sparas, det här sparas aldrig, och så länge finns det kvar.</p>
+  <ul class="facts">
+    <li><span class="never">Sparas aldrig</span><h3>Din plats</h3><p>Platsen används i stunden för att mäta avståndet till DJ-båset, så att Swish-koden bara visas för den som står där. Den sparas inte och loggas inte.</p></li>
+    <li><span class="never">Sparas aldrig</span><h3>Vem du är</h3><p>Inget konto, ingen e-post, inget telefonnummer, inget personnummer. Vi vet inte vem du är.</p></li>
+    <li><span class="never">Ser vi aldrig</span><h3>Din betalning</h3><p>Du swishar direkt till DJ:n i din egen Swish-app. Pengarna går aldrig genom SpinRequest, och vi ser varken ditt nummer eller ditt konto.</p></li>
+    <li><span class="kept">Raderas efter 24 timmar</span><h3>Din önskan</h3><p>Låten, namnet du skriver och ett slumpat id för din mobil sparas under kvällen, så att DJ:n ser kön och du ser ditt svar. 24 timmar efter att kvällen är slut raderas alltihop.</p></li>
+  </ul>
+  <p class="note">För DJ:s: din Swish-kod och ditt Swish-nummer raderas också 24 timmar efter kvällen. Ditt konto (e-post och namn) finns kvar tills du tar bort det.</p>
+</section>
+
 <section id="dj">
   <h2>För dig som är DJ</h2>
   <p class="sub">Slipp folk som lutar sig över båset. Önskningarna kommer i en kö i mobilen, och du bestämmer.</p>
   <div class="two">
     <div class="card"><h3>Du säger ja eller nej</h3><p>Varje önskan kommer upp med två stora knappar. Passar låten inte i kvällens set säger du nej, och gästen betalar ingenting.</p></div>
     <div class="card"><h3>Pengarna går direkt till dig</h3><p>Gästen swishar till din egen Swish-kod. SpinRequest rör aldrig pengarna och tar ingen del av dem.</p></div>
+    <div class="card"><h3>Appen ser när Swish kommit in</h3><p>DJ-appen läser Swish-notisen i din mobil och bockar av rätt önskan. Du behöver inte öppna Swish mitt i setet. Är den osäker frågar den dig, med ett tryck.</p></div>
     <div class="card"><h3>Du sätter priset</h3><p>Välj själv vad en låt ska kosta, eller låt det vara gratis. Du kan skriva egna regler som gästerna ser.</p></div>
     <div class="card"><h3>Igång på några minuter</h3><p>Skapa ett konto i DJ-appen, starta kvällen och ställ fram skylten med din kod. Gästerna behöver ingen app.</p></div>
   </div>
@@ -126,12 +164,13 @@ footer{border-top:1px solid var(--line);padding-block:28px 48px;color:var(--mute
 <section id="fragor">
   <h2>Vanliga frågor</h2>
   <p class="sub">Korta svar på det folk brukar undra.</p>
-  <details><summary>Måste jag ladda ner en app?</summary><p>Inte som gäst. Sidan öppnas i mobilens webbläsare när du skannar koden. DJ:n använder en app för att se kön.</p></details>
+  <details><summary>Måste jag ladda ner en app?</summary><p>Nej. Sidan öppnas i mobilens webbläsare när du skannar koden. Det finns en app för den som vill, se <a href="#app">Appen för gäster</a>. DJ:n använder en app för att se kön.</p></details>
   <details><summary>Vad kostar det att önska en låt?</summary><p>Det bestämmer DJ:n. Priset står stort på sidan innan du önskar, och vissa kvällar är det gratis.</p></details>
   <details><summary>Vad händer om DJ:n säger nej?</summary><p>Då har du inte betalat något. Du betalar först efter att DJ:n sagt ja.</p></details>
   <details><summary>Är det säkert att låten spelas?</summary><p>DJ:n väljer själv vad som passar kvällen. När DJ:n sagt ja och fått din betalning hamnar låten i kön, och du ser på sidan när den spelas.</p></details>
   <details><summary>Vart går pengarna?</summary><p>Direkt till DJ:n via Swish. SpinRequest tar inte emot pengarna och drar ingen avgift på önskningarna.</p></details>
-  <details><summary>Varför frågar sidan efter min plats?</summary><p>För att visa DJ:ns Swish-kod bara för gäster som faktiskt står vid båset. Platsen används bara för att mäta avståndet till båset.</p></details>
+  <details><summary>Vad sparas om mig?</summary><p>Låten och namnet du skriver, i 24 timmar efter kvällen. Inget konto, ingen e-post, inget telefonnummer, och din plats sparas aldrig. Allt står under <a href="#data">Dina uppgifter</a>.</p></details>
+  <details><summary>Varför frågar sidan efter min plats?</summary><p>För att visa DJ:ns Swish-kod bara för gäster som faktiskt står vid båset. Platsen används bara för att mäta avståndet till båset, och sparas aldrig.</p></details>
 </section>
 </main>
 
