@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Preview while the look and the text are being worked on: keep it out of search engines. -->
+<meta name="robots" content="noindex">
+<title>SpinRequest: önska en låt, swisha DJ:n</title>
+<meta name="description" content="Skanna koden vid DJ-båset, önska en låt och swisha direkt till DJ:n. Ingen app att ladda ner.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap">
+<style>
+/* The "night" look of the apps (design/look2_2026-11-22.html): yellow on dark grey, heavy letters,
+   one yellow thing per view. Layout: one column, big statement first, then the guest's three steps,
+   then the DJ's side, then questions. Single dark look by choice, same as the apps. */
+:root{color-scheme:dark;--bg:#16171a;--card:#25272c;--text:#f2efe6;--muted:#bdb9ae;--accent:#ffd21f;--on:#16171a;--ok:#5fe08d;--line:#3d4047;
+ --f:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",Verdana,system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--f);font-size:18px;line-height:1.5}
+a{color:var(--accent)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--text);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:max(20px,env(safe-area-inset-left,0px)) max(20px,env(safe-area-inset-right,0px))}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:22px;color:var(--text);text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:10px;display:block}
+.top nav{display:flex;gap:20px;flex-wrap:wrap}
+.top nav a{color:var(--text);text-decoration:none;font-weight:600}
+.preview{background:var(--card);border-radius:12px;padding:10px 14px;font-size:16px;color:var(--muted)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:40px 56px}
+h1{font-size:clamp(40px,7vw,76px);line-height:1.02;margin:0 0 18px;font-weight:800;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:clamp(30px,4.4vw,44px);line-height:1.1;margin:0 0 8px;font-weight:800;text-wrap:balance}
+h3{font-size:24px;line-height:1.2;margin:0 0 6px;font-weight:800}
+p{margin:0;max-width:60ch}
+.lead{font-size:22px;color:var(--muted);max-width:34ch}
+.btn{display:inline-block;background:var(--accent);color:var(--on);font-weight:800;font-size:21px;text-decoration:none;border-radius:14px;padding:18px 26px;text-align:center}
+.btn.line{background:transparent;color:var(--text);border:2px solid var(--text)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+section{padding-block:56px;border-top:1px solid var(--line)}
+.sub{color:var(--muted);margin-bottom:28px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{background:var(--card);border-radius:14px;padding:22px;counter-increment:s;display:flex;flex-direction:column;gap:8px}
+.steps li::before{content:counter(s);font-weight:800;font-size:56px;line-height:1;color:var(--accent)}
+.steps p{color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{background:var(--card);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:8px}
+.card p{color:var(--muted)}
+.big{font-size:52px;font-weight:800;line-height:1;color:var(--accent)}
+details{background:var(--card);border-radius:14px;padding:18px 22px}
+details+details{margin-top:10px}
+summary{font-weight:800;font-size:21px;cursor:pointer}
+details p{color:var(--muted);margin-top:8px}
+footer{border-top:1px solid var(--line);padding-block:28px 48px;color:var(--muted);font-size:16px;display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between}
+/* Real screenshots, three in a row, each a numbered step (the order is the point). */
+.rowhead{margin:34px 0 14px;font-size:22px;color:var(--muted);font-weight:600}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none;margin:0;padding:0;counter-reset:n}
+.shots li{counter-increment:n;display:flex;flex-direction:column;gap:12px;min-width:0}
+.shots img{width:100%;height:auto;border-radius:22px;border:2px solid #000;outline:1px solid var(--line);display:block;background:var(--bg)}
+.shots h3::before{content:counter(n) ". ";color:var(--accent)}
+.shots p{color:var(--muted)}
+/* The phone in the hero shows the real guest page. */
+.phone{justify-self:center;width:min(300px,100%);border-radius:30px;border:2px solid #000;outline:1px solid var(--line);background:var(--bg);padding:22px 18px;display:flex;flex-direction:column;gap:12px;min-height:520px}
+.phone .s{font-size:16px;color:var(--muted)}
+.phone .n{font-size:34px;font-weight:800;line-height:1.05}
+.phone .m{font-size:19px;font-weight:600}
+.phone .sp{flex:1}
+.phone .b{background:var(--accent);color:var(--on);border-radius:14px;padding:18px 12px;text-align:center;font-weight:800;font-size:21px}
+.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.facts li{background:var(--card);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:8px}
+.facts p{color:var(--muted)}
+.facts .never{color:var(--ok);font-weight:800;font-size:21px}
+.facts .kept{color:var(--accent);font-weight:800;font-size:21px}
+.note{background:var(--card);border-radius:12px;padding:14px 18px;color:var(--muted);font-size:16px;margin-top:14px;max-width:none}
+@media (max-width:820px){
+ .facts{grid-template-columns:1fr}
+ .hero{grid-template-columns:1fr;padding-block:20px 40px}
+ .steps,.two{grid-template-columns:1fr}
+ .shots{grid-template-columns:1fr;max-width:340px;margin-inline:auto}
+ .top nav{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="./"><img src="logo.svg" alt="" width="44" height="44">SpinRequest</a>
+  <nav aria-label="Innehåll">
+    <a href="#titta">Så ser det ut</a>
+    <a href="#dj">För DJ:s</a>
+    <a href="#gast">För gäster</a>
+    <a href="#app">Appen</a>
+    <a href="#data">Dina uppgifter</a>
+    <a href="#fragor">Frågor</a>
+  </nav>
+</header>
+<p class="preview">Förhandsvisning. SpinRequest testas just nu och är inte öppet för alla än.</p>
+
+<main>
+<div class="hero">
+  <div>
+    <h1>Önska en låt. Swisha DJ:n.</h1>
+    <p class="lead">Skanna koden vid DJ-båset, välj din låt och betala först när DJ:n sagt ja. Ingen app att ladda ner.</p>
+    <div class="cta">
+      <a class="btn" href="#dj">Jag är DJ</a>
+      <a class="btn line" href="#gast">Så funkar det</a>
+    </div>
+  </div>
+  <div class="phone" aria-label="Så ser sidan ut i gästens mobil">
+    <div class="s">DJ i kväll</div>
+    <div class="n">DJ Mira</div>
+    <div class="card"><div class="big">20 kr</div><div class="m">per låt</div><div class="s">Du betalar först när DJ:n sagt ja.</div></div>
+    <div class="s">House och disco i kväll.</div>
+    <div class="sp"></div>
+    <div class="b">Önska en låt</div>
+  </div>
+</div>
+
+<section id="titta">
+  <h2>Så ser det ut</h2>
+  <p class="sub">Riktiga skärmbilder från testet. Gästen behöver ingen app, DJ:n har sin i mobilen.</p>
+
+  <p class="rowhead">Gästens mobil</p>
+  <ol class="shots">
+    <li><img src="img/gast-1.webp" width="520" height="979" loading="lazy" alt="Gästens sida: DJ:ns namn, 29 kr per låt och en stor knapp, Önska en låt."><div><h3>Skannar skylten</h3><p>Kameran mot koden vid båset, så är gästen hos rätt DJ. Priset står störst på sidan.</p></div></li>
+    <li><img src="img/gast-2.webp" width="520" height="979" loading="lazy" alt="Betalsidan: DJ:n sa ja, 29 kr, tiden som är kvar och knappen Öppna Swish."><div><h3>Betalar när DJ:n sagt ja</h3><p>En knapp öppnar Swish med belopp och mottagare ifyllt. Gästen har tio minuter på sig.</p></div></li>
+    <li><img src="img/gast-3.webp" width="520" height="979" loading="lazy" alt="Kvittot: en grön bock och texten Du är i kön."><div><h3>Ser att låten är på väg</h3><p>När betalningen kommit in står det klart och tydligt: du är i kön.</p></div></li>
+  </ol>
+
+  <p class="rowhead">DJ:ns mobil</p>
+  <ol class="shots">
+    <li><img src="img/dj-1.webp" width="520" height="979" loading="lazy" alt="DJ-appen: Förbered kvällen, med namn, pris, när den börjar och slutar, och egna regler."><div><h3>Förbereder kvällen hemma</h3><p>Namn, pris, regler och när kvällen börjar och slutar. Det tar en minut.</p></div></li>
+    <li><img src="img/dj-2.webp" width="520" height="979" loading="lazy" alt="DJ-appen: skylten med QR-kod och kvällens kod, klar att visa eller skriva ut."><div><h3>Får skylten direkt</h3><p>Koden gästerna skannar är klar på en gång. Skriv ut den i förväg eller visa den på en skärm.</p></div></li>
+    <li><img src="img/dj-3.webp" width="520" height="979" loading="lazy" alt="DJ-appen: kön med en önskan, låten Levels för 29 kr, och knapparna Ja och Nej."><div><h3>Säger ja eller nej</h3><p>Varje önskan kommer upp med två stora knappar. Mer än så behöver du inte göra mitt i setet.</p></div></li>
+  </ol>
+</section>
+
+<section id="gast">
+  <h2>För dig som är ute i kväll</h2>
+  <p class="sub">Tre steg, direkt i mobilens webbläsare.</p>
+  <ol class="steps">
+    <li><h3>Skanna koden</h3><p>Rikta mobilkameran mot skylten vid DJ-båset. Då hamnar du direkt hos rätt DJ och ser vad en låt kostar.</p></li>
+    <li><h3>Välj din låt</h3><p>Sök på låt eller artist och skicka. DJ:n ser din önskan direkt och svarar ja eller nej.</p></li>
+    <li><h3>Swisha när DJ:n sagt ja</h3><p>Säger DJ:n ja trycker du på en knapp som öppnar Swish med allt ifyllt, och pengarna går direkt till DJ:n. Säger DJ:n nej har du inte betalat något.</p></li>
+  </ol>
+</section>
+
+<section id="app">
+  <h2>Appen för gäster</h2>
+  <p class="sub">Du behöver den inte. Sidan i webbläsaren gör samma sak. Appen är till för dig som går ut ofta.</p>
+  <div class="two">
+    <div class="card"><h3>Vad appen är</h3><p>Samma sida som du får när du skannar koden, fast som app i mobilen. Du önskar en låt, ser när DJ:n svarat och betalar med Swish.</p></div>
+    <div class="card"><h3>Vad appen lägger till</h3><p>En karta över DJ:s i närheten som tar emot önskningar just nu, så du hittar rätt utan att leta efter skylten.</p></div>
+    <div class="card"><h3>Vad appen ber om</h3><p>Din plats, och inget annat. Inga kontakter, inga bilder, ingen kamera, ingen mikrofon. Du skapar inget konto.</p></div>
+    <div class="card"><h3>Vad den kostar</h3><p>Ingenting. Du betalar bara DJ:n för låten, och bara om DJ:n sagt ja.</p></div>
+  </div>
+  <div class="cta">
+    <a class="btn" href="#app" aria-disabled="true">Ladda ner för Android</a>
+    <a class="btn line" href="#gast">Använd sidan i stället</a>
+  </div>
+  <p class="note">Nedladdningen öppnas när testet är klart. Appen finns för Android. Har du iPhone använder du sidan i webbläsaren, den fungerar likadant.</p>
+</section>
+
+<section id="data">
+  <h2>Dina uppgifter</h2>
+  <p class="sub">Kort och exakt: det här sparas, det här sparas aldrig, och så länge finns det kvar.</p>
+  <ul class="facts">
+    <li><span class="never">Sparas aldrig</span><h3>Din plats</h3><p>Platsen används i stunden för att mäta avståndet till DJ-båset, så att Swish-koden bara visas för den som står där. Den sparas inte och loggas inte.</p></li>
+    <li><span class="never">Sparas aldrig</span><h3>Vem du är</h3><p>Inget konto, ingen e-post, inget telefonnummer, inget personnummer. Vi vet inte vem du är.</p></li>
+    <li><span class="never">Ser vi aldrig</span><h3>Din betalning</h3><p>Du swishar direkt till DJ:n i din egen Swish-app. Pengarna går aldrig genom SpinRequest, och vi ser varken ditt nummer eller ditt konto.</p></li>
+    <li><span class="kept">Raderas efter 24 timmar</span><h3>Din önskan</h3><p>Låten, namnet du skriver och ett slumpat id för din mobil sparas under kvällen, så att DJ:n ser kön och du ser ditt svar. 24 timmar efter att kvällen är slut raderas alltihop.</p></li>
+  </ul>
+  <p class="note">För DJ:s: din Swish-kod sparas på ditt konto så att du slipper lägga upp den varje kväll, och du tar bort den när du vill i appen. Gästerna får den bara under kvällen: när kvällen är slut tas den bort från gästsidan direkt. Ditt konto (e-post och namn) finns kvar tills du tar bort det.</p>
+</section>
+
+<section id="dj">
+  <h2>För dig som är DJ</h2>
+  <p class="sub">Slipp folk som lutar sig över båset. Önskningarna kommer i en kö i mobilen, och du bestämmer.</p>
+  <div class="two">
+    <div class="card"><h3>Förbered hemma</h3><p>Skapa ett konto i DJ-appen och fyll i kvällen i lugn och ro: namn, pris, regler och när du börjar och slutar. Skylten med din kod är klar direkt och går att skriva ut i förväg.</p></div>
+    <div class="card"><h3>Starta med en knapp vid båset</h3><p>När du står på plats trycker du på Starta. Mobilen känner av var båset är, och gäster inom 50 meter kan önska och betala. Mer inställning än så finns inte.</p></div>
+    <div class="card"><h3>Du säger ja eller nej</h3><p>Varje önskan kommer upp med två stora knappar och en klocka som visar hur länge gästen väntat. Passar låten inte i kvällens set säger du nej, och gästen betalar ingenting.</p></div>
+    <div class="card"><h3>Pengarna går direkt till dig</h3><p>Gästen swishar till din egen Swish. Du lägger in den en gång, den följer med varje kväll, och du tar bort den när du vill. SpinRequest rör aldrig pengarna och tar ingen del av dem.</p></div>
+    <div class="card"><h3>Appen ser när Swish kommit in</h3><p>DJ-appen läser Swish-notisen i din mobil och bockar av rätt önskan. Du behöver inte öppna Swish mitt i setet. Är den osäker frågar den dig, med ett tryck.</p></div>
+    <div class="card"><h3>Kvällen stänger av sig själv</h3><p>När sluttiden du skrev kommer tar sidan inte emot fler önskningar, och din Swish försvinner för gästerna. Du kan också avsluta själv när du vill.</p></div>
+    <div class="card"><h3>Du sätter priset</h3><p>Välj själv vad en låt ska kosta, eller låt det vara gratis. Du kan skriva egna regler som gästerna ser.</p></div>
+    <div class="card"><h3>Gästerna behöver ingen app</h3><p>De skannar skylten med mobilkameran och hamnar på din sida i webbläsaren. Inget att ladda ner, inget konto.</p></div>
+  </div>
+  <div class="cta">
+    <a class="btn" href="mailto:contact@maxineplatform.com?subject=Jag%20vill%20testa%20SpinRequest%20som%20DJ">Jag vill testa som DJ</a>
+  </div>
+  <p class="sub" style="margin-top:14px">Eller skriv till contact@maxineplatform.com. Vi tar in några DJ:s i taget medan vi testar.</p>
+</section>
+
+<section id="fragor">
+  <h2>Vanliga frågor</h2>
+  <p class="sub">Korta svar på det folk brukar undra.</p>
+  <details><summary>Måste jag ladda ner en app?</summary><p>Nej. Sidan öppnas i mobilens webbläsare när du skannar koden. Det finns en app för den som vill, se <a href="#app">Appen för gäster</a>. DJ:n använder en app för att se kön.</p></details>
+  <details><summary>Vad kostar det att önska en låt?</summary><p>Det bestämmer DJ:n. Priset står stort på sidan innan du önskar, och vissa kvällar är det gratis.</p></details>
+  <details><summary>Vad händer om DJ:n säger nej?</summary><p>Då har du inte betalat något. Du betalar först efter att DJ:n sagt ja.</p></details>
+  <details><summary>Är det säkert att låten spelas?</summary><p>DJ:n väljer själv vad som passar kvällen. När DJ:n sagt ja och fått din betalning hamnar låten i kön, och du ser på sidan när den spelas.</p></details>
+  <details><summary>Vart går pengarna?</summary><p>Direkt till DJ:n via Swish. SpinRequest tar inte emot pengarna och drar ingen avgift på önskningarna.</p></details>
+  <details><summary>Vad sparas om mig?</summary><p>Låten och namnet du skriver, i 24 timmar efter kvällen. Inget konto, ingen e-post, inget telefonnummer, och din plats sparas aldrig. Allt står under <a href="#data">Dina uppgifter</a>.</p></details>
+  <details><summary>Varför frågar sidan efter min plats?</summary><p>För att visa DJ:ns Swish-kod bara för gäster som faktiskt står vid båset. Platsen används bara för att mäta avståndet till båset, och sparas aldrig.</p></details>
+</section>
+</main>
+
+<footer>
+  <span>SpinRequest är en tjänst från <a href="/">Maxine Platform</a>.</span>
+  <span><a href="/legal/privacy/">Integritet</a></span>
+</footer>
+</div>
+</body>
+</html>
